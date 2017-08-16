@@ -1,1 +1,3 @@
-# integracao2017
+# docs
+
+Pasta contendo os arquivos-fontes da aplicação web.
