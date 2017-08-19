@@ -1,4 +1,4 @@
-# Áreas de Conhecimento da Enginharia de Software
+# Áreas de Conhecimento da Engenharia de Software
 #### Segundo [SWEBOK](https://www.computer.org/web/swebok/v3)
 
 ## 1
