@@ -8,6 +8,8 @@ Aplicação Web destinada a apresentação, de forma interativa e "agradável", 
 
 Este projeto é desenvolvido no contexto da disciplina de Integração 1 - 2017.2
 
+# Integração 1 - 2017.2
+
 ## Atividades Supervisionadas
 
 * [Áreas de Conhecimento da Engenharia de Software](https://github.com/matheuspiment/integracao2017/blob/master/docs/atividade-supervisionada-19-08-2017.md)
