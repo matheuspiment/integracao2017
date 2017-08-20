@@ -26,9 +26,13 @@ Temdo como objetivo garantir a "vida" do software a manutenção de software rec
 <em>“O gerenciamento de configuração de software (SCM) é um processo de suporte no ciclo de vida de software que beneficia as atividades de gerenciamento de projetos, desenvolvimento e manutenção, atividades de garantia de qualidade, bem como clientes e usuários do produto final.” (SWEBOK).</em>  
 Sabemos que software é a combinação de diversos artefatos (código, documentação, itens de configuração). Gerenciar esses artefatos é uma tarefa essencial para o sucesso e evolução do projeto. Identificar, controlar e auditar os itens de configuração são alguns exemplos de processos primordiais, uma vez que evitam que o projeto se torne um "cãos" com artefados "não indexados" e "sem propósito", além de possibilitar o acompanhamento da evolução dos mesmos por meio de auditoria.
 
-## 7
+## 7. Gerência da Engenharia de Software
+<em>“O gerenciamento de engenharia de software pode ser definido como a aplicação de atividades de gerenciamento para garantir que os produtos de software e os serviços de engenharia de software sejam entregues de forma eficiente, efetiva e em benefício das partes interessadas.” (SWEBOK).</em>   
+Os principais tópicos abordados nessa área são: planejamento, aprovação, avaliação e medição do projeto/software. É uma área integradora que está envolvida na "consução" do projeto de software tendo como base as demais áreas de conhecimento.
 
-## 8
+## 8. Processo de Engenharia de Software
+<em>“Um processo de engenharia consiste em um conjunto de atividades inter-relacionadas que transformam um ou mais insumos em resultados ao mesmo tempo em que consomem recursos para realizar a transformação.” (SWEBOK).</em>   
+Conduzir um projeto de desenvolvimento/construção, não apenas de software, exije um processo, mesmo que empírico. Essa área de conhecimento trata da definição e medição desses processos e suas atividades dentro do ciclo de vida. Esses processos visam "padronizar" a execução de determinadas atividades bem como a forma/conteúdo de seus produtos, permitindo que os mesmos sejam medidos e que a partir disso evoluam, seja por meio da correção dos problemas percebidos ou pela difusão do conhecimento.  
 
 ## 9
 
