@@ -1,10 +1,12 @@
-# Integração 1 - 2017 
+# Aplicação Web - PPC do Bacharelado em Engenharia de Software (Instituto de Informática - UFG)
 
 [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
 https://matheuspiment.github.io/integracao2017/
 
 Aplicação Web destinada a apresentação, de forma interativa e "agradável", do [Projeto Pedagógico do BES](http://www.inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf).
+
+Este projeto é desenvolvido no contexto da disciplina de Integração 1 - 2017.2
 
 ## Atividades Supervisionadas
 
