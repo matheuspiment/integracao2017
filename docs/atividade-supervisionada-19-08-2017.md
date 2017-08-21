@@ -54,5 +54,5 @@ Nesse tópico do Guia SWEBOK é abordado técnicas básicas para identificar um 
 em estudo. Qualquer coisa que se possa deduzir seguindo essas regras são uma certeza absoluta dentro do contexto desse sistema. Sendo assim, nesse tópico é definido e discutido técnicas que podem representar e levar adiante o raciocínio e julgamento de um engenheiro de software de forma precisa(matemática). 
 ## 15 Fundamentos da Engenharia
 Este tópico descreve algumas habilidades e técnicas fundamentais de engenharia que são úteis para um engenheiro de software. O foco
-Está em ser um tópico que sustenta/completa outros, minimizando duplicação de assuntos abrangidos em outros lugares neste documento.
-Essa área de conhecimento está preocupado com os fundamentos de engenharia queAplica-se a engenharia de software. Os principais  tópicos desta área sã: métodos empíricos e técnicas experimentais, análise estatística, medição,design de engenharia, modelagem, prototipagem e simulação,padrões e análise de causa raiz.
+é ser um tópico que sustenta/completa outros, minimizando duplicação de assuntos abrangidos em outros lugares no documento(SWEBOK).
+Essa área de conhecimento está preocupado com os fundamentos de engenharia que aplica-se a engenharia de software. Os principais  tópicos desta área são: métodos empíricos e técnicas experimentais, análise estatística, medição,design de engenharia, modelagem, prototipagem e simulação,padrões e análise de causa raiz.
