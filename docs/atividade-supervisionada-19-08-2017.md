@@ -34,13 +34,19 @@ Os principais tópicos abordados nessa área são: planejamento, aprovação, av
 <em>“Um processo de engenharia consiste em um conjunto de atividades inter-relacionadas que transformam um ou mais insumos em resultados ao mesmo tempo em que consomem recursos para realizar a transformação.” (SWEBOK).</em>   
 Conduzir um projeto de desenvolvimento/construção, não apenas de software, exije um processo, mesmo que empírico. Essa área de conhecimento trata da definição e medição desses processos e suas atividades dentro do ciclo de vida. Esses processos visam "padronizar" a execução de determinadas atividades bem como a forma/conteúdo de seus produtos, permitindo que os mesmos sejam medidos e que a partir disso evoluam, seja por meio da correção dos problemas percebidos ou pela difusão do conhecimento.  
 
-## 9
+## 9. Modelos e Métodos de Engenharia de Software
+<em>“Os modelos e métodos de engenharia de software impõem estrutura na engenharia de software com o objetivo de tornar essa atividade sistemática, repetível e, finalmente, mais orientada para o sucesso.” (SWEBOK).</em>
+Logo este capítulo trata de como fazer a modelagem e escolher um método que melhor se adequa ao software a ser construído e especificado. Apresentando princípios de modelagem e práticas gerais, tipos de modelos e submodelos comumente encontrados,  análise de modelos e métodos comumente utilizados, quais suas características.
 
-## 10
+## 10.
+<em>“A qualidade do software pode se referir: às características desejáveis ​​dos produtos de software, na medida em que um produto de software específico possui essas características, e aos processos, ferramentas e técnicas utilizadas para atingir essas características.” (SWEBOK)</em>
+Este capítulo apresenta as definições de qualidades e software e dentre elas a mais considerada atualmente, na qual fala que e qualidade do software se evidencia na capacidade que um software tem de atender as necessidades/requisitos explícitos e implícitos de seus usuários e stakeholders. E também orienta sobre fazer para que seja possível construir um produto de software que atinja a qualidade pretendida e como manter esse software.
 
-## 11
+## 11. Prática Profissional de Engenharia de Software 
+<em>“A área de conhecimento da Prática Profissional de Engenharia de Software está preocupada com os conhecimentos, habilidades e atitudes que os engenheiros de software devem possuir para praticar engenharia de software de forma profissional, responsável e ética. Devido às aplicações generalizadas de produtos de software em questões sociais e pessoais.” (SWEBOK)</em>
 
-## 12
+
+## 12.
 
 ## 13 Fundamentos da Computação
 <em>"O escopo de conhecimento dos fundamentos da computação é uma área que engloba o desenvolvimento e o ambiente operacional no qual software executa e evolui. Visto que nenhum Software existe no vácuo ou existe sem um computador" (SWEBOK).</em>    
@@ -50,9 +56,7 @@ Fundamentos da Computação é dividido em 17 tópicos que são: técnicas de re
 <em>"Os profissionais de software vivem com programas. Em um Linguagem muito simples, pode-se programar apenas para
 Algo que se entende, sem ambiguidade. Nesse contexto, A lógico dos fundamentos matemáticos ajuda engenheiros de software
 Compreender esta lógica, que por sua vez é traduzida no código de linguagem de programação." (SWEBOK).</em>  
-Nesse tópico do Guia SWEBOK é abordado técnicas básicas para identificar um conjunto de regras para o raciocínio no contexto do sistema
-em estudo. Qualquer coisa que se possa deduzir seguindo essas regras são uma certeza absoluta dentro do contexto desse sistema. Sendo assim, nesse tópico é definido e discutido técnicas que podem representar e levar adiante o raciocínio e julgamento de um engenheiro de software de forma precisa(matemática). 
+Nesse tópico do Guia SWEBOK é abordado técnicas básicas para identificar um conjunto de regras para o raciocínio no contexto do sistema em estudo. Qualquer coisa que se possa deduzir seguindo essas regras são uma certeza absoluta dentro do contexto desse sistema. Sendo assim, nesse tópico é definido e discutido técnicas que podem representar e levar adiante o raciocínio e julgamento de um engenheiro de software de forma precisa(matemática). 
 ## 15 Fundamentos da Engenharia
-Este tópico descreve algumas habilidades e técnicas fundamentais de engenharia que são úteis para um engenheiro de software. O foco
-é ser um tópico que sustenta/completa outros, minimizando duplicação de assuntos abrangidos em outros lugares no documento(SWEBOK).
+"Este tópico descreve algumas habilidades e técnicas fundamentais de engenharia que são úteis para um engenheiro de software. O foco é ser um tópico que sustenta/completa outros, minimizando duplicação de assuntos abrangidos em outros lugares no documento"(SWEBOK).
 Essa área de conhecimento está preocupado com os fundamentos de engenharia que aplica-se a engenharia de software. Os principais  tópicos desta área são: métodos empíricos e técnicas experimentais, análise estatística, medição,design de engenharia, modelagem, prototipagem e simulação,padrões e análise de causa raiz.
