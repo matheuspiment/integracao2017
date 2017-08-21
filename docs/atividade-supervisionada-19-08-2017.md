@@ -42,10 +42,17 @@ Conduzir um projeto de desenvolvimento/construção, não apenas de software, ex
 
 ## 12
 
-## 13
+## 13 Fundamentos da Computação
 <em>"O escopo de conhecimento dos fundamentos da computação é uma área que engloba o desenvolvimento e o ambiente operacional no qual software executa e evolui. Visto que nenhum Software existe no vácuo ou existe sem um computador" (SWEBOK).</em>    
-Fundamentos da Computação é dividido em 17 tópicos que são: Técnicas de resolução de problemas, Abstração, Fundamentos de programação, Noções básicas de linguagem de programação, Ferramentas de depuração e técnicas, Estrutura e Representação de Dados, Algoritmos e complexidade, Conceito Básico de um Sistema, Organização computacional, Princípios básicos do compilador, Noções básicas de sistemas operacionais, banco de dados e gerenciamento de dados(Básico),Conceitos básicos de comunicação de rede, Computação Paralela e Distribuída, Fatores humanos básicos do usuário ,Desenvolvimento básico dos fatores humanos, Desenvolvimento seguro de software e Manutenção
+Fundamentos da Computação é dividido em 17 tópicos que são: técnicas de resolução de problemas, abstração, fundamentos de programação, noções básicas de linguagem de programação, ferramentas de depuração e técnicas, estrutura e representação de dados, algoritmos e complexidade, conceito básico de um sistema, organização computacional, princípios básicos do compilador, noções básicas de sistemas operacionais, banco de dados e gerenciamento de dados(básico), conceitos básicos de comunicação de rede, computação Paralela e Distribuída, fatores humanos básicos do usuário ,desenvolvimento básico dos fatores humanos, desenvolvimento seguro de software e manutenção.
 
-## 14
-
-## 15
+## 14 Fundamentos Matemáticos
+<em>"Os profissionais de software vivem com programas. Em um Linguagem muito simples, pode-se programar apenas para
+Algo que se entende, sem ambiguidade. Nesse contexto, A lógico dos fundamentos matemáticos ajuda engenheiros de software
+Compreender esta lógica, que por sua vez é traduzida no código de linguagem de programação." (SWEBOK).</em>  
+Nesse tópico do Guia SWEBOK é abordado técnicas básicas para identificar um conjunto de regras para o raciocínio no contexto do sistema
+em estudo. Qualquer coisa que se possa deduzir seguindo essas regras são uma certeza absoluta dentro do contexto desse sistema. Sendo assim, nesse tópico é definido e discutido técnicas que podem representar e levar adiante o raciocínio e julgamento de um engenheiro de software de forma precisa(matemática). 
+## 15 Fundamentos da Engenharia
+Este tópico descreve algumas habilidades e técnicas fundamentais de engenharia que são úteis para um engenheiro de software. O foco
+Está em ser um tópico que sustenta/completa outros, minimizando duplicação de assuntos abrangidos em outros lugares neste documento.
+Essa área de conhecimento está preocupado com os fundamentos de engenharia queAplica-se a engenharia de software. Os principais  tópicos desta área sã: métodos empíricos e técnicas experimentais, análise estatística, medição,design de engenharia, modelagem, prototipagem e simulação,padrões e análise de causa raiz.
