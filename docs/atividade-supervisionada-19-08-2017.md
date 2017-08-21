@@ -43,7 +43,7 @@ Conduzir um projeto de desenvolvimento/construção, não apenas de software, ex
 ## 12
 
 ## 13
-"O escopo de conhecimento dos fundamentos da computação é uma área que engloba o desenvolvimento e o ambiente operacional no qual software executa e evolui. Visto que nenhum Software existe no vácuo ou existe sem um computador" (SWEBOK).  
+<em>"O escopo de conhecimento dos fundamentos da computação é uma área que engloba o desenvolvimento e o ambiente operacional no qual software executa e evolui. Visto que nenhum Software existe no vácuo ou existe sem um computador" (SWEBOK).</em>    
 Fundamentos da Computação são divididos em 17 tópicos que são: Técnicas de resolução de problemas, Abstração, Fundamentos de programação, Noções básicas de linguagem de programação, Ferramentas de depuração e técnicas, Estrutura e Representação de Dados, Algoritmos e complexidade, Conceito Básico de um Sistema, Organização computacional, Princípios básicos do compilador, Noções básicas de sistemas operacionais, banco de dados e gerenciamento de dados(Básico),Conceitos básicos de comunicação de rede, Computação Paralela e Distribuída, Fatores humanos básicos do usuário ,Desenvolvimento básico dos fatores humanos, Desenvolvimento seguro de software e Manutenção
 
 ## 14
