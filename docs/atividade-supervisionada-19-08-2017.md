@@ -36,17 +36,19 @@ Conduzir um projeto de desenvolvimento/construção, não apenas de software, ex
 
 ## 9. Modelos e Métodos de Engenharia de Software
 <em>“Os modelos e métodos de engenharia de software impõem estrutura na engenharia de software com o objetivo de tornar essa atividade sistemática, repetível e, finalmente, mais orientada para o sucesso.” (SWEBOK).</em>  
-Logo este capítulo trata de como fazer a modelagem e escolher um método que melhor se adequa ao software a ser construído e especificado. Apresentando princípios de modelagem e práticas gerais, tipos de modelos e submodelos comumente encontrados,  análise de modelos e métodos comumente utilizados, quais suas características.
+Logo esta área trata de como fazer a modelagem e escolher um método que melhor se adequa ao software a ser construído e especificado. Apresentando princípios de modelagem e práticas gerais, tipos de modelos e submodelos comumente encontrados,  análise de modelos e métodos comumente utilizados, quais suas características.
 
 ## 10.
-<em>“A qualidade do software pode se referir: às características desejáveis dos produtos de software, na medida em que um produto de software específico possui essas características, e aos processos, ferramentas e técnicas utilizadas para atingir essas características.” (SWEBOK)</em>  
-Este capítulo apresenta as definições de qualidades e software e dentre elas a mais considerada atualmente, na qual fala que e qualidade do software se evidencia na capacidade que um software tem de atender as necessidades/requisitos explícitos e implícitos de seus usuários e stakeholders. E também orienta sobre fazer para que seja possível construir um produto de software que atinja a qualidade pretendida e como manter esse software.
+<em>“A qualidade do software pode se referir: às características desejáveis dos produtos de software, na medida em que um produto de software específico possui essas características, e aos processos, ferramentas e técnicas utilizadas para atingir essas características.” (SWEBOK).</em>  
+Esta área apresenta as definições de qualidades e software e dentre elas a mais considerada atualmente, na qual fala que e qualidade do software se evidencia na capacidade que um software tem de atender as necessidades/requisitos explícitos e implícitos de seus usuários e stakeholders. E também orienta sobre fazer para que seja possível construir um produto de software que atinja a qualidade pretendida e como manter esse software.
 
 ## 11. Prática Profissional de Engenharia de Software 
-<em>“A área de conhecimento da Prática Profissional de Engenharia de Software está preocupada com os conhecimentos, habilidades e atitudes que os engenheiros de software devem possuir para praticar engenharia de software de forma profissional, responsável e ética. Devido às aplicações generalizadas de produtos de software em questões sociais e pessoais.” (SWEBOK)</em>  
-.
+<em>“A área de conhecimento da Prática Profissional de Engenharia de Software está preocupada com os conhecimentos, habilidades e atitudes que os engenheiros de software devem possuir para praticar engenharia de software de forma profissional, responsável e ética. Devido às aplicações generalizadas de produtos de software em questões sociais e pessoais.” (SWEBOK).</em>  
+Logo está área fala de profissionalismo, dinâmicas de grupo e psicologia, e habilidades de comunicação. Orientando sobre a importância de aderir aos padrões de ética e de conduta profissional, e cita que a ISO / IEC e IEEE forneceram padrões de engenharia de software internacionalmente aceitos.
 
-## 12.
+## 12. Economia de Engenharia de Software
+<em>“Economia de engenharia de software é sobre a tomada de decisões relacionadas à engenharia de software em um contexto de negócios. O sucesso de um produto, serviço e solução de software depende da boa gestão empresarial.” (SWEBOK).</em>  
+Está área aborda as finanças, buscando uma forma de equilibrar os riscos e lucros, controlar e planejar os custos, medir o desempenho financeiro, e resalta como isso pode influenciar as tomadas de decisões estratégicas da organização.
 
 ## 13 Fundamentos da Computação
 <em>"O escopo de conhecimento dos fundamentos da computação é uma área que engloba o desenvolvimento e o ambiente operacional no qual software executa e evolui. Visto que nenhum Software existe no vácuo ou existe sem um computador" (SWEBOK).</em>    
