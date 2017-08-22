@@ -20,7 +20,7 @@
 
 ## 5. Manutenção de Software
 <em>“Os esforços de desenvolvimento de software resultam na entrega de um produto de software que satisfaça os requisitos dos usuários. Consequentemente, o produto do software deve mudar ou evoluir. Uma vez em operação, os defeitos são descobertos, os ambientes operacionais mudam.” (SWEBOK).</em>  
-Temdo como objetivo garantir a "vida" do software a manutenção de software recebido bastante atenção, uma vez que contruir/desenvolver pensando em manutenibilidade tem se mostrado mais vantajoso. Essa área de conhecimento busca empregar processos, técnicas e esforços, que, deste o desenvolvimento, agregem um bom nível de mautenibilidade ao projeto, e assim se torne viável manter o mesmo.
+Tendo como objetivo garantir a "vida" do software a manutenção de software recebido bastante atenção, uma vez que contruir/desenvolver pensando em manutenibilidade tem se mostrado mais vantajoso. Essa área de conhecimento busca empregar processos, técnicas e esforços, que, deste o desenvolvimento, agregem um bom nível de mautenibilidade ao projeto, e assim se torne viável manter o mesmo.
 
 ## 6. Gerência de Configuração de Software
 <em>“O gerenciamento de configuração de software (SCM) é um processo de suporte no ciclo de vida de software que beneficia as atividades de gerenciamento de projetos, desenvolvimento e manutenção, atividades de garantia de qualidade, bem como clientes e usuários do produto final.” (SWEBOK).</em>  
@@ -38,7 +38,7 @@ Conduzir um projeto de desenvolvimento/construção, não apenas de software, ex
 <em>“Os modelos e métodos de engenharia de software impõem estrutura na engenharia de software com o objetivo de tornar essa atividade sistemática, repetível e, finalmente, mais orientada para o sucesso.” (SWEBOK).</em>  
 Logo esta área trata de como fazer a modelagem e escolher um método que melhor se adequa ao software a ser construído e especificado. Apresentando princípios de modelagem e práticas gerais, tipos de modelos e submodelos comumente encontrados,  análise de modelos e métodos comumente utilizados, quais suas características.
 
-## 10.
+## 10. Qualidade de Software
 <em>“A qualidade do software pode se referir: às características desejáveis dos produtos de software, na medida em que um produto de software específico possui essas características, e aos processos, ferramentas e técnicas utilizadas para atingir essas características.” (SWEBOK).</em>  
 Esta área apresenta as definições de qualidades e software e dentre elas a mais considerada atualmente, na qual fala que e qualidade do software se evidencia na capacidade que um software tem de atender as necessidades/requisitos explícitos e implícitos de seus usuários e stakeholders. E também orienta sobre fazer para que seja possível construir um produto de software que atinja a qualidade pretendida e como manter esse software.
 
