@@ -12,7 +12,8 @@ Este projeto é desenvolvido no contexto da disciplina de Integração 1 - 2017.
 
 ## Atividades Supervisionadas
 
-* [Áreas de Conhecimento da Engenharia de Software](https://github.com/matheuspiment/integracao2017/blob/master/docs/atividade-supervisionada-19-08-2017.md)
+* [Áreas de Conhecimento da Engenharia de Software](https://github.com/matheuspiment/integracao2017/blob/master/docs/atividade-supervisionada-19-08-2017.md) - 19/08/2017
+* [Áreas e Tópicos do SWEBOK](https://github.com/matheuspiment/integracao2017/wiki/%C3%81reas-e-T%C3%B3picos-do-SWEBOK) - 22/08/2017
 
 [CHANGELOG]: ./CHANGELOG.md
 [LICENSE]: ./LICENSE
