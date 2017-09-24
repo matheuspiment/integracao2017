@@ -61,6 +61,26 @@
       .bd-masthead h1 {
         font-size: 3.4rem;
       }
+
+      .bd-navbar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1071;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .bd-navbar {
+        padding-right: .5rem;
+        padding-left: .5rem;
+      }
+    }
+
+    .bd-navbar {
+      min-height: 4rem;
+      background-color: #212121;
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
     }
 
     .form-control {
@@ -105,7 +125,7 @@
       </div>
     </a>
 
-    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #212121;">
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
 
       <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Instituto de Informática">
         <img src="assets/img/marca-inf.png" width="40" height="40" alt="">
