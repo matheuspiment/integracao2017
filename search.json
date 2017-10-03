@@ -1,6 +1,7 @@
 [
     {
         "topico": "Home",
+        "palavras-chave": "home",
         "path": "index.html" 
     },
     {
