@@ -1,0 +1,10 @@
+[
+    {
+        "topico": "Home",
+        "path": "index.html" 
+    },
+    {
+        "topico": "Disciplinas",
+        "path": "disciplinas.html" 
+    }
+]
