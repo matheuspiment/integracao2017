@@ -8,7 +8,13 @@
     },
     {
       "topico": "Disciplinas",
-      "palavrasChave" : "disciplinas",
+      "palavrasChave" : "disciplinas, matérias",
+      "descrição": "Uma grande descrição",
+      "path": "disciplinas.html"
+    },
+    {
+      "topico": "Estrutura curricular",
+      "palavrasChave" : "disciplinas, estrutura, ",
       "descrição": "Uma grande descrição",
       "path": "disciplinas.html"
     }
