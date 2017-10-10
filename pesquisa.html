@@ -46,7 +46,7 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" name="pesquisa" type="text" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
@@ -96,7 +96,7 @@
           var saida = '';
           var indices = [];
 
-          $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/development/search.json", function(data) {
+          $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/master/search.json", function(data) {
             indices = data.indices;
 
             for (i = 0; i < indices.length; i++) {
