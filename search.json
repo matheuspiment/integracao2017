@@ -2,11 +2,13 @@
 "indices": [
     {
       "topico": "Home",
+      "palavrasChave" : "home",
       "descrição": "Uma pequena descrição",
       "path": "index.html"
     },
     {
       "topico": "Disciplinas",
+      "palavrasChave" : "disciplinas",
       "descrição": "Uma grande descrição",
       "path": "disciplinas.html"
     }
