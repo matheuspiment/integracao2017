@@ -52,13 +52,8 @@
       </div>
     </nav>
 
-    <div class="container" style="margin-top: 100px">
-      <div class="col-md-12">
-        <h1>Teste</h1>
-      </div>
-      <div class="col-md-12">
-        <h1>Teste</h1>
-      </div>
+    <div class="container" id="resultado" style="margin-top: 100px">
+
     </div><!-- /.container -->
 
 
@@ -74,14 +69,18 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <!-- <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script> -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script type="text/javascript">
       $( document ).ready(function() {
+
+        // Função que captura os parâmetros passados pela URL
         function queryObj() {
           var result = {}, keyValuePairs = location.search.slice(1).split("&");
           keyValuePairs.forEach(function(keyValuePair) {
@@ -90,10 +89,41 @@
           });
           return result;
         }
-        var myParam = queryObj();
-        console.log(myParam);
 
-        console.log(myParam.pesquisa);
+        // Função que realiza a pesquisa no arquivo JSON
+        function pesquisar(keyword) {
+
+          var saida = '';
+          var indices = [];
+
+          $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/development/search.json", function(data) {
+            indices = data.indices;
+
+            for (i = 0; i < indices.length; i++) {
+              if (indices[i].topico == keyword) {
+                // console.log(indices[i].topico);
+                saida += '<div class="col-md-12">';
+                saida += '<a href="' + indices[i].path + '">';
+                saida += '<h1>' + indices[i].topico + '</h1>';
+                saida += '<p>' + indices[i].descrição + '</p>';
+                // saida += '<img src="' + bands[i].picture + '" alt="' + bands[i].name + '" title="' + bands[i].name + '">';
+                saida += '</a>';
+                saida += '</div>';
+              }
+            }
+
+            if (saida != "") {
+              document.getElementById('resultado').innerHTML = saida;
+            }
+
+          });
+        }
+
+        var myParam = queryObj();
+
+        if (myParam.pesquisa != "") {
+          pesquisar(myParam.pesquisa);
+        }
       });
     </script>
   </body>
