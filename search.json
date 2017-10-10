@@ -1,0 +1,11 @@
+[
+    {
+        "topico": "Home",
+        "palavras-chave": "home",
+        "path": "index.html" 
+    },
+    {
+        "topico": "Disciplinas",
+        "path": "disciplinas.html" 
+    }
+]
