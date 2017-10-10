@@ -54,7 +54,7 @@
 
     <div class="container" id="resultado" style="margin-top: 100px">
       <div class="col-md-12 text-center">
-        <img src="assets/img/loading.gif"/>
+        <img class="img-fluid" src="assets/img/loading.gif"/>
       </div>
 
     </div><!-- /.container -->
@@ -132,11 +132,10 @@
         var myParam = queryObj();
         var retornoBusca;
 
-        if (myParam.pesquisa != "") {
-          retornoBusca = setTimeout(function(){
-            pesquisar(myParam.pesquisa);
-          }, 2000);
-        }
+        retornoBusca = setTimeout(function(){
+          pesquisar(myParam.pesquisa);
+        }, 2000);
+
       });
     </script>
   </body>
