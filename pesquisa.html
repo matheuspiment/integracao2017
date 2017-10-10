@@ -46,18 +46,21 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" name="pesquisa" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" name="pesquisa" type="text" placeholder="Search" aria-label="Search" required>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
 
     <div class="container" id="resultado" style="margin-top: 100px">
+      <div class="col-md-12 text-center">
+        <img src="assets/img/loading.gif"/>
+      </div>
 
     </div><!-- /.container -->
 
 
-    <footer class="text-muted" style="background-color: #f7f7f7;">
+    <footer class="text-muted" style="background-color: #f7f7f7; position: absolute; bottom: 0; width: 100%;">
       <div class="container-fluid p-3 p-md-5">
         <a href="https://github.com/matheuspiment/integracao2017">GitHub</a></li>
         <p>Inspirado em <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a>.</p>
@@ -114,15 +117,25 @@
 
             if (saida != "") {
               document.getElementById('resultado').innerHTML = saida;
+            } else {
+              saida += '<div class="col-md-12">';
+              saida += '<div class="alert alert-info" role="alert">';
+              saida += 'Nenhum registro encontrado :(';
+              saida += '</div>'
+              saida += '</div>';
+              document.getElementById('resultado').innerHTML = saida;
             }
 
           });
         }
 
         var myParam = queryObj();
+        var retornoBusca;
 
         if (myParam.pesquisa != "") {
-          pesquisar(myParam.pesquisa);
+          retornoBusca = setTimeout(function(){
+            pesquisar(myParam.pesquisa);
+          }, 2000);
         }
       });
     </script>
