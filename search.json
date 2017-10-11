@@ -2,19 +2,19 @@
 "indices": [
     {
       "topico": "Home",
-      "palavrasChave" : "home",
+      "palavrasChave" : ["home"],
       "descrição": "Uma pequena descrição",
       "path": "index.html"
     },
     {
       "topico": "Disciplinas",
-      "palavrasChave" : "disciplinas, matérias",
+      "palavrasChave" : ["disciplinas", "matérias"],
       "descrição": "Uma grande descrição",
       "path": "disciplinas.html"
     },
     {
       "topico": "Estrutura curricular",
-      "palavrasChave" : "disciplinas, estrutura, ",
+      "palavrasChave" : ["disciplinas", "estrutura"],
       "descrição": "Uma grande descrição",
       "path": "disciplinas.html"
     }
