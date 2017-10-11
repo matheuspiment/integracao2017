@@ -98,25 +98,30 @@
 
           var saida = '';
           var indices = [];
+          var palavrasChave = [];
 
           $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/master/search.json", function(data) {
             indices = data.indices;
 
             for (i = 0; i < indices.length; i++) {
-              if (indices[i].palavrasChave == keyword) {
-                // console.log(indices[i].topico);
-                saida += '<div class="col-md-12">';
-                saida += '<a href="' + indices[i].path + '">';
-                saida += '<h1>' + indices[i].topico + '</h1>';
-                saida += '<p>' + indices[i].descrição + '</p>';
-                // saida += '<img src="' + bands[i].picture + '" alt="' + bands[i].name + '" title="' + bands[i].name + '">';
-                saida += '</a>';
-                saida += '</div>';
+              palavrasChave = indices[i].palavrasChave;
+
+              for (j = 0; j < palavrasChave.length; j++) {
+                if (palavrasChave[j] == keyword) {
+                  saida += '<div class="col-md-12">';
+                  saida += '<a href="' + indices[i].path + '">';
+                  saida += '<h1>' + indices[i].topico + '</h1>';
+                  saida += '<p>' + indices[i].descrição + '</p>';
+                  // saida += '<img src="' + bands[i].picture + '" alt="' + bands[i].name + '" title="' + bands[i].name + '">';
+                  saida += '</a>';
+                  saida += '</div>';
+                }
               }
             }
 
             if (saida != "") {
               document.getElementById('resultado').innerHTML = saida;
+              console.log(saida);
             } else {
               saida += '<div class="col-md-12">';
               saida += '<div class="alert alert-info" role="alert">';
