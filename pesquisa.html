@@ -97,21 +97,21 @@
         function pesquisar(keyword) {
 
           var saida = '';
-          var indices = [];
-          var palavrasChave = [];
+          var topicos = [];
+          var palavraChave = [];
 
-          $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/master/search.json", function(data) {
-            indices = data.indices;
+          $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/master/dicionario.json", function(data) {
+            topicos = data.topicos;
 
-            for (i = 0; i < indices.length; i++) {
-              palavrasChave = indices[i].palavrasChave;
+            for (i = 0; i < topicos.length; i++) {
+              palavraChave = topicos[i].palavrasChave;
 
-              for (j = 0; j < palavrasChave.length; j++) {
+              for (j = 0; j < palavraChave.length; j++) {
                 if (palavrasChave[j] == keyword) {
                   saida += '<div class="col-md-12">';
-                  saida += '<a href="' + indices[i].path + '">';
-                  saida += '<h1>' + indices[i].topico + '</h1>';
-                  saida += '<p>' + indices[i].descrição + '</p>';
+                  saida += '<a href="' + topicos[i].caminho + '">';
+                  saida += '<h1>' + topicos[i].titulo + '</h1>';
+                  saida += '<p>' + topicos[i].descricao + '</p>';
                   // saida += '<img src="' + bands[i].picture + '" alt="' + bands[i].name + '" title="' + bands[i].name + '">';
                   saida += '</a>';
                   saida += '</div>';
@@ -134,11 +134,11 @@
           });
         }
 
-        var myParam = queryObj();
+        var minhaBusca = queryObj();
         var retornoBusca;
 
         retornoBusca = setTimeout(function(){
-          pesquisar(myParam.pesquisa);
+          pesquisar(minhaBusca.pesquisa);
         }, 2000);
 
       });
