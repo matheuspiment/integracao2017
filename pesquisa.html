@@ -104,10 +104,10 @@
             topicos = data.topicos;
 
             for (i = 0; i < topicos.length; i++) {
-              palavraChave = topicos[i].palavrasChave;
+              palavraChave = topicos[i].palavraChave;
 
               for (j = 0; j < palavraChave.length; j++) {
-                if (palavrasChave[j] == keyword) {
+                if (palavraChave[j] == keyword) {
                   saida += '<div class="col-md-12">';
                   saida += '<a href="' + topicos[i].caminho + '">';
                   saida += '<h1>' + topicos[i].titulo + '</h1>';
