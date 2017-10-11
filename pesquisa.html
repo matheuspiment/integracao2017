@@ -77,9 +77,27 @@
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/levenshtein.js"></script>
     <script src="assets/js/busca.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        var minhaBusca = queryObj();
+        var retornoBusca;
+        if (typeof minhaBusca.pesquisa != "undefined") {
+          retornoBusca = setTimeout(function(){
+            pesquisar(minhaBusca.pesquisa);
+          }, 2000);
+        } else {
+          retornoBusca = '';
+          retornoBusca += '<div class="col-md-12">';
+          retornoBusca += '<div class="alert alert-info" role="alert">';
+          retornoBusca += 'Digite no campo de busca para pesquisar ;)';
+          retornoBusca += '</div>'
+          retornoBusca += '</div>';
+          document.getElementById('resultado').innerHTML = retornoBusca;
+        }
+      });
+    </script>
   </body>
 </html>

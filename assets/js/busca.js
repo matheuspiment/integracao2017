@@ -1,5 +1,11 @@
-$( document ).ready(function() {
-  // Função que captura os parâmetros passados pela URL
+  /**
+   * Função javascript que "captura" os parâmetros de uma URL.
+   *
+   * @example
+   *   exemplo(https://matheuspiment.github.io/integracao2017/pesquisa.html?pesquisa=home); // {pesquisa: home}
+   *
+   * @returns {Object}
+   */
   function queryObj() {
     var result = {}, keyValuePairs = location.search.slice(1).split("&");
     keyValuePairs.forEach(function(keyValuePair) {
@@ -9,7 +15,49 @@ $( document ).ready(function() {
     return result;
   }
 
-  // Função que realiza a pesquisa no arquivo JSON
+  /*
+   * Algoritmo de Levenshtein
+   */
+  function levenshtein_distance_a (a, b) {
+    if(a.length == 0) return b.length;
+    if(b.length == 0) return a.length;
+
+    var matrix = [];
+
+    // increment along the first column of each row
+    var i;
+    for(i = 0; i <= b.length; i++){
+      matrix[i] = [i];
+    }
+
+    // increment each column in the first row
+    var j;
+    for(j = 0; j <= a.length; j++){
+      matrix[0][j] = j;
+    }
+
+    // Fill in the rest of the matrix
+    for(i = 1; i <= b.length; i++){
+      for(j = 1; j <= a.length; j++){
+        if(b.charAt(i-1) == a.charAt(j-1)){
+          matrix[i][j] = matrix[i-1][j-1];
+        } else {
+          matrix[i][j] = Math.min(matrix[i-1][j-1] + 1, // substitution
+                                  Math.min(matrix[i][j-1] + 1, // insertion
+                                           matrix[i-1][j] + 1)); // deletion
+        }
+      }
+    }
+
+    return matrix[b.length][a.length];
+  }
+
+  /**
+   * Função javascript que realiza a busca de uma palavra em um arquivo JSON
+   *
+   * @param   {String} keyword		  A palavra para comparação
+   * @returns {Void}
+   */
   function pesquisar(keyword) {
     var saida = '';
     var topicos = [];
@@ -27,6 +75,7 @@ $( document ).ready(function() {
           comprimento = palavraChave[j].length;
           keyword = keyword.toLowerCase();
           palavraChave[j] = palavraChave[j].toLowerCase();
+          // Ajusta o grau de referência para "casamento" em 50%
           grauReferencia = levenshtein_distance_a(keyword, palavraChave[j]) / comprimento;
           if (grauReferencia <= 0.5) {
             saida += '<div class="col-md-12">';
@@ -52,21 +101,3 @@ $( document ).ready(function() {
 
     });
   }
-
-  var minhaBusca = queryObj();
-  var retornoBusca;
-  if (typeof minhaBusca.pesquisa != "undefined") {
-    retornoBusca = setTimeout(function(){
-      pesquisar(minhaBusca.pesquisa);
-    }, 2000);
-  } else {
-    retornoBusca = '';
-    retornoBusca += '<div class="col-md-12">';
-    retornoBusca += '<div class="alert alert-info" role="alert">';
-    retornoBusca += 'Digite no campo de busca para pesquisar ;)';
-    retornoBusca += '</div>'
-    retornoBusca += '</div>';
-    document.getElementById('resultado').innerHTML = retornoBusca;
-  }
-
-});
