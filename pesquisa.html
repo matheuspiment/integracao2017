@@ -77,71 +77,9 @@
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
+    <script src="assets/js/levenshtein.js"></script>
+    <script src="assets/js/busca.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script type="text/javascript">
-      $( document ).ready(function() {
-
-        // Função que captura os parâmetros passados pela URL
-        function queryObj() {
-          var result = {}, keyValuePairs = location.search.slice(1).split("&");
-          keyValuePairs.forEach(function(keyValuePair) {
-            keyValuePair = keyValuePair.split('=');
-            result[decodeURIComponent(keyValuePair[0])] = decodeURIComponent(keyValuePair[1]) || '';
-          });
-          return result;
-        }
-
-        // Função que realiza a pesquisa no arquivo JSON
-        function pesquisar(keyword) {
-
-          var saida = '';
-          var topicos = [];
-          var palavraChave = [];
-
-          $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/master/dicionario.json", function(data) {
-            topicos = data.topicos;
-
-            for (i = 0; i < topicos.length; i++) {
-              palavraChave = topicos[i].palavraChave;
-
-              for (j = 0; j < palavraChave.length; j++) {
-                if (palavraChave[j] == keyword) {
-                  saida += '<div class="col-md-12">';
-                  saida += '<a href="' + topicos[i].caminho + '">';
-                  saida += '<h1>' + topicos[i].titulo + '</h1>';
-                  saida += '<p>' + topicos[i].descricao + '</p>';
-                  // saida += '<img src="' + bands[i].picture + '" alt="' + bands[i].name + '" title="' + bands[i].name + '">';
-                  saida += '</a>';
-                  saida += '</div>';
-                }
-              }
-            }
-
-            if (saida != "") {
-              document.getElementById('resultado').innerHTML = saida;
-              console.log(saida);
-            } else {
-              saida += '<div class="col-md-12">';
-              saida += '<div class="alert alert-info" role="alert">';
-              saida += 'Nenhum registro encontrado :(';
-              saida += '</div>'
-              saida += '</div>';
-              document.getElementById('resultado').innerHTML = saida;
-            }
-
-          });
-        }
-
-        var minhaBusca = queryObj();
-        var retornoBusca;
-
-        retornoBusca = setTimeout(function(){
-          pesquisar(minhaBusca.pesquisa);
-        }, 2000);
-
-      });
-    </script>
   </body>
 </html>
