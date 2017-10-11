@@ -1,0 +1,22 @@
+{
+"topicos": [
+    {
+      "titulo": "Home",
+      "palavraChave": ["home"],
+      "descricao": "Uma pequena descrição",
+      "caminho": "index.html"
+    },
+    {
+      "titulo": "Disciplinas",
+      "palavraChave": ["disciplinas", "matérias"],
+      "descricao": "Uma grande descrição",
+      "caminho": "disciplinas.html"
+    },
+    {
+      "titulo": "Estrutura curricular",
+      "palavraChave": ["disciplinas", "estrutura"],
+      "descricao": "Uma grande descrição",
+      "caminho": "disciplinas.html"
+    }
+  ]
+}
