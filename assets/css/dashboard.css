@@ -4,7 +4,7 @@
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  padding-top: 3.5rem;
+  padding-top: rem;
 }
 
 /*
@@ -22,12 +22,13 @@ h1 {
  */
 
 .sidebar {
-  position: fixed;
-  top: 51px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  position: relative;
+  top: 75px;
   bottom: 0;
   left: 0;
   z-index: 1000;
-  padding: 20px;
+  /*padding: 20px;*/
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
   border-right: 1px solid #eee;
@@ -80,4 +81,52 @@ h1 {
 .placeholder img {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.navbar-doc {
+  padding: 10px 10px;
+}
+
+.navbar-doc .form-inline {
+  flex-flow: unset;
+  width: 75%;
+}
+
+.nav-pills .nav-link.active {
+  font-weight: 600;
+}
+
+.navbar-doc .form-inline input {
+  width: 100%;
+}
+
+.navbar-doc .navbar-toggler {
+  border: none;
+  padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .navbar-doc {
+    display: none;
+  }
+
+  .sidebar .collapse {
+    display: block;
+  }
+
+  .sidebar {
+    border: none;
+    position: fixed;
+
+  }
+}
+
+@media (max-width: 992px) {
+  /*.sidebar {
+    top: 85px;
+  }*/
+}
+
+.section-main {
+  padding-top: 100px!important;
 }
