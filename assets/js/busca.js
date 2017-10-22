@@ -78,9 +78,9 @@
           // Ajusta o grau de referência para "casamento" em 50%
           grauReferencia = levenshtein_distance_a(keyword, palavraChave[j]) / comprimento;
           if (grauReferencia <= 0.5 || palavraChave[j].indexOf(keyword) == 0) {
-            saida += '<div class="col-md-12">';
+            saida += '<div class="col-md-12 search-result">';
             saida += '<a href="' + topicos[i].caminho + '">';
-            saida += '<h1>' + topicos[i].titulo + '</h1>';
+            saida += '<h2>' + topicos[i].titulo + '</h2>';
             saida += '<p>' + topicos[i].descricao + '</p>';
             saida += '</a>';
             saida += '</div>';

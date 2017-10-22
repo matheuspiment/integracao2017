@@ -11,14 +11,15 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" style="background-color: #212121 !important;">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-black bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
          <img src="assets/img/marca-inf.png" width="30" height="30" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +29,13 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Plano Pedagógico</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Matriz Curricular</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -43,18 +44,20 @@
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </li>
+          </li> -->
         </ul>
         <form class="form-inline my-2 my-lg-0" action="pesquisa.html" method="get">
-          <input class="form-control mr-sm-2" name="pesquisa" type="text" placeholder="Search" aria-label="Search" required>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" name="pesquisa" type="text" placeholder="Buscar" aria-label="Search" required>
+          <button class="btn btn-warning my-2 my-sm-0" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
         </form>
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container section-main">
 
-      <div class="row align-items-center" style="margin-top: 100px;">
+      <div class="row align-items-center">
         <div class="col-6 mx-auto col-md-6 order-md-2">
           <img src="assets/img/software-engineer.jpg" alt="" class="img-fluid mb-3 mb-md-0">
         </div>
@@ -70,7 +73,7 @@
             Ficou intereçado? Para mais informações, conheça o Projeto Pedagógico do Curso (PPC):
           </p>
           <div class="d-flex flex-column flex-md-row lead mb-3">
-            <a href="/docs/4.0/getting-started/" class="btn btn-lg btn-outline-primary mb-3 mb-md-0 mr-md-3">Saber Mais</a>
+            <a href="apresentacao.html" class="btn btn-lg btn-outline-primary mb-3 mb-md-0 mr-md-3">Saber Mais</a>
             <a href="assets/docs/ppc-bes.pdf" download="PPC-BES.pdf" class="btn btn-lg btn-outline-secondary">Download</a>
           </div>
           <p class="text-muted mb-0">
@@ -82,10 +85,10 @@
     </div><!-- /.container -->
 
     <div class=" row m-0 border border-white">
-      <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
-        <img class="mt-2 mb-2" src="assets/img/logo-es.png" style="width: 32px; heigth: 32px;"></img>
+      <div class="col-12 col-md-4 p-3 p-md-5 bg-light text-center">
+        <i class="fa fa-graduation-cap text-primary mb-2" style="font-size:28px;"></i>
         <h3>Sobre o curso</h3>
-        <p class="text-justify">
+        <p>
           O Curso de Engenharia de Software forma o profissional de software,
           o engenheiro de Software, apto a participar de e conduzir empreendimentos
           de softwares que sejam competitivos no mercado global. O estudante recebe
@@ -95,10 +98,10 @@
         <hr class="half-rule">
         <a class="btn btn-outline-primary" href="#">Saiba mais</a>
       </div>
-      <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+      <div class="col-12 col-md-4 p-3 p-md-5 bg-light text-center">
         <i class="fa fa-list-alt text-primary mb-2" style="font-size:28px;"></i>
         <h3>Estrutura curricular</h3>
-        <p class="text-justify">
+        <p>
           A matriz curricular do curso perfaz 44 disciplinas. Sendo 17 disciplinas
           de formação básica em computação. Em particular, 4 disciplinas são oferecidas
            pelo Instituto de Matemática e Estatística (IME) e as outras 13 oferecidas
@@ -109,23 +112,10 @@
         <hr class="half-rule">
         <a class="btn btn-outline-primary" href="#">Saiba mais</a>
       </div>
-      <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
-        <i class="fa fa-book text-primary mb-2" style="font-size:28px;"></i>
-        <h3>Disciplinas</h3>
-        <p class="text-justify">
-          As disciplinas estão organizadas em nove períodos letivos. Os quatro
-          primeiros períodos concentram as disciplinas de formação básica em
-          Computação: disciplinas de Computação propriamente ditas e aquelas de
-          Matemática. Os demais períodos incluem disciplinas com ênfase na formação
-           específica em Engenharia de Software.
-        </p>
-        <hr class="half-rule">
-        <a href="#" class="btn btn-outline-primary">Saiba mais</a>
-      </div>
-      <div class="col-12 col-md-3 p-3 p-md-5 bg-light border border-white">
+      <div class="col-12 col-md-4 p-3 p-md-5 bg-light text-center">
         <i class="fa fa-info text-primary mb-2" style="font-size:28px;"></i>
         <h3>Outras informações</h3>
-        <p class="text-justify">
+        <p>
           O Bacharelado em Engenharia de Software (BES) existe e se mantém em um
            contexto no qual se destaca a aptidão do Instituto de Informática, a
            carência de mão de obra apta a desenvolver softwares de qualidade e
@@ -136,15 +126,23 @@
       </div>
     </div>
 
-    <footer class="text-muted" style="background-color: #f7f7f7;">
-      <div class="container-fluid p-3 p-md-5">
-        <a href="https://github.com/matheuspiment/integracao2017">GitHub</a></li>
-        <p>Inspirado em <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a>.</p>
-        <p>Codigo licenciado <a rel="license noopener" href="https://github.com/matheuspiment/integracao2017/blob/master/LICENSE" target="_blank">MIT</a>, documentação <a rel="license noopener" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
-      </div>
-
-    </footer>
-
+    <footer class="footer footer-black">
+    		<div class="container">
+    			<div class="row">
+    				<nav class="footer-nav">
+    					<ul>
+    						<li><a href="https://www.ufg.br" target="_blank">UFG</a></li>
+    						<li><a href="http://inf.ufg.br" target="_blank">INF</a></li>
+    					</ul>
+    				</nav>
+    				<div class="credits ml-auto">
+    					<span class="copyright">
+    						© <script>document.write(new Date().getFullYear())</script>, feito com <i class="fa fa-heart heart"></i> por geminos
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
