@@ -22,9 +22,10 @@ h1 {
  */
 
 .sidebar {
+  background-color: #FFFFFF;
   border-bottom: 1px solid rgba(0,0,0,.1);
-  position: relative;
-  top: 75px;
+  position: sticky;
+  top: 0px;
   bottom: 0;
   left: 0;
   z-index: 1000;
@@ -83,6 +84,10 @@ h1 {
   padding-bottom: 1.5rem;
 }
 
+.navbar-expand-md {
+  position: relative;
+}
+
 .navbar-doc {
   padding: 10px 10px;
 }
@@ -90,6 +95,10 @@ h1 {
 .navbar-doc .form-inline {
   flex-flow: unset;
   width: 75%;
+}
+
+.navbar .search-form {
+    flex-flow: unset;
 }
 
 .nav-pills .nav-link.active {
@@ -105,7 +114,17 @@ h1 {
   padding-right: 16px;
 }
 
+.section-main {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 @media (min-width: 768px) {
+  .navbar-expand-md {
+    position: fixed;
+  }
+
   .navbar-doc {
     display: none;
   }
@@ -118,7 +137,13 @@ h1 {
     border: none;
     border-right: 1px solid rgba(0,0,0,.1);
     position: fixed;
+    top: 75px;
+  }
 
+  .section-main {
+    padding-top: 100px!important;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -126,10 +151,4 @@ h1 {
   /*.sidebar {
     top: 85px;
   }*/
-}
-
-.section-main {
-  padding-top: 100px!important;
-  padding-left: 40px;
-  padding-right: 40px;
 }
