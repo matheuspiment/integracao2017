@@ -17,6 +17,26 @@
       "palavraChave": ["disciplinas", "estrutura"],
       "descricao": "Uma grande descrição",
       "caminho": "disciplinas.html"
-    }
+    },
+    {
+     "titulo": "Álgebra Linear",
+     "palavraChave": ["Fundamentos de Matemática", "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas","Sistemas lineares", "matrizes", "espaços vetoriais", "transformação linear", "autovalores", "autovetores", "espaços com produto interno"],
+     "descricao": "Álgebra linear é um ramo da matemática que surgiu do estudo detalhado de sistemas de equações lineares, sejam elas algébricas ou diferenciais.",
+     "caminho": "disciplinas.html"
+    },
+
+    {
+     "titulo": "Algoritmos e Estruturas de Dados 1",
+     "palavraChave": ["Fundamentos de Matemática", "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas","Fundamentos da Computação", "complexidade de Algoritmos", "Algoritmos de pesquisa", "Algoritmos de ordenação", "estrutura de dados", "vetores", "pilhas","listas", "listas simples", "listas circulares", "alocação dinâmica", "listas simplesmente encadeadas", "listas duplamente encadeadas"],
+     "descricao": "Uma estrutura de dados é um modo particular de armazenamento e organização de dados em um computador de modo que possam ser usados eficientemente, facilitando sua busca e modificação.Nesse contexto onde algoritmos manipulam dados que entra essa matéria.",
+     "caminho": "disciplinas.html"
+     },
+
+     {
+  "titulo": "Algoritmos e Estruturas de Dados 2"
+  "palavraChave": ["Fundamentos de Matemática", "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas","Fundamentos da Computação", "matemática Computacional", "Árvores", "Árvores binárias", "Árvores binárias de busca", "Árvores balanceada", "AVL", "rubro-negras", "filas de priopridades", "Heaps", "Headpsort", "Hasging", "tratamento de colisões", "grafos"],
+  "descricao": "",
+  "caminho": ""
+     }
   ]
 }
