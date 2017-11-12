@@ -56,5 +56,17 @@
   "descricao": "Arquitetura de Software abrange à definição dos componentes de software, suas propriedades externas, e seus relacionamentos com outros softwares. O termo também se refere à documentação da arquitetura de software do sistema",
   "caminho": ""
      },
+    {
+  "titulo": "Banco de Dados",
+  "palavraChave": ["Fundamentos da Computação", "SGBD", "Banco de dados", "Database", "MySQL", "PostgreSQL", "DDL", "DML", "SQL",  "modelo relacional", "MER", "Diagrama de Classes", "Linguagem para Banco de Dados", "Modelo Entidade Relacionamento", "MER", "mapeamento ER-Relacional", "Normalização", "Oracle", "planejar estrutra de dados", "definir estrutura de dados", "modelar banco de dados", "Fundamentos de Banco de Dados", "Novas Tecnologias e Bancos de Dados", "Banco de Dados Paralelos e Distribuídos", "Análise e Otimização de Consultas"],
+  "descricao": "",
+  "caminho": ""
+    },
+    {
+  "titulo": "Cálculo 1 A",
+  "palavraChave": [],
+  "descricao": "",
+  "caminho": ""
+    },
   ]
 }
