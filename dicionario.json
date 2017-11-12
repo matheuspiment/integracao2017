@@ -77,6 +77,12 @@
   "palavraChave": ["Computação e Sociedade", "Prática Profissional de Engenharia de Software", "História da Computação", "aplicação de computadores na sociedade", "aplicação de computadores para o meio ambiente", "importância da Computação no Brasil e no mundo", "desafios da Computação no Brasil e no mundo", "cursos de computação" , "aspectos profissionais", "tipos de cursos", "perfis profissionais", "demandas do mercado", "organização e associações na área de TI", "TI", "regulamentação da profissão leis e normas", "questões ambientais", "raciais", "questões de saúde", "Inclusão digital", "inclusão computacional", "Empresas de Ti","Incubadoras", "Startup"],
   "descricao": "",
   "caminho": ""
-  },
+    },
+    {
+  "titulo": "Construção de Software",
+  "palavraChave": ["Manutenção de Software", "Manutenção", "Gerencia de Configuração de Software", "Gerencia de Configuração", "Configuração de Software", "Controle de Versão", "Gerencia de Engenharia de Software", "Gestão de Engenharia de Software", "Processo de Engenharia de Software", "Processo de Software", "Processo de Engenharia", "Processo", "Qualidade de Software", "Teste de Software", "Design de Software", "Construção de Software"],
+  "descricao": "",
+  "caminho": ""
+    },
   ]
 }
