@@ -31,13 +31,12 @@
      "descricao": "Uma estrutura de dados é um modo particular de armazenamento e organização de dados em um computador de modo que possam ser usados eficientemente, facilitando sua busca e modificação.Nesse contexto onde algoritmos manipulam dados que entra essa matéria.",
      "caminho": "disciplinas.html"
      },
-
      {
   "titulo": "Algoritmos e Estruturas de Dados 2",
   "palavraChave": ["Fundamentos de Matemática",  "Algoritmos e Estruturas de Dados 2", "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas","Fundamentos da Computação", "matemática Computacional", "Árvores", "Árvores binárias", "Árvores binárias de busca", "Árvores balanceada", "AVL", "rubro-negras", "filas de priopridades", "Heaps", "Headpsort", "Hasging", "tratamento de colisões", "grafos"],
   "descricao": "",
   "caminho": ""
-     }
+     },
     {
   "titulo": "Análise e Projeto de Algoritmos",
   "palavraChave": ["Fundamentos de Matemática","Análise e Projeto de Algoritmos", "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas", "Fundamentos da Engenharia", "Medida de complexidade", "análise assintótica", "análise assintótica de limites de complexidade para algoritmos", "algoritmos iterativos", "algoritmos recursivos", "técnicas de prova de cotas inferiores", "corretude de algoritmos", "técnicas de projeto de algoritmos", "dividir para conquistar","programação dinâmica", "algoritmos gulosos", "NP-Completude"],
