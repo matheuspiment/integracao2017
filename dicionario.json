@@ -62,9 +62,21 @@
     },
     {
   "titulo": "Cálculo 1 A",
-  "palavraChave": ["Fundamentos de Matemática", "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas", "números reais", "funções reais", "funções reais de uma variável real e suas inversas", "cônicos", "limite", "continuidade", "derivadas e aplicações", "polinômio de Taylor", "Integrais", "Técnicas de integração", "Integrais impróprias", "Análise gráfica de limite", "regra da cadeia", "integral", "área entre duas Curvas", "Funções Contínuas", "Diferenciação Implícita", "Derivadas Superiores", "Funções Hiperbólicas", "Trigonométrica"],
+  "palavraChave": ["Fundamentos de Matemática", "Cálculo 1 A" "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas", "números reais", "funções reais", "funções reais de uma variável real e suas inversas", "cônicos", "limite", "continuidade", "derivadas e aplicações", "polinômio de Taylor", "Integrais", "Técnicas de integração", "Integrais impróprias", "Análise gráfica de limite", "regra da cadeia", "integral", "área entre duas Curvas", "Funções Contínuas", "Diferenciação Implícita", "Derivadas Superiores", "Funções Hiperbólicas", "Trigonométrica"],
   "descricao": "",
   "caminho": ""
     },
+    {
+  "titulo": "Compiladores",
+  "palavraChave": ["compiladores", "estrutura de compiladores", "análise léxica", "análise sintática", "tabela de símbolos", "representação intermediária do programa-font", "geração"],
+  "descricao": "",
+  "caminho": ""
+    },
+    {
+  "titulo": "Computação e Sociedade",
+  "palavraChave": ["Computação e Sociedade", "Prática Profissional de Engenharia de Software", "História da Computação", "aplicação de computadores na sociedade", "aplicação de computadores para o meio ambiente", "importância da Computação no Brasil e no mundo", "desafios da Computação no Brasil e no mundo", "cursos de computação" , "aspectos profissionais", "tipos de cursos", "perfis profissionais", "demandas do mercado", "organização e associações na área de TI", "TI", "regulamentação da profissão leis e normas", "questões ambientais", "raciais", "questões de saúde", "Inclusão digital", "inclusão computacional", "Empresas de Ti","Incubadoras", "Startup"],
+  "descricao": "",
+  "caminho": ""
+  },
   ]
 }
