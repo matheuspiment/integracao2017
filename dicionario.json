@@ -120,7 +120,23 @@
       "descricao": "",
       "caminho": ""
      },
-    
-    
+     {
+      "titulo": "Gerência de Projeto de Software",
+      "palavraChave": ["Gerencia de Configuração de Software", "Gerencia de Configuração", "Configuração de Software", "Controle de Versão", "Gerencia de Engenharia de Software", "Gestão de Engenharia de Software", "Processo de Engenharia de Software","Processo de Software", "Processo de Engenharia", "Processo", "Modelos e Métodos de Engenharia de Software","Qualidade de Software", "Prática Profissional de Engenharia de Software","Ciclo de vida de produto", "serviço e projeto","partes interessadas(stakeholders)", "correlação entre projetos", "operação e programas", "gerência de porfólio de projetos", "escritório de projeto", "PMO", "projeto de aquisição","projeto de desenvolvimento", "projeto de refatoração", "projeto de descontinuação", "ciclo de vida preditivo", "ciclo de vida iterativo/adaptativo", "processos empíricos", "métodos ágeis", "modelos de qualidade", "processo de gerência de projeto", "escopo", "tempo", "custo", "qualidade", "recursos humanos", "rh", "comunicações", "riscos", "perigos", "aquisição", "integração"],
+      "descricao": "",
+      "caminho": ""
+     },
+     {
+      "titulo": "",
+      "palavraChave": [],
+      "descricao": "",
+      "caminho": ""
+     },
+     {
+      "titulo": "",
+      "palavraChave": [],
+      "descricao": "",
+      "caminho": ""
+     },
   ]
 }
