@@ -1,0 +1,10 @@
+{
+"disciplinas": [
+    {
+     "id": "1",
+     "titulo": "Álgebra Linear",
+     "descricao": "Álgebra linear é um ramo da matemática que surgiu do estudo detalhado de sistemas de equações lineares, sejam elas algébricas ou diferenciais.",
+     "caminho": "disciplinas.html"
+    },
+  ]
+}
