@@ -1,19 +1,20 @@
 [
   {
-    "id": "1",
-    "titulo": "Introdução à Programação",
-    "periodo": "1",
-    "carga_horaria": {
-      "teorica": "48",
-      "pratica": "80"
+    "id": 1,
+    "alias": "introducao-a-programacao",
+    "title": "Introdução à Programação",
+    "period": 1,
+    "workload": {
+      "theoretical": 48,
+      "practice": 80
     },
-    "unidade": "Instituto de Informática",
-    "natureza": {
-      "isComum": "0",
-      "isObrigatoria": "1"
+    "unit": "Instituto de Informática",
+    "kind": {
+      "isCommon": 1,
+      "isRequired": 1
     },
-    "pre_requisitos": [ ],
-    "ementa": [
+    "prerequisite": [ ],
+    "menu": [
       "Introdução a algoritimos",
       "Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.",
       "Ponteiro",
@@ -24,13 +25,13 @@
       "Transcrição de algoritmos para uma linguagem de programação.",
       "Domínio de uma linguagem de programação: sintaxe e semântica; interpretação e compilação de programas; ambiente de desenvolvimento de programas; estilo de codificação; documentação de código; técnicas de depuração e técnicas de profiling; desenvolvimento e uso de bibliotecas."
     ],
-    "bibliografia": {
-      "basica": [
+    "bibliography": {
+      "basic": [
         "FOBERLONE, A. L. V.; EBERSPACHER, H. F. Lógica de Programação: A construção de algoritmos e estruturas de dados. 3.a edição. São Paulo: Prentice Hall, 2005.",
         "ASCENCIO, A. F. G.; CAMPOS, E. A. V. Fundamentos da Programação de Computadores. 3.a edição. Editora Pearson, 2010.",
         "SCHILDT, H. C Completo e Total. 3a Ed.  São Paulo: Makron Books, 1996."
       ],
-      "complementar": [
+      "complementary": [
         "FEOFILOFF, P. Algoritmos em Linguagem C. Editora Campus/Elsevier, 2009.",
         "FARRER, H. at al. Programação Estruturada de Computadores: Algoritmos Estruturados. 3.a edição. Rio de Janeiro: LTC, 1989.",
         "SEDGEWICK, R. Algorithms in C. 3rd ed. Reading, Mss: Addison-Wesley, 1998.  ISBN 0201314525.",
@@ -38,5 +39,43 @@
         "CORMEN, T. H et al., Algoritmos: Teoria e Prática. 2.a edição. Rio de Janeiro: Editora Campus, 2002."
       ]
     }
-  }
+  },
+	{
+		"id": 2,
+		"alias": "fundamentos-de-matematica-para-computacao",
+		"title": "Fundamentos de Matemática para Computação",
+		"period": 1,
+		"workload": {
+			"theoretical": 64,
+			"practice": 0
+		},
+		"unit": "Instituto de Informática",
+		"kind": {
+			"isCommon": 1,
+			"isRequired": 1
+		},
+		"prerequisite": [ ],
+		"menu": [
+			"Noções de lógica.",
+			"Introdução a demonstrações.",
+			"Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória. ",
+			"Séries e sequências.",
+			"Relações e Funções.",
+			"Representações numéricas e Mudança de base numérica."
+		],
+		"bibliography": {
+			"basic": [
+				"GERSTING, J. L. Fundamentos Matemáticos para a Ciência da Computação, 5.a edição, Editora LTC, Rio de Janeiro, 2004.",
+				"SCHEINERMAN, E. R. Matemática Discreta: Uma introdução, Cengage Learning, Thompson Pioneira, 2003.",
+				"GRIMALDI, R. P. Discrete and Combinatorial Mathematics: An Applied Introduction, 5th edition, Pearson - Addison-Wesley, Boston, 2003."
+			],
+			"complementary": [
+				"GONÇALVES, A. Introdução à Álgebra, 5.a edição, CNPQ-IMPA, Rio de Janeiro, 2013.",
+				"MATTSON, Jr.; H. F. Discrete Mathematics with applications, John Wiley & Sons, New York, 1993.",
+				"ROSEN, K. H. Discrete Mathematics and Its Applications, 6.a edição, Boston: McGraw-Hill, 2009.",
+				"ROSS, K. A.; Wright, C. R. B. Discrete mathematics, Prentice Hall, 1998.",
+				"SANTOS, J. P. O. Introdução à Teoria dos Números, Coleção Matemática Universitária, CNPQ-IMPA, Rio de Janeiro, 2003."
+			]
+		}
+	}
 ]
