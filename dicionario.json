@@ -151,10 +151,17 @@
       "caminho": ""
      },   
      {
-      "titulo": "",
-      "palavraChave": [],
+      "titulo": "Linguagens Formais e Autômatos",
+      "palavraChave": ["Fundamentos de Matemática","Fundamentos de Matemática para Computação","Matemática Computacional","Matemática","Ciências Exatas","Materias de Exatas","Mecanismos geradores", "reconhecedores", "linguagens regulares", "determinísticos", "não determinísticos", "hierarquia de Chomsky"],
       "descricao": "",
       "caminho": ""
      },
+     {
+      "titulo": "Lógica Matemática",
+      "palavraChave": ["Fundamentos de Matemática","Fundamentos de Matemática para Computação","Matemática Computacional","Matemática","Ciências Exatas", "Linguagem natural", "Linguagem formais", "verdade validade", "satisfatibilidade", "lógica proposicional", "sintaxe", "semântica", "relãções semântica", "consequência lógica", "simplificação", "lógica de primeira ordem", "métods de validação ", "métodos diretos de provas", "métodos de prova por contradição", "indução estrutural", "Linguagem para experimentação"],
+      "descricao": "",
+      "caminho": ""
+     },
+    
   ]
 }
