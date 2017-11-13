@@ -162,6 +162,11 @@
       "descricao": "",
       "caminho": ""
      },
-    
+    {
+      "titulo": "Mercado e Economia de Software",
+      "palavraChave": ["Economia de Engenharia de Software", "Mercado e Economia de Software","Modelos de negócio para software","leis,normas, impostos e legislação brasileira para mercado local", "leis,normas, impostos e legislação brasileira para exportação de software", "programas de incetivo à exportação", "programas de incetivo à produção de software", "características e exigências do mercado nacional", "características e exigências do mercado global", "Engenharia econômica", "demanda", "análise custo-benefício", "análise breakeven", "retorno de investimento", "avaliação de alternativas", "economia aplicada ao desenvolvimento de software"],
+      "descricao": "",
+      "caminho": ""
+    },
   ]
 }
