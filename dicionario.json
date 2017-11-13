@@ -149,6 +149,12 @@
       "palavraChave": ["Fundamentos de Matemática","Fundamentos de Matemática para Computação","Matemática Computacional","Matemática","Ciências Exatas","Materias de Exatas","linguagem de programação", "paradigmas de programação", "paradigma procedural", "paradigma funcional", "paradigma orientadoa objetos e script", "características desejáveis", "critérios de seleção", "descrição de sintáxe", "descrição de semântica", "tipo de dados", "estruturas de controle", "exmpressões e subprogramas"],
       "descricao": "",
       "caminho": ""
-     },                 
+     },   
+     {
+      "titulo": "",
+      "palavraChave": [],
+      "descricao": "",
+      "caminho": ""
+     },
   ]
 }
