@@ -1008,9 +1008,109 @@
           "roteamento",
           "protocolo",
           "rede",
-          "ethernet"
+          "ethernet",
           "meio físico"
-     ],
+      ],
+      "descricao": "",
+      "caminho": ""
+    },
+    {
+      "título": "Requisitos de Software",
+      "palavraChave": [
+          "gerencia de engenharia de software", 
+          "gestão de engenharia de software",
+          "engenharia de requisitos",
+          "requisitos de usuário",
+          "análise de requisitos",
+          "processo de requisitos",
+          "elicitação de requisitos",
+          "especificação de requisitos",
+          "verificação de requisitos",
+          "validação de requisitos",
+          "verificação e validação de requisitos",
+          "rastreabilidade de requisitos",
+          "modelos de engenharia de requisitos",
+          "metodos de engenharia de requisitos",
+          "ferramentas de requisitos",
+          "ferramentas de engenharia de requisitos",
+          "levantamento de requisitos",
+          "gerencia de requisitos"
+      ],
+      "descricao": "",
+      "caminho": ""
+    },
+    {
+      "título": "Sistemas Distribuídos",
+      "palavraChave": [
+          "objetos distribuídos",
+          "design de software",
+          "arquitetura de software",
+          "construção de software",
+          "sistemas distribuídos",
+          "invocação remota",
+          "arquiteturas orientadas a serviços",
+          "serviços web",
+          "computação móvel",
+          "computação ubíqua"
+          "conjuntos de computadores",
+          "computadores inter conectados",
+          "middleware"
+      ],
+      "descricao": "",
+      "caminho": ""
+    },
+    {
+      "título": "Sistemas Operacionais",
+      "palavraChave": [
+          "software para sistemas ubíquos",
+          "computação ubíqua",
+          "sistemas distribuídos",
+          "conceito de hardware",
+          "hardware",
+          "conceito de software",
+          "tipos de sistemas operacionais",
+          "estrutura do sistema operacional",
+          "estrutura interna do sistema operacional",
+          "organização do sistema operacional",
+          "gerencia de processos",
+          "gerencia do processador",
+          "gerencia de memória",
+          "gerencia de dispositivos de entrada",
+          "gerencia de dispositivos de saída",
+          "sistemas operacionais"
+          
+      ],
+      "descricao": "",
+      "caminho": ""
+    },
+    {
+      "título": "Software Concorrente e Distribuído",
+      "palavraChave": [
+          "software concorrente e distribuído",
+          "design de software",
+          "arquitetura de software",
+          "arquitetura",
+          "construção de software",
+          "codificação de software",
+          "codificação",
+          "escalabilidade",
+          "desempenho",
+          "middleware",
+          "paralelismo",
+          "concorrencia",
+          "restfull",
+          "internet das coisas",
+          "iot",
+          "internet of things",
+          "contêiners",
+          "troca de mensagem",
+          "micro serviços",
+          "serviços web",
+          "construção de software distribuídos",
+          "métodos para construção de software distribuídos",
+          "thread",
+          "memória compartilhada"
+      ],
       "descricao": "",
       "caminho": ""
     },
@@ -1031,12 +1131,6 @@
       "palavraChave": [],
       "descricao": "",
       "caminho": ""
-    },
-    {
-      "título": "",
-      "palavraChave": [],
-      "descricao": "",
-      "caminho": ""
-    },
+    }
   ]
 }
