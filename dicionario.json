@@ -115,7 +115,8 @@
           "dividir para conquistar",
           "programação dinâmica",
           "algoritmos gulosos",
-          "NP-Completude"],
+          "NP-Completude"
+      ],
       "descricao": "",
       "caminho": ""
      },
@@ -181,7 +182,33 @@
       },
       {
       "titulo": "Banco de Dados",
-      "palavraChave": ["Fundamentos da Computação", "SGBD", "Banco de dados", "Database", "MySQL", "PostgreSQL", "DDL", "DML", "SQL",  "modelo relacional", "MER", "Diagrama de Classes", "Linguagem para Banco de Dados", "Modelo Entidade Relacionamento", "MER", "mapeamento ER-Relacional", "Normalização", "Oracle", "planejar estrutra de dados", "definir estrutura de dados", "modelar banco de dados", "Fundamentos de Banco de Dados", "Novas Tecnologias e Bancos de Dados", "Banco de Dados Paralelos e Distribuídos", "Análise e Otimização de Consultas"],
+      "palavraChave": [
+          "fundamentos da computação",
+          "sgbd",
+          "banco de dados"
+          "database",
+          "mysql",
+          "postgresql",
+          "ddl",
+          "dml",
+          "sql",
+          "modelo relacional",
+          "mer",
+          "diagrama de classes",
+          "linguagem para banco de dados",
+          "modelo entidade relacionamento",
+          "mer",
+          "mapeamento er-relacional",
+          "normalização",
+          "oracle",
+          "planejar estrutra de dados",
+          "definir estrutura de dados",
+          "modelar banco de dados",
+          "fundamentos de banco de dados",
+          "novas tecnologias e bancos de dados",
+          "banco de dados paralelos e distribuídos",
+          "análise e otimização de consultas"
+      ],
       "descricao": "",
       "caminho": ""
      },
@@ -193,13 +220,45 @@
      },
      {
       "titulo": "Compiladores",
-      "palavraChave": ["compiladores", "estrutura de compiladores", "análise léxica", "análise sintática", "tabela de símbolos", "representação intermediária do programa-font", "geração"],
+      "palavraChave": [
+          "compiladores",
+          "estrutura de compiladores",
+          "análise léxica",
+          "análise sintática",
+          "tabela de símbolos",
+          "representação intermediária do programa-font",
+          "geração"
+      ],
       "descricao": "",
       "caminho": ""
      },
      {
       "titulo": "Computação e Sociedade",
-      "palavraChave": ["Computação e Sociedade", "Prática Profissional de Engenharia de Software", "História da Computação", "aplicação de computadores na sociedade", "aplicação de computadores para o meio ambiente", "importância da Computação no Brasil e no mundo", "desafios da Computação no Brasil e no mundo", "cursos de computação" , "aspectos profissionais", "tipos de cursos", "perfis profissionais", "demandas do mercado", "organização e associações na área de TI", "TI", "regulamentação da profissão leis e normas", "questões ambientais", "raciais", "questões de saúde", "Inclusão digital", "inclusão computacional", "Empresas de Ti","Incubadoras", "Startup"],
+      "palavraChave": [
+          "computação e sociedade",
+          "prática profissional de engenharia de software",
+          "história da computação",
+          "aplicação de computadores na sociedade",
+          "aplicação de computadores para o meio ambiente",
+          "importância da computação no brasil e no mundo",
+          "desafios da Computação no Brasil e no mundo",
+          "cursos de computação",
+          "aspectos profissionais",
+          "tipos de cursos",
+          "perfis profissionais",
+          "demandas do mercado",
+          "organização e associações na área de ti",
+          "ti",
+          "regulamentação da profissão leis e normas",
+          "questões ambientais",
+          "raciais",
+          "questões de saúde",
+          "inclusão digital",
+          "inclusão computacional",
+          "empresas de ti",
+          "incubadoras",
+          "startup"
+      ],
       "descricao": "",
       "caminho": ""
      },
