@@ -127,16 +127,28 @@
       "caminho": ""
      },
      {
-      "titulo": "",
-      "palavraChave": [],
+      "titulo": "Governança e Gestão de Serviços de Software",
+      "palavraChave": ["Manutenção de Software", "Manutenção", "Gerencia de Engenharia de Software", "Gestão de Engenharia de Software", "Processo de Engenharia de Software","Processo de Software", "Processo de Engenharia", "Processo", "Requisitos de Software", "Qualidade de Software", "Economia de Engenharia de Software", "Governança corporativa","ITL", "governança de TI","GTI", "governança de software", "conformidade/compliance", "objetivos de controle para governança de software", "avaliação de desempenho de software", "indicadores de desempenho de software", "planejamento e controle estratégico de software", "riscos organizacionais", "governança de dados", "segurança das informação", "ciclos de vida de software de serviço", "manutenção de software de serviço", "gerência de processos de negócio"],
       "descricao": "",
       "caminho": ""
      },
      {
-      "titulo": "",
-      "palavraChave": [],
+      "titulo": "Interação Humano-Computador",
+      "palavraChave": ["Requisitos de Software","Design de Software","Qualidade de Software","Prática Profissional de Engenharia de Software", "IHC", "características humanistícas e biológicas", "genealogia", "gênero", "aspectos étnicos raciais e culturais", "direitos e aspectos políticos", "metas de usabilidade", "experiência do usuário", "fatores humanos em software interativo", "estilos de interação", "linguagem natural", "localização e internacionalização", "princípios de projeto de interfaces humano-computador", "projeto visual", "tempo de resposta", "retroalimentação", 'dispositivos de interação", "métodos de avaliação de interfaces", "ferramentas de desenvolvimento de interfaces humano-computador"],
       "descricao": "",
       "caminho": ""
      },
+     {
+      "titulo": "Introdução à Língua Brasileira de Sinais",
+      "palavraChave": ["Prática Profissional de Engenharia de Software","Requisitos de Software","Interação homem computador","Qualidade de Software","Usabilidade","Introdução à Programação", "práticas de compreensão", "produção em libras", "Lingua de sinais", "surdo"],
+      "descricao": "",
+      "caminho": ""
+     },                  
+     {
+      "titulo": "Linguagens e Paradigmas de Programação",
+      "palavraChave": ["Fundamentos de Matemática","Fundamentos de Matemática para Computação","Matemática Computacional","Matemática","Ciências Exatas","Materias de Exatas","linguagem de programação", "paradigmas de programação", "paradigma procedural", "paradigma funcional", "paradigma orientadoa objetos e script", "características desejáveis", "critérios de seleção", "descrição de sintáxe", "descrição de semântica", "tipo de dados", "estruturas de controle", "exmpressões e subprogramas"],
+      "descricao": "",
+      "caminho": ""
+     },                 
   ]
 }
