@@ -241,47 +241,5 @@
 <script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
-<script type="text/javascript">
-	$( document ).ready(function() {
-		function queryObj() {
-			var result = {}, keyValuePairs = location.search.slice(1).split("&");
-			keyValuePairs.forEach(function(keyValuePair) {
-				keyValuePair = keyValuePair.split('=');
-				result[decodeURIComponent(keyValuePair[0])] = decodeURIComponent(keyValuePair[1]) || '';
-			});
-			return result;
-		}
-
-
-		$.getJSON("dicionario.json", function(data){
-			// for (var i = 0; i < data.length; i++) {
-				console.log(data);
-				var key = queryObj();
-				var retornoBusca;
-				if (typeof key.pesquisa != "undefined") {
-					console.log(key.pesquisa);
-					var top = data.topicos;
-					console.log(top.length);
-					for (var i = 0; i < top.length; i++) {
-
-							console.log(top[i].titulo);
-
-					}
-				} else {
-					console.log("erro");
-				}
-			// }
-			// var items = [];
-			// $.each( data, function( key, val ) {
-			//   items.push( "<li id='" + key + "'>" + val.title + "</li>" );
-			// });
-			//
-			// $( "<ul/>", {
-			//   "class": "my-new-list",
-			//   html: items.join( "" )
-			// }).appendTo( "body" );
-		});
-	});
-</script>
 
 </html>

@@ -151,7 +151,7 @@
 		if (typeof keyword != "undefined") {
 			retornoBusca = setTimeout(function(){
 				keyword = keyword.toLowerCase();
-				$.getJSON("data/dicionario.json", function(data) {
+				$.getJSON("dicionario.json", function(data) {
 					topicos = data.topicos;
 					$.each(topicos, function(i, item) {
 						palavrasChave = topicos[i].palavraChave;
