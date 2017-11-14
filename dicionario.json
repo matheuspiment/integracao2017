@@ -778,10 +778,10 @@
     {
       "título": "Padrões de Arquitetura de Software",
       "palavraChave": [
-          "Manutenção de Software",
-          "Manutenção",
-          "Design de Software",
-          "Arquitetura de software",
+          "manutenção de Software",
+          "manutenção",
+          "design de Software",
+          "arquitetura de software",
           "padrões de arquitetura",
           "blackboard",
           "microservices",
@@ -1199,7 +1199,7 @@
           "investigar software",
           "estimular software",
           "controle de qualidade",
-          "Modelos e Métodos de Engenharia de Software",
+          "modelos e métodos de engenharia de software",
           "boas práticas",
           "Qualidade de Software"
        ],
