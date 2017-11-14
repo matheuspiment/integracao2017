@@ -2,27 +2,42 @@
 "topicos": [
     {
       "titulo": "Home",
-      "palavraChave": ["home"],
+      "palavraChave": [
+	      "home",
+	      "principal",
+	      "tela principal",
+	      "tela inicial",
+	      "início"
+      ],
       "caminho": "index.html"
     },
     {
       "titulo": "Disciplinas",
       "palavraChave": ["disciplinas",
-		       "matérias"
+		       "matérias",
+		       "conteúdo",
+		       "curso"
       ],
 
       "caminho": "disciplinas.html"
     },
     {
       "titulo": "Estrutura curricular",
-      "palavraChave": ["disciplinas", "estrutura"],
-
+      "palavraChave": ["disciplinas",
+		       "estrutura",
+		       "grade",
+		       "grade curricular",
+		       "o que estudar",
+		       "conteúdo"
+      ],
       "caminho": "informacao/estrutura-curricular.html"
     },
     {
      "titulo": "Álgebra Linear",
      "palavraChave": [
          "fundamentos de matemática",
+	 "algebra",
+	 "linear",
          "algebra Linear",
          "fundamentos de matemática para computação",
          "matemática computacional",
@@ -42,6 +57,9 @@
     {
      "titulo": "Algoritmos e Estruturas de Dados 1",
      "palavraChave": [
+	 "algoritmos",
+	 "estrutura",
+	 "estrutura de dados",
          "fundamentos de matemática",
          "algoritmos e estruturas de dados 1",
          "fundamentos de matemática para computação",
@@ -56,6 +74,7 @@
          "estrutura de dados",
          "vetores",
          "pilhas",
+	 "ed1",
          "listas",
          "listas simples",
          "listas circulares",
@@ -68,6 +87,7 @@
      {
       "titulo": "Algoritmos e Estruturas de Dados 2",
       "palavraChave": [
+	  "ed2",
           "fundamentos de matemática",
 	  "algoritmos",
 	  "estrutura de dados",
@@ -157,6 +177,7 @@
      {
       "titulo": "Arquitetura de Software",
       "palavraChave": [
+	  "arquitetura",
           "arquitetura de software",
           "manutenção de software",
           "manutenção",
@@ -189,6 +210,8 @@
       "palavraChave": [
           "fundamentos da computação",
           "sgbd",
+	  "banco",
+	  "storage",
           "banco de dados",
           "database",
           "mysql",
@@ -201,7 +224,6 @@
           "diagrama de classes",
           "linguagem para banco de dados",
           "modelo entidade relacionamento",
-          "mer",
           "mapeamento er-relacional",
           "normalização",
           "oracle",
@@ -253,6 +275,8 @@
       "titulo": "Compiladores",
       "palavraChave": [
           "compiladores",
+	  "compila",
+	  "comp",
           "estrutura de compiladores",
           "análise léxica",
           "análise sintática",
@@ -322,7 +346,7 @@
           "software design",
           "qualidade de produto",
           "linguagens de programação",
-          " processos de construção",
+          "processos de construção",
           "gerência de construção",
           "controle de versão",
           "inspeção",
@@ -357,7 +381,8 @@
           "requisitos de Software",
           "design software",
           "qualidade de software",
-          "requisitos de software",
+          "requisito",
+	  "arquitetura",
           "arquitetura de software",
           "projeto detalhado",
           "projeto de software",
@@ -421,6 +446,8 @@
           "processo de software",
           "processo de engenharia",
           "processo",
+	  "engenharia",
+	  "sistema",
           "construção de software",
           "economia de engenharia de software",
           "fundamentos da engenharia",
@@ -467,6 +494,15 @@
           "processo de software",
           "processo de engenharia",
           "processo",
+	  "engenharia",
+	  "software",
+	  "melhores práticas",
+	  "boas práticas",
+	  "visão geral",
+	  "gerenciamento",
+	  "planejamento",
+	  "análise",
+	  "es",
           "requisitos de software",
           "design de software",
           "construção de software",
@@ -482,6 +518,14 @@
      {
       "titulo": "Experiência do Usuário de Software",
       "palavraChave": [
+	  "experiência",
+	  "ux",
+	  "experience user",
+	  "experiência de usuário",
+	  "telas",
+	  "layout",
+	  "facilidade",
+	  "boa aparência",
           "experiência do usuário de software",
           "manutenção de software","manutenção",
           "gerencia de configuração de software",
@@ -511,6 +555,7 @@
      {
       "titulo": "Fundamentos de Matemática para Computação",
       "palavraChave": [
+	  "fundamentos",
           "fundamentos de matemática",
           "fundamentos de matemática para computação",
           "matemática computacional",
@@ -524,7 +569,7 @@
           "relações de recorrência",
           "conjuntos",
           "combinatória",
-          "séries e sequÊncias",
+          "séries e sequências",
           "relações e funções",
           "representação númerica",
           "mudança de base numérica"
@@ -535,6 +580,12 @@
      {
       "titulo": "Gerência de Projeto de Software",
       "palavraChave": [
+	  "gerência",
+	  "manager",
+	  "gerenciar",
+	  "projeto",
+	  "project",
+	  "Software project management",
           "gerencia de configuração de Software",
           "gerencia de configuração",
           "configuração de software",
@@ -585,6 +636,9 @@
      {
       "titulo": "Governança e Gestão de Serviços de Software",
       "palavraChave": [
+	  "governança",
+	  "gestão",
+	  "nível de serviço",
           "manutenção de Software",
 	  "servicos",
           "manutenção",
@@ -659,6 +713,11 @@
      {
       "titulo": "Introdução à Língua Brasileira de Sinais",
       "palavraChave": [
+	  "lingua",
+	  "linguagem",
+	  "brasil",
+	  "brasileira",
+	  "libras"
           "prática profissional de engenharia de software",
           "requisitos de software",
           "interação homem computador",
@@ -676,6 +735,9 @@
      {
       "titulo": "Linguagens e Paradigmas de Programação",
       "palavraChave": [
+	  "linguagens",
+	  "paradigmas",
+	  "programação",
           "fundamentos de matemática",
           "fundamentos de matemática para Computação",
           "matemática computacional",
@@ -701,6 +763,9 @@
      {
       "titulo": "Linguagens Formais e Autômatos",
       "palavraChave": [
+	  "fundamentos",
+	  "formais",
+	  "automatos",
           "fundamentos de matemática",
           "fundamentos de matemática para Computação",
           "matemática computacional",
@@ -720,6 +785,8 @@
      {
       "titulo": "Lógica Matemática",
       "palavraChave": [
+	  "lógica",
+	  "mat",
           "fundamentos de matemática",
           "fundamentos de matemática para Computação",
           "matemática computacional",
@@ -748,16 +815,24 @@
     {
       "titulo": "Mercado e Economia de Software",
       "palavraChave": [
-          "Economia de Engenharia de Software",
-          "Mercado e Economia de Software",
-          "Modelos de negócio para software",
-          "leis,normas, impostos e legislação brasileira para mercado local",
-          "leis,normas, impostos e legislação brasileira para exportação de software",
+          "economia de engenharia de software",
+          "mercado e economia de software",
+          "modelos de negócio para software",
+	  "leis",
+	  "normas",
+	  "impostos",
+          "legislação brasileira para mercado local",
+          "legislação brasileira para exportação de software",
           "programas de incetivo à exportação",
           "programas de incetivo à produção de software",
           "características e exigências do mercado nacional",
           "características e exigências do mercado global",
           "Engenharia econômica",
+	  "econômia",
+	  "exportação",
+	  "dinheiro",
+	  "fincanceiro",
+	  "mercado",
           "demanda",
           "análise custo-benefício",
           "análise breakeven",
@@ -771,9 +846,15 @@
     {
       "titulo": "Metodologia e Experimentação em Engenharia de Software",
       "palavraChave": [
+	  "metodologia",
+	  "experimentação",
+	  "experimentos",
           "fundamentos de computação",
+	  "fundamentos",
           "fundamentos da programação de computadores",
           "fundamentos matemáticos",
+	  "matemático",
+	  "estatistico",
           "fundamentos da matemática",
           "modelos e métodos de engenharia de software",
           "processo de software",
@@ -793,6 +874,7 @@
           "fundamentos da engenharia de software experimental",
           "experimentação",
           "tipos de experimentação",
+	  "estudo",
           "estudos primários",
           "estudos secundários",
           "revisão e mapeamento sistemático da literatura"
@@ -802,6 +884,10 @@
     {
       "titulo": "Padrões de Arquitetura de Software",
       "palavraChave": [
+	  "padrões",
+	  "pattern",
+	  "arquitetura",
+	  "interface",
           "Manutenção de Software",
           "Manutenção",
           "Design de Software",
@@ -826,6 +912,10 @@
     {
       "titulo": "Pesquisa Operacional",
       "palavraChave": [
+	  "pesquisa",
+	  "search",
+	  "busca",
+	  "requisição",
           "fundamentos da engenharia",
           "fundamentos matemáticos",
           "fundamentos de computação",
@@ -835,6 +925,7 @@
           "resolução gráfica de pl",
           "algoritmo simplex",
           "dualidade",
+	  "operacional",
           "algoritmo simplex-dual",
           "pós-otimização",
           "análise de sensibilidade"
@@ -848,6 +939,11 @@
           "manutenção de software",
           "manutenção",
           "gerencia de configuração de software",
+	  "gcs",
+	  "configuração",
+	  "gerencia",
+	  "prática",
+	  "prática",
           "gerencia de configuração",
           "configuração de software",
           "controle de versão",
@@ -865,6 +961,8 @@
           "fundamentos da ngenharia",
           "projetos reais de engenharia de software",
           "projeto real",
+	  "projeto",
+	  "indústria",
           "indústria de software",
           "processos técnicos de engenharia de software",
           "processos de gestão de engenharia de software",
@@ -875,6 +973,9 @@
     {
       "titulo": "Probabilidade e Estatística A",
       "palavraChave": [
+	  "probabilidade",
+	  "matematica",
+	  "estatítisca",
           "fundamentos de matemática",
           "fundamentos de matemática para computação",
           "matemática computacional",
@@ -921,6 +1022,7 @@
         "Gerencia de Configuração",
         "configuração de software",
         "controle de versão",
+	"qualidade",
         "qualidade de software",
         "gerencia de engenharia de software",
         "gestão de engenharia de software",
@@ -1016,6 +1118,7 @@
           "controle e tratamento de eventos",
           "persistÊncia de dados",
           "distribuição",
+	  "projeto",
           "tratamento de erro e exceção",
           "tolêrancia a falhas",
           "interação e apresentação",
@@ -1060,6 +1163,7 @@
     {
       "titulo": "Requisitos de Software",
       "palavraChave": [
+	  "req",
 	  "requisitos",
 	  "necessidades",
 	  "requisitos funcionais",
