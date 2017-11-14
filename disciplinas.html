@@ -78,12 +78,11 @@
 	      </div>
 	  </div>
     <div class="section section-subjects">
-      <div class="container">
-        <div class="row" id="subjects">
+      <div class="container"id="subjects">
 					<div class="col-md-12 text-center">
 						<img class="" style="width: 35%; max-width: 220px;" src="assets/img/loading.gif"/>
 					</div>
-        </div>
+
       </div>
     </div>
 
@@ -188,39 +187,36 @@
 			}, 2000);
 		} else {
 			retornoBusca = setTimeout(function(){
-				keyword = keyword.toLowerCase();
 				$.getJSON("disciplinas.json", function(data) {
-					topicos = data.topicos;
-					$.each(topicos, function(i, item) {
-						palavrasChave = topicos[i].palavraChave;
-						$.each(palavrasChave, function(j, item) {
-							targetWord = palavrasChave[j];
-							targetWord = targetWord.toLowerCase();
-							targetWordLength = targetWord.length;
-							match = levenshtein_distance_a(keyword, targetWord) / targetWordLength;
-							if (match <= 0.65 && isReturned == false) {
-								isReturned = true;
-								response += '<div class="col-md-12 mb-4 search-result">';
-								response += '<a href="' + topicos[i].caminho + '">';
-								response += '<h2>' + topicos[i].titulo + '</h2>';
-								response += '</a>';
-								response += '</div>';
-								console.log(response);
-							}
-						});
-
-						isReturned = false;
+					subjects = data;
+					var period = 1;
+					response += '<h2 class="title">1º Período</h2>'
+					response += '<div class="row" id="1-period">';
+					$.each(subjects, function(i, item) {
+						if (subjects[i].period != period) {
+							response += '</div>';
+							response += '<h2 class="title">' + subjects[i].period + 'º Período</h2>'
+							response += '<div class="row" id="' + subjects[i].period + '-period">';
+							period = subjects[i].period;
+						}
+						response += '<div class="col-md-6">';
+						response += '<div class="card">';
+						response += '<div class="card-body">';
+						response += '<h4 class="card-title">' + subjects[i].title + '</h4>';
+						response +=	'<p class="card-text">' + subjects[i].period + 'º período</p>';
+						response += '<a href="disciplinas.html?disciplina=' + subjects[i].alias + '" class="btn btn-primary">Ver mais</a>';
+						response += '</div></div></div>';
 					});
 
 					if (response != "") {
-						document.getElementById('resultado').innerHTML = response;
+						document.getElementById('subjects').innerHTML = response;
 					} else {
 						response += '<div class="col-md-12">';
 						response += '<div class="alert alert-info" role="alert">';
 						response += 'Nenhum registro encontrado :(';
 						response += '</div>'
 						response += '</div>';
-						document.getElementById('resultado').innerHTML = response;
+						document.getElementById('subjects').innerHTML = response;
 					}
 				});
 			}, 2000);
