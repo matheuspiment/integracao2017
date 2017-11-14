@@ -3,19 +3,18 @@
     {
       "titulo": "Home",
       "palavraChave": ["home"],
-      "descricao": "Uma  descrição",
       "caminho": "index.html"
     },
     {
       "titulo": "Disciplinas",
       "palavraChave": ["disciplinas", "matérias"],
-      "descricao": "Uma grande descrição",
+    
       "caminho": "disciplinas.html"
     },
     {
       "titulo": "Estrutura curricular",
       "palavraChave": ["disciplinas", "estrutura"],
-      "descricao": "Uma grande descrição",
+      
       "caminho": "disciplinas.html"
     },
     {
@@ -36,7 +35,6 @@
          "autovetores",
          "espaços com produto interno"
      ],
-     "descricao": "álgebra linear é um ramo da matemática que surgiu do estudo detalhado de sistemas de equações lineares, sejam elas algébricas ou diferenciais.",
      "caminho": "disciplinas.html"
     },
     {
@@ -63,7 +61,6 @@
          "listas simplesmente encadeadas",
          "listas duplamente encadeadas"
      ],
-     "descricao": "Uma estrutura de dados é um modo particular de armazenamento e organização de dados em um computador de modo que possam ser usados eficientemente, facilitando sua busca e modificação.Nesse contexto onde algoritmos manipulam dados que entra essa matéria.",
      "caminho": "disciplinas.html"
      },
      {
@@ -91,7 +88,7 @@
           "tratamento de colisões",
           "grafos"
       ],
-      "descricao": "",
+      
       "caminho": ""
      },
      {
@@ -117,7 +114,7 @@
           "algoritmos gulosos",
           "NP-Completude"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -147,7 +144,6 @@
           "arquitetura paralela",
           "métricas de desempenho"
       ],
-      "descricao": "A Arquitetura de Computadores é o projeto conceitual e fundamental da estrutura operacional de um sistema computacional. Ela é o estudo dos requisitos necessários para que um computador funcione e de como organizar os diversos componentes para obter melhores desempenhos.",
       "caminho": ""
      },
      {
@@ -177,7 +173,6 @@
           "técnicas para sastisfazer requisitos não funcionais",
           "criação de arquitetura de software"
       ],
-      "descricao": "Arquitetura de Software abrange à definição dos componentes de software, suas propriedades externas, e seus relacionamentos com outros softwares. O termo também se refere à documentação da arquitetura de software do sistema",
       "caminho": ""
       },
       {
@@ -209,7 +204,7 @@
           "banco de dados paralelos e distribuídos",
           "análise e otimização de consultas"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -239,7 +234,7 @@
         "Funções Hiperbólicas",
         "Trigonométrica"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -253,7 +248,7 @@
           "representação intermediária do programa-font",
           "geração"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -283,7 +278,7 @@
           "incubadoras",
           "startup"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -336,7 +331,7 @@
           "detecção e remoção de defeitos",
           "integração contínua"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -372,7 +367,7 @@
           "medidas de qualidade",
           "ferramentas para qualidade de software"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -394,7 +389,7 @@
           "especificidades de domínios de desenvolvimento",
           "desenvolvimento de software em um domínio"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -440,7 +435,7 @@
           "qualidade de processos",
           "gestão técnica"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -468,7 +463,7 @@
           "prática profissional de engenharia de software",
           "economia de engenharia de software"
         ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -497,7 +492,7 @@
           "implementação de interfaces",
           "modelagem de validação de experiência"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -521,7 +516,7 @@
           "representação númerica",
           "mudança de base numérica"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -570,7 +565,7 @@
           "aquisição",
           "integração"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -604,7 +599,7 @@
           "manutenção de software de serviço",
           "gerência de processos de negócio"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -633,7 +628,7 @@
           "métodos de avaliação de interfaces",
           "ferramentas de desenvolvimento de interfaces humano-computador"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -650,7 +645,7 @@
           "lingua de sinais",
           "surdo"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -675,7 +670,7 @@
           "estruturas de controle",
           "exmpressões e subprogramas"
      ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -694,7 +689,7 @@
           "não determinísticos",
           "hierarquia de Chomsky"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
      {
@@ -722,7 +717,7 @@
           "indução estrutural",
           "Linguagem para experimentação"
       ],
-      "descricao": "",
+       
       "caminho": ""
      },
     {
@@ -745,7 +740,7 @@
           "avaliação de alternativas",
           "economia aplicada ao desenvolvimento de software"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -777,7 +772,7 @@
           "estudos secundários",
           "revisão e mapeamento sistemático da literatura"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -801,7 +796,7 @@
           "iso/iec/ieee 42010:2011",
           "análise de arquitetura de sotware"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -820,7 +815,7 @@
           "pós-otimização",
           "análise de sensibilidade"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -850,7 +845,7 @@
           "processos técnicos de engenharia de software",
           "processos de gestão de engenharia de software",
           "fábrica de software"],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -890,7 +885,7 @@
           "correlação linear",
           "regressão linear simples"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -916,7 +911,7 @@
         "projeto/design",
         "auditoria de software"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -949,7 +944,7 @@
         "processos de reutilização",
         "implmentação de processo"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -978,7 +973,7 @@
           "padrões de comportamento",
           "template method"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1009,7 +1004,7 @@
           "métodos e estratégias de design de software",
           "ferramentas de design de software"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1035,7 +1030,7 @@
           "ethernet",
           "meio físico"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1060,7 +1055,7 @@
           "levantamento de requisitos",
           "gerencia de requisitos"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1080,7 +1075,7 @@
           "computadores inter conectados",
           "middleware"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1104,7 +1099,7 @@
           "sistemas operacionais"
 
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1135,7 +1130,7 @@
           "thread",
           "memória compartilhada"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1159,7 +1154,7 @@
           "refatoração de banco de dados",
           "integração de banco de dados"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1186,7 +1181,7 @@
           "desenvolvimento de código para smartphones",
           "receber informações de sistema de info"
       ],
-      "descricao": "",
+       
       "caminho": ""
     },
     {
@@ -1208,7 +1203,7 @@
           "boas práticas",
           "Qualidade de Software"
        ],
-      "descricao": "",
+       
       "caminho": ""
     }
   ]
