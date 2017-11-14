@@ -250,3 +250,8 @@
 	margin-top: 42px;
 	margin-bottom: 32px;
 }
+
+.section-search-result,
+.section-subjects {
+	min-height: 40vh;
+}
