@@ -36,7 +36,7 @@
 	    <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">
+						<a class="nav-link" href="#">
 							<p>Home</p>
 						</a>
 					</li>
@@ -51,9 +51,15 @@
 						</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" rel="tooltip" title="Ir para a página de busca" data-placement="bottom" href="search.html">
+							<i class="fa fa-search"></i>
+							<p class="d-lg-none d-xl-none">Página de Busca</p>
+						</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" rel="tooltip" title="Visualizar código fonte" data-placement="bottom" href="https://github.com/matheuspiment/integracao2017" target="_blank">
 							<i class="fa fa-github"></i>
-							<p class="d-lg-none d-xl-none">Código-fonte</p>
+							<p class="d-lg-none d-xl-none">Código-Fonte</p>
 						</a>
 					</li>
 				</ul>
@@ -63,23 +69,17 @@
 	<!-- End Navbar -->
 	<div class="wrapper">
 	  <div class="page-header page-header-small">
-	      <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/sabri-tuzcu-331970.jpg');">
+	      <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/ilya-pavlov-87438.jpg');">
 	      </div>
 	      <div class="container">
 	          <div class="content-center">
-	              <h1 class="title">Buscar</h1>
-								<form class="form-inline search-form my-2 my-lg-0" action="search.html" method="get">
-									<input class="form-control mr-2 w-75" name="pesquisa" type="text" placeholder="Buscar" aria-label="Search" required>
-									<button class="btn btn-warning btn-icon btn-icon-mini btn-round my-2 my-sm-0" type="submit">
-										<i class="fa fa-search"></i>
-									</button>
-								</form>
+	              <h1 class="title">Bacharelado em Engenharia de Software</h1>
 	          </div>
 	      </div>
 	  </div>
-    <div class="section section-search-result">
+    <div class="section section-subjects">
       <div class="container">
-        <div class="row" id="resultado">
+        <div class="row" id="subjects">
 					<div class="col-md-12 text-center">
 						<img class="" style="width: 35%; max-width: 220px;" src="assets/img/loading.gif"/>
 					</div>
@@ -151,7 +151,7 @@
 		if (typeof keyword != "undefined") {
 			retornoBusca = setTimeout(function(){
 				keyword = keyword.toLowerCase();
-				$.getJSON("dicionario.json", function(data) {
+				$.getJSON("../dicionario.json", function(data) {
 					topicos = data.topicos;
 					$.each(topicos, function(i, item) {
 						palavrasChave = topicos[i].palavraChave;
@@ -187,14 +187,44 @@
 				});
 			}, 2000);
 		} else {
-			response += '<div class="col-md-12">';
-			response += '<div class="alert alert-info" role="alert">';
-			response += 'Digite no campo de busca para pesquisar ;)';
-			response += '</div>'
-			response += '</div>';
-			document.getElementById('resultado').innerHTML = response;
-		}
+			retornoBusca = setTimeout(function(){
+				keyword = keyword.toLowerCase();
+				$.getJSON("disciplinas.json", function(data) {
+					topicos = data.topicos;
+					$.each(topicos, function(i, item) {
+						palavrasChave = topicos[i].palavraChave;
+						$.each(palavrasChave, function(j, item) {
+							targetWord = palavrasChave[j];
+							targetWord = targetWord.toLowerCase();
+							targetWordLength = targetWord.length;
+							match = levenshtein_distance_a(keyword, targetWord) / targetWordLength;
+							if (match <= 0.65 && isReturned == false) {
+								isReturned = true;
+								response += '<div class="col-md-12 mb-4 search-result">';
+								response += '<a href="' + topicos[i].caminho + '">';
+								response += '<h2>' + topicos[i].titulo + '</h2>';
+								response += '</a>';
+								response += '</div>';
+								console.log(response);
+							}
+						});
 
+						isReturned = false;
+					});
+
+					if (response != "") {
+						document.getElementById('resultado').innerHTML = response;
+					} else {
+						response += '<div class="col-md-12">';
+						response += '<div class="alert alert-info" role="alert">';
+						response += 'Nenhum registro encontrado :(';
+						response += '</div>'
+						response += '</div>';
+						document.getElementById('resultado').innerHTML = response;
+					}
+				});
+			}, 2000);
+		}
 	});
 </script>
 </html>
