@@ -65,7 +65,7 @@
     var comprimento;
     var grauReferencia;
 
-    $.getJSON("https://raw.githubusercontent.com/matheuspiment/integracao2017/master/dicionario.json", function(data) {
+    $.getJSON("../dicionario.json", function(data) {
       topicos = data.topicos;
 
       for (i = 0; i < topicos.length; i++) {
