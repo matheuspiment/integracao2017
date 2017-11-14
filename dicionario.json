@@ -7,7 +7,9 @@
     },
     {
       "titulo": "Disciplinas",
-      "palavraChave": ["disciplinas", "matérias"],
+      "palavraChave": ["disciplinas",
+		       "matérias"
+      ],
 
       "caminho": "disciplinas.html"
     },
@@ -1058,6 +1060,11 @@
     {
       "titulo": "Requisitos de Software",
       "palavraChave": [
+	  "requisitos",
+	  "necessidades",
+	  "requisitos funcionais",
+	  "requisitos qualidade",
+	  "requisitos não funcionais",
           "gerencia de engenharia de software",
           "gestão de engenharia de software",
           "engenharia de requisitos",
@@ -1209,6 +1216,7 @@
     {
       "titulo": "testes de software",
       "palavraChave": [
+	   "teste",
           "testes de software",
           "requisitos de software",
           "necessidades",
