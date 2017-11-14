@@ -26,6 +26,14 @@
 	justify-content: center;
 }
 
+.search-result a:hover {
+  text-decoration: none;
+}
+
+.search-result a {
+  color: #2c2c2c;
+}
+
 .section-presentation .description{
 	font-weight: 400;
 }
