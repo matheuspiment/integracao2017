@@ -145,7 +145,7 @@
   width: 85%;
 }
 
-.navbar.fixed-top {
+.info-page .navbar.fixed-top {
 	position: relative;
 	margin-bottom: 0px;
 }
@@ -195,7 +195,7 @@
 
 
 @media (min-width: 768px) {
-	.navbar.fixed-top {
+	.info-page .navbar.fixed-top {
 		position: fixed;
 	}
 
