@@ -562,7 +562,7 @@
           "projeto de descontinuação",
           "ciclo de vida preditivo",
           "ciclo de vida adaptativo",
-	  "ciclo de vida iterativo", 
+	  "ciclo de vida iterativo",
           "processos empíricos",
           "métodos ágeis",
           "modelos de qualidade",
@@ -649,9 +649,9 @@
           "retroalimentação",
           "dispositivos de interação",
           "métodos de avaliação de interfaces",
-          "ferramentas de desenvolvimento de interfaces humano-computador"
-	  "ferramentas de interfaces humano-computador"
-		  
+          "ferramentas de desenvolvimento de interfaces humano-computador",
+	         "ferramentas de interfaces humano-computador"
+
       ],
 
        "caminho": "disciplinas.html?disciplina=interacao-humano-computador"
