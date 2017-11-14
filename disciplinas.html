@@ -149,7 +149,7 @@
 
 		if (typeof subjectAlias != "undefined") {
 			retornoBusca = setTimeout(function(){
-				$.getJSON("disciplinas.json", function(data) {
+				$.getJSON("data/disciplinas.json", function(data) {
 					subjects = data;
 					$.each(subjects, function(i, item) {
 						if (subjects[i].alias == subjectAlias) {
