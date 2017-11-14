@@ -36,13 +36,13 @@
 	    <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="index.html">
 							<p>Home</p>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#pablo">
-							<p>Matriz Curricular</p>
+						<a class="nav-link" href="disciplinas.html">
+							<p>Disciplinas</p>
 						</a>
 					</li>
 					<li class="nav-item">
@@ -153,7 +153,7 @@
 					subjects = data;
 					$.each(subjects, function(i, item) {
 						if (subjects[i].alias == subjectAlias) {
-							response += '<h1 class="title">' + subjects[i].title + '</h1>';
+							response += '<h2 class="title">' + subjects[i].title + '</h2>';
 							response += '<h2>' + subjects[i].period + 'º Período</h2>';
 							response += '<div class="text-left">';
 							response += '<h3 class="title"> Carga Horária:</h3>';
@@ -170,7 +170,69 @@
 							} else {
 								response += '<h4>Optativa</h4>';
 							}
-							response += '<h3><strong>Unidade Responsável:</strong> ' + subjects[i].unit + '</h3>';
+							response += '<h3 class="title">Unidade Responsável:</h3>';
+							response += '<h4>' + subjects[i].unit + '</h4>';
+							response += '<h3 class="title">Pré-requisitos:</h3>';
+							var hasPrerequisite = false;
+							$.each(subjects[i].prerequisite, function(j, item) {
+								if (subjects[i].prerequisite[j] != "") {
+									$.each(subjects, function(k, item) {
+										if (subjects[k].id == subjects[i].prerequisite[j]) {
+											response += '<a href="disciplinas.html?disciplina=' + subjects[k].alias + '">';
+											response += '<h4>' + subjects[k].title + '</h4>';
+											response += '</a>';
+										}
+									});
+									hasPrerequisite = true;
+								}
+							});
+
+							if (hasPrerequisite == false) {
+								response += '<h4>Nenhum pré-requisito</h4>';
+							}
+
+							response += '<h3 class="title">Ementa:</h3>';
+							response += '<ol>';
+							$.each(subjects[i].menu, function(l, item) {
+								response += '<li>' + subjects[i].menu[l] + '</li>';
+							});
+							response += '</ol>';
+
+							response += '<h3 class="title">Bibliografia Básica:</h3>';
+							response += '<ul>';
+							$.each(subjects[i].bibliography.basic, function(m, item) {
+								response += '<li>' + subjects[i].bibliography.basic[m] + '</li>';
+							});
+							response += '</ul>';
+
+							response += '<h3 class="title">Bibliografia Complementar:</h3>';
+							response += '<ul>';
+							$.each(subjects[i].bibliography.complementary, function(n, item) {
+								response += '<li>' + subjects[i].bibliography.complementary[n] + '</li>';
+							});
+							response += '</ul>';
+
+							response += '<h3 class="title">Condições Mínimas (estar apto a):</h3>';
+							var hasCapable = false;
+							response += '<ul>';
+							$.each(subjects[i].isCapable, function(o, item) {
+								if (subjects[i].isCapable[o] != "") {
+									response += '<li>' + subjects[i].isCapable[o] + '</li>';
+									hasCapable = true;
+								}
+							});
+							response += '</ul>';
+
+							if (hasCapable == false) {
+								response += '<h4>Nenhuma condição mínima</h4>';
+							}
+
+							if (subjects[i].id == 44) {
+								response += '<h3 class="title">Informações Adcionais:</h3>';
+								$.each(subjects[i].info, function(p, item) {
+									response += '<p>' + subjects[i].info[p] + '</p>';
+								});
+							}
 							response += '</div>';
 
 						}
