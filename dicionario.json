@@ -185,7 +185,7 @@
       "palavraChave": [
           "fundamentos da computação",
           "sgbd",
-          "banco de dados"
+          "banco de dados",
           "database",
           "mysql",
           "postgresql",
@@ -214,7 +214,31 @@
      },
      {
       "titulo": "Cálculo 1 A",
-      "palavraChave": ["Fundamentos de Matemática", "Cálculo 1 A" "Fundamentos de Matemática para Computação", "Matemática Computacional", "Matemática", "Ciências Exatas", "Materias de Exatas", "números reais", "funções reais", "funções reais de uma variável real e suas inversas", "cônicos", "limite", "continuidade", "derivadas e aplicações", "polinômio de Taylor", "Integrais", "Técnicas de integração", "Integrais impróprias", "Análise gráfica de limite", "regra da cadeia", "integral", "área entre duas Curvas", "Funções Contínuas", "Diferenciação Implícita", "Derivadas Superiores", "Funções Hiperbólicas", "Trigonométrica"],
+      "palavraChave": [
+        "Fundamentos de Matemática",
+        "Cálculo 1 A",
+        "Fundamentos de Matemática para Computação",
+        "Matemática Computacional",
+        "Matemática",
+        "Ciências Exatas",
+        "Materias de Exatas",
+        "números reais",
+        "funções reais",
+        "funções reais de uma variável real e suas inversas",
+        "cônicos", "limite",
+        "continuidade",
+        "derivadas e aplicações",
+        "polinômio de Taylor",
+        "Integrais",
+        "Técnicas de integração",
+        "Integrais impróprias",
+        "Análise gráfica de limite",
+        "regra da cadeia", "integral",
+        "área entre duas Curvas", "Funções Contínuas",
+        "Diferenciação Implícita", "Derivadas Superiores",
+        "Funções Hiperbólicas",
+        "Trigonométrica"
+      ],
       "descricao": "",
       "caminho": ""
      },
@@ -284,7 +308,7 @@
           "construção de software",
           "construção",
           "minimizar complexidade",
-          "antecipação de mudança", 
+          "antecipação de mudança",
           "verificação ",
           "projeto de software",
           "software design",
@@ -350,7 +374,7 @@
       ],
       "descricao": "",
       "caminho": ""
-     }, 
+     },
      {
       "titulo": "Domínios de Software",
       "palavraChave": [
@@ -358,7 +382,7 @@
           "gerencia de configuração de software",
           "gerencia de configuração",
           "configuração de software",
-          "controle de versão", 
+          "controle de versão",
           "gerencia de engenharia de software",
           "gestão de engenharia de software",
           "processo de engenharia de software",
@@ -492,7 +516,7 @@
           "relações de recorrência",
           "conjuntos",
           "combinatória",
-          "séries e sequÊncias", 
+          "séries e sequÊncias",
           "relações e funções",
           "representação númerica",
           "mudança de base numérica"
@@ -628,7 +652,7 @@
       ],
       "descricao": "",
       "caminho": ""
-     },                  
+     },
      {
       "titulo": "Linguagens e Paradigmas de Programação",
       "palavraChave": [
@@ -653,7 +677,7 @@
      ],
       "descricao": "",
       "caminho": ""
-     },   
+     },
      {
       "titulo": "Linguagens Formais e Autômatos",
       "palavraChave": [
@@ -718,13 +742,13 @@
           "análise custo-benefício",
           "análise breakeven",
           "retorno de investimento",
-          "avaliação de alternativas", 
+          "avaliação de alternativas",
           "economia aplicada ao desenvolvimento de software"
       ],
       "descricao": "",
       "caminho": ""
     },
-    { 
+    {
       "titulo": "Metodologia e Experimentação em Engenharia de Software",
       "palavraChave": [
           "fundamentos de computação",
@@ -889,7 +913,7 @@
         "garantia do processo",
         "verificação e validação",
         "requisito",
-        "projeto/design"
+        "projeto/design",
         "auditoria de software"
       ],
       "descricao": "",
@@ -915,7 +939,7 @@
         "garantia do processo",
         "verificação e validação",
         "requisito",
-        "projeto/design"
+        "projeto/design",
         "auditoria de software",
         "processo",
         "método",
@@ -975,7 +999,7 @@
           "distribuição",
           "tratamento de erro e exceção",
           "tolêrancia a falhas",
-          "interação e apresentação"
+          "interação e apresentação",
           "segurança",
           "estrutura de software",
           "arquitetura de software",
@@ -983,7 +1007,7 @@
           "análise de qualidade",
           "avaliação de design de softwa",
           "métodos e estratégias de design de software",
-          "ferramentas de design de software"      
+          "ferramentas de design de software"
       ],
       "descricao": "",
       "caminho": ""
@@ -1017,7 +1041,7 @@
     {
       "título": "Requisitos de Software",
       "palavraChave": [
-          "gerencia de engenharia de software", 
+          "gerencia de engenharia de software",
           "gestão de engenharia de software",
           "engenharia de requisitos",
           "requisitos de usuário",
@@ -1051,7 +1075,7 @@
           "arquiteturas orientadas a serviços",
           "serviços web",
           "computação móvel",
-          "computação ubíqua"
+          "computação ubíqua",
           "conjuntos de computadores",
           "computadores inter conectados",
           "middleware"
@@ -1078,7 +1102,7 @@
           "gerencia de dispositivos de entrada",
           "gerencia de dispositivos de saída",
           "sistemas operacionais"
-          
+
       ],
       "descricao": "",
       "caminho": ""
@@ -1122,7 +1146,7 @@
           "banco de dados",
           "sistema gerenciador de banco de dados",
           "sgbd",
-          "arquivos em formato texto", 
+          "arquivos em formato texto",
           "arquivos em formato binário",
           "serialização de objetos",
           "xml",
@@ -1168,7 +1192,7 @@
     {
       "título": "testes de software",
       "palavraChave": [
-          "testes de software"
+          "testes de software",
           "requisitos de software",
           "necessidades",
           "engenharia de requisitos",
@@ -1182,7 +1206,7 @@
           "controle de qualidade",
           "Modelos e Métodos de Engenharia de Software",
           "boas práticas",
-          "Qualidade de Software
+          "Qualidade de Software"
        ],
       "descricao": "",
       "caminho": ""
