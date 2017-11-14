@@ -35,7 +35,7 @@
          "autovetores",
          "espaços com produto interno"
      ],
-     "caminho": "disciplinas.html"
+     "caminho": "disciplinas.html?disciplina=algebra-linear"
     },
     {
      "titulo": "Algoritmos e Estruturas de Dados 1",
@@ -61,7 +61,7 @@
          "listas simplesmente encadeadas",
          "listas duplamente encadeadas"
      ],
-     "caminho": "disciplinas.html"
+     "caminho": "disciplinas.html?disciplina=algoritmos-e-estruturas-de-dados-1"
      },
      {
       "titulo": "Algoritmos e Estruturas de Dados 2",
@@ -89,7 +89,7 @@
           "grafos"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=algoritmos-e-estruturas-de-dados-2"
      },
      {
       "titulo": "Análise e Projeto de Algoritmos",
@@ -115,7 +115,7 @@
           "NP-Completude"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=analise-e-projeto-de-algoritmos"
      },
      {
       "titulo": "Arquitetura de Computadores",
@@ -144,7 +144,7 @@
           "arquitetura paralela",
           "métricas de desempenho"
       ],
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=arquitetura-de-computadores"
      },
      {
       "titulo": "Arquitetura de Software",
@@ -173,7 +173,7 @@
           "técnicas para sastisfazer requisitos não funcionais",
           "criação de arquitetura de software"
       ],
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=arquitetura-de-software"
       },
       {
       "titulo": "Banco de Dados",
@@ -205,13 +205,13 @@
           "análise e otimização de consultas"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=bancodedados"
      },
      {
       "titulo": "Cálculo 1 A",
       "palavraChave": [
         "Fundamentos de Matemática",
-        "Cálculo 1 A",
+        "cálculo 1 a",
         "Fundamentos de Matemática para Computação",
         "Matemática Computacional",
         "Matemática",
@@ -235,7 +235,7 @@
         "Trigonométrica"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=calculo-1-a"
      },
      {
       "titulo": "Compiladores",
@@ -249,7 +249,7 @@
           "geração"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=compiladores"
      },
      {
       "titulo": "Computação e Sociedade",
@@ -279,7 +279,7 @@
           "startup"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=computacao-e-sociedade"
      },
      {
       "titulo": "Construção de Software",
@@ -332,7 +332,7 @@
           "integração contínua"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=construcao-de-software"
      },
      {
       "titulo": "Design de Software",
@@ -368,7 +368,7 @@
           "ferramentas para qualidade de software"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=design-de-software"
      },
      {
       "titulo": "Domínios de Software",
@@ -390,7 +390,7 @@
           "desenvolvimento de software em um domínio"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=dominios-de-software"
      },
      {
       "titulo": "Engenharia de Sistemas",
@@ -436,7 +436,7 @@
           "gestão técnica"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=engenharia-de-sistemas"
      },
      {
       "titulo": "Engenharia de Software",
@@ -464,7 +464,7 @@
           "economia de engenharia de software"
         ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=engenharia-de-software"
      },
      {
       "titulo": "Experiência do Usuário de Software",
@@ -493,7 +493,7 @@
           "modelagem de validação de experiência"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=experiencia-do-usuario-de-software"
      },
      {
       "titulo": "Fundamentos de Matemática para Computação",
@@ -517,7 +517,7 @@
           "mudança de base numérica"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=fundamentos-de-matematica-para-computacao"
      },
      {
       "titulo": "Gerência de Projeto de Software",
@@ -566,7 +566,7 @@
           "integração"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=gerencia-de-projeto-de-software"
      },
      {
       "titulo": "Governança e Gestão de Serviços de Software",
@@ -600,7 +600,7 @@
           "gerência de processos de negócio"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=governanca-e-gestao-de-servicos-de-software"
      },
      {
       "titulo": "Interação Humano-Computador",
@@ -629,7 +629,7 @@
           "ferramentas de desenvolvimento de interfaces humano-computador"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=interacao-humano-computador"
      },
      {
       "titulo": "Introdução à Língua Brasileira de Sinais",
@@ -646,7 +646,7 @@
           "surdo"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=introducao-a-lingua-brasileira-de-sinais"
      },
      {
       "titulo": "Linguagens e Paradigmas de Programação",
@@ -671,7 +671,7 @@
           "exmpressões e subprogramas"
      ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=linguagens-e-paradigmas-de-programacao"
      },
      {
       "titulo": "Linguagens Formais e Autômatos",
@@ -690,7 +690,7 @@
           "hierarquia de Chomsky"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=linguagens-formais-e-automatos"
      },
      {
       "titulo": "Lógica Matemática",
@@ -718,7 +718,7 @@
           "Linguagem para experimentação"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=logica-matematica"
      },
     {
       "titulo": "Mercado e Economia de Software",
@@ -741,7 +741,7 @@
           "economia aplicada ao desenvolvimento de software"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=mercado-e-economia-de-software"
     },
     {
       "titulo": "Metodologia e Experimentação em Engenharia de Software",
@@ -772,7 +772,7 @@
           "estudos secundários",
           "revisão e mapeamento sistemático da literatura"
       ],
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=metodologia-e-experimentacao-em-engenharia-de-software"
     },
     {
       "titulo": "Padrões de Arquitetura de Software",
@@ -796,7 +796,7 @@
           "análise de arquitetura de sotware"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=padroes-de-arquitetura-de-software"
     },
     {
       "titulo": "Pesquisa Operacional",
@@ -815,7 +815,7 @@
           "análise de sensibilidade"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=pesquisa-operacional"
     },
     {
       "titulo": "Prática em Engenharia de Software",
@@ -845,7 +845,7 @@
           "processos de gestão de engenharia de software",
           "fábrica de software"],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=pratica-em-engenharia-de-software"
     },
     {
       "titulo": "Probabilidade e Estatística A",
@@ -885,7 +885,7 @@
           "regressão linear simples"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=probabilidade-e-estatistica-a"
     },
     {
       "titulo": "Processos de Qualidade de Software",
@@ -911,7 +911,7 @@
         "auditoria de software"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=processos-de-qualidade-de-software"
     },
     {
       "titulo": "Processos de Software",
@@ -944,7 +944,7 @@
         "implmentação de processo"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=processos-de-software"
     },
     {
       "titulo": "Programação Orientada a Objetos",
@@ -973,7 +973,7 @@
           "template method"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=programacao-orientada-a-objetos"
     },
     {
       "titulo": "Projeto de Software",
@@ -1004,7 +1004,7 @@
           "ferramentas de design de software"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=projeto-de-software"
     },
     {
       "titulo": "Redes de Computadores",
@@ -1030,7 +1030,7 @@
           "meio físico"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=redes-de-computadores"
     },
     {
       "titulo": "Requisitos de Software",
@@ -1055,7 +1055,7 @@
           "gerencia de requisitos"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=requisitos-de-software"
     },
     {
       "titulo": "Sistemas Distribuídos",
@@ -1075,7 +1075,7 @@
           "middleware"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=sistemas-distribuidos"
     },
     {
       "titulo": "Sistemas Operacionais",
@@ -1099,7 +1099,7 @@
 
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=sistemas-operacionas"
     },
     {
       "titulo": "Software Concorrente e Distribuído",
@@ -1130,7 +1130,7 @@
           "memória compartilhada"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=software-concorrente-e-distribuido"
     },
     {
       "titulo": "Software para Persistência de Dados",
@@ -1154,7 +1154,7 @@
           "integração de banco de dados"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=software-para-persistencia-de-dados"
     },
     {
       "titulo": "Software para Sistemas Ubíquos",
@@ -1181,7 +1181,7 @@
           "receber informações de sistema de info"
       ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=software-para-sistemas-ubiquos"
     },
     {
       "titulo": "testes de software",
@@ -1203,7 +1203,7 @@
           "Qualidade de Software"
        ],
 
-      "caminho": ""
+       "caminho": "disciplinas.html?disciplina=testes-de-software"
     }
   ]
 }
