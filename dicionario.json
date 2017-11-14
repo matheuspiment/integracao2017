@@ -15,7 +15,7 @@
       "titulo": "Estrutura curricular",
       "palavraChave": ["disciplinas", "estrutura"],
 
-      "caminho": "disciplinas.html"
+      "caminho": "informacao/estrutura-curricular.html"
     },
     {
      "titulo": "Álgebra Linear",
@@ -67,6 +67,8 @@
       "titulo": "Algoritmos e Estruturas de Dados 2",
       "palavraChave": [
           "fundamentos de matemática",
+		  "algoritmos",
+		  "estrutura de dados",
           "algoritmos e estruturas de dados 2",
           "fundamentos de matemática para computação",
           "matemática Computacional",
@@ -95,6 +97,8 @@
       "titulo": "Análise e Projeto de Algoritmos",
       "palavraChave": [
           "fundamentos de matemática",
+		  "projeto de algoritmos",
+		  "análise",
           "análise e projeto de algoritmos",
           "fundamentos de matemática para computação",
           "matemática computacional",
@@ -121,12 +125,14 @@
       "titulo": "Arquitetura de Computadores",
       "palavraChave": [
           "arquitetura de computadores",
+		  "arquiteturas",
           "fundamentos da computação",
           "visão geral dos computadores modernos",
           "evolução da arquitetura dos computadores",
           "arquitetura  de computadores",
           "computadores",
           "memória",
+		  "design",
           "representação de dados e instruções",
           "processador",
           "ciclo de instrução",
@@ -152,6 +158,7 @@
           "arquitetura de software",
           "manutenção de software",
           "manutenção",
+		  "design",
           "economia de engenharia de software",
           "modelos e métodos de engenharia de software",
           "teste de Software",
@@ -205,34 +212,37 @@
           "análise e otimização de consultas"
       ],
 
-       "caminho": "disciplinas.html?disciplina=bancodedados"
+       "caminho": "disciplinas.html?disciplina=banco-de-dados"
      },
      {
       "titulo": "Cálculo 1 A",
       "palavraChave": [
         "Fundamentos de Matemática",
         "cálculo 1 a",
-        "Fundamentos de Matemática para Computação",
-        "Matemática Computacional",
-        "Matemática",
-        "Ciências Exatas",
-        "Materias de Exatas",
+		"calculo",
+        "fundamentos de matemática para computação",
+        "matemática Computacional",
+        "matemática",
+        "ciências exatas",
+        "materias de exatas",
         "números reais",
         "funções reais",
         "funções reais de uma variável real e suas inversas",
         "cônicos", "limite",
         "continuidade",
         "derivadas e aplicações",
-        "polinômio de Taylor",
-        "Integrais",
-        "Técnicas de integração",
-        "Integrais impróprias",
-        "Análise gráfica de limite",
+        "polinômio de taylor",
+        "integrais",
+        "técnicas de integração",
+        "integrais impróprias",
+        "análise gráfica de limite",
         "regra da cadeia", "integral",
-        "área entre duas Curvas", "Funções Contínuas",
-        "Diferenciação Implícita", "Derivadas Superiores",
-        "Funções Hiperbólicas",
-        "Trigonométrica"
+        "área entre duas Curvas",
+		"funções contínuas",
+        "diferenciação implícita",
+		"derivadas superiores",
+        "funções hiperbólicas",
+        "trigonométrica"
       ],
 
        "caminho": "disciplinas.html?disciplina=calculo-1-a"
@@ -255,6 +265,7 @@
       "titulo": "Computação e Sociedade",
       "palavraChave": [
           "computação e sociedade",
+		  "sociedade",
           "prática profissional de engenharia de software",
           "história da computação",
           "aplicação de computadores na sociedade",
@@ -418,7 +429,7 @@
           "medição",
           "design ",
           "modelagem",
-          "Simulação",
+          "simulação",
           "análise de causa-raiz",
           "taxonomia de sistemas",
           "sistema de Engenharia",
@@ -548,7 +559,8 @@
           "projeto de refatoração",
           "projeto de descontinuação",
           "ciclo de vida preditivo",
-          "ciclo de vida iterativo/adaptativo",
+          "ciclo de vida adaptativo",
+		  "ciclo de vida iterativo", 
           "processos empíricos",
           "métodos ágeis",
           "modelos de qualidade",
@@ -572,6 +584,7 @@
       "titulo": "Governança e Gestão de Serviços de Software",
       "palavraChave": [
           "manutenção de Software",
+		  "servicos",
           "manutenção",
           "gerencia de engenharia de software",
           "gestão de engenharia de software",
@@ -606,12 +619,20 @@
       "titulo": "Interação Humano-Computador",
       "palavraChave": [
           "requisitos de software",
+		  "interação",
+		  "interação homem computadores",
+		  "interação humano máquina",
+		  "homem e máquina",
           "design de software",
           "qualidade de software",
           "prática profissional de engenharia de software",
-          "ihc", "características humanistícas e biológicas",
+          "ihc",
+		  "características humanistícas e biológicas",
           "genealogia",
           "gênero",
+		  "interface",
+		  "experiência de usuário",
+		  "experience user",
           "aspectos étnicos raciais e culturais",
           "direitos e aspectos políticos",
           "metas de usabilidade",
@@ -627,6 +648,8 @@
           "dispositivos de interação",
           "métodos de avaliação de interfaces",
           "ferramentas de desenvolvimento de interfaces humano-computador"
+		  "ferramentas de interfaces humano-computador"
+		  
       ],
 
        "caminho": "disciplinas.html?disciplina=interacao-humano-computador"
@@ -1125,7 +1148,7 @@
           "micro serviços",
           "serviços web",
           "construção de software distribuídos",
-          "métodos para construção de software distribuídos",
+          "métodos para construção de software distribuidos",
           "thread",
           "memória compartilhada"
       ],
