@@ -38,7 +38,8 @@
         "SALVETTI, D. D.; BARBOSA, L. M. Algoritmos, São Paulo: Makron Books, 1998.",
         "CORMEN, T. H et al., Algoritmos: Teoria e Prática. 2.a edição. Rio de Janeiro: Editora Campus, 2002."
       ]
-    }
+    },
+	"isCapable": [ ]
   },
 	{
 		"id": 2,
@@ -76,7 +77,8 @@
 				"ROSS, K. A.; Wright, C. R. B. Discrete mathematics, Prentice Hall, 1998.",
 				"SANTOS, J. P. O. Introdução à Teoria dos Números, Coleção Matemática Universitária, CNPQ-IMPA, Rio de Janeiro, 2003."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 3,
@@ -118,7 +120,8 @@
 				"LUCCA, N.; FILHO, A. S. Direito & Internet. Editora Edipro, 2001.",
 				"PAESANI, L. M. Direito de Informática. Editora Atlas, 2005."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 4,
@@ -157,7 +160,8 @@
 				"REIS, G. L; SILVA, V. V. Geometria Analítica. LTC, São Paulo.",
 				"SIMMONS, G. F. Cálculo com Geometria Analítica, vol. 1. McGraw-Hill do Brasil, São Paulo, Brasil, 1987."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 5,
@@ -194,7 +198,8 @@
 				"LIMA, E. L. Álgebra Linear: Coleção Matemática Universitária. IMPA, Rio de Janeiro, Brasil, 2006.",
 				"SHOKRANIAN, S. Introdução à Álgebra Linear e Aplicações, 1 ed. UNB, 2004."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 6,
@@ -232,7 +237,8 @@
 				"ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. São Paulo: Editora Thomson, 3.ª edição, 2010.",
 				"ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 7,
@@ -274,7 +280,8 @@
 				"STALLINGS, W. Computer Organization and Architecture: Designing for Performance. 10th Edition. Prentice-Hall, Inc., Upper Saddle River, NJ, USA.  2010.",
 				"WEBER, R. F. Fundamentos de Arquiteturas de Computadores, 2.a Edição, Editora Sagra-Luzzatto, 2001."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 8,
@@ -310,7 +317,8 @@
 				"SMULLYAN, R. Lógica de Primeira Ordem. São Paulo: UNESP. 2009.",
 				"CASANOVA, M. A.; GIORNO, F. A. C.; FURTADO, A. L. Programação em Lógica e a Linguagem PROLOG. Edgard Blucher, 1987."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 9,
@@ -351,7 +359,8 @@
 				"ROSS, S. Probabilidade. Um Curso Moderno com Aplicações. 8.a ed. Porto Alegre: Bookman, 2010.",
 				"TRIOLA, M. F. Introdução à Estatística. 10. ed. Rio de Janeiro: LTC, 2008."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 10,
@@ -388,7 +397,8 @@
 				"ZIVIANI, N. Projeto de Algoritmos com implementação em Pascal e C. 3ª edição, São Paulo: Editora Thomson, 2010.",
 				"ZIVIANI, N. Projeto de Algoritmos com implementação em Java e C++. São Paulo: Editora Thomson, 2006."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 11,
@@ -433,7 +443,8 @@
 				"Software Engineering Body of Knowledge (SWEBOK), V3, IEEE, Disponível em https://www.computer.org/web/swebok.",
 				"Software Engineering Competency Model (SWECOM), IEEE. Disponível em https://www.computer.org/web/peb/swecom. "
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 12,
@@ -469,7 +480,8 @@
 				"TURBAK, F.; GIFFORD, D. Design Concepts in Programming Languages, 1st Edition, The MIT Press, 2008.",
 				"VAREJÃO, F. Linguagens de Programação, 1.a Edição, Editora. Campus, 2004."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 13,
@@ -504,7 +516,8 @@
 				"O'GORMAN, J. Operating Systems with Linux. Palgrave, 2001.",
 				"SHAY, W. Sistemas Operacionais, Makron Books, 1996."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 14,
@@ -540,7 +553,8 @@
 				"SILVA, E. M. et al. Pesquisa Operacional: programação linear, simulação. 3.a ed. Atlas, 1998.",
 				"WINSTON, W. L. Operations research applications and algorithms. 3rd ed. Duxbury Press, 1997."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 15,
@@ -575,7 +589,8 @@
 				"MENEZES, P. F. B. Linguagens formais e autônomos. 5.a edição. Porto Alegre: Sagra Luzzatto, 2005.",
 				"ROSEN, K. H. Matemática discreta e suas aplicações. 6.a ed. Rio de Janeiro: McGraw Hill, 2009."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 16,
@@ -612,7 +627,8 @@
 				"SANTOS, R. Introdução à Programação Orientada a Objetos com Java. Campus, 2003.",
 				"ZEIGLER, B. P. Objects and Systems: Principled Design with Implementations in C++ and Java. Springer-Verlag New York, Inc., New York, NY, USA. 1997"
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 17,
@@ -649,7 +665,8 @@
 				"SEDGEWICK, R.; WAYNE, K. Algorithms. 4th edition, Addison-Wesley Professional, 2011. ISBN: 978-0321573513.",
 				"SZWARCFITER, J. L.; MARKENZON, L. Estrutura de Dados e seus Algoritmos. 3.a edição, LTC Editora, 2010. ISBN 978852161750."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 18,
@@ -687,7 +704,8 @@
 				"RAMAKRISHNAN, R.; GEHRKE, J. Sistemas de Gerenciamento de Banco de Dados, tradução da 3.a edição, São Paulo, McGraw-Hill, 2008.",
 				"TEOREY, T.; LIGHTSTONE, S.; NADEAU, T. Projeto e Modelagem de Bancos de Dados, Editora Campus, Rio de Janeiro, 2007."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 19,
@@ -729,7 +747,8 @@
 				"MACKENZIE, I. S. Human­computer Interaction: An Empirical Research Perspective. Morgan Kaufmann, 201 3. ISBN: 978­0­1 2­405865­1",
 				"SCOTT, B.; NEIL, T. Designing Web Interfaces: Principles and Patterns for Rich Interactions. O'Reilly Media; 1st edition. 2009."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 20,
@@ -768,7 +787,8 @@
 				"HANSON, D. R.; FRASER, C. W. A Retargetable C Compiler: Design and Implementation. Benjamin Cummings Pub., 1995.",
 				"LEBLANC, R. J.; FISCHER, C. N. Crafting a Compiler with C.  Benjamin/Cummings, 1991."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 21,
@@ -804,7 +824,8 @@
 				"GESSER, A. LIBRAS? Que língua é essa?: Crenças e preconceitos em torno da língua de sinais e da realidade surda. São Paulo: Parábola Editorial, 2009.",
         "QUADROS, R. M.; KARNOPP, L. Língua de sinais brasileira: estudos linguísticos. ARTMED: Porto Alegre, 2004."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 22,
@@ -842,7 +863,8 @@
 				"STALLINGS, W. Data and Computer Communications, 8th edition, Pearson/Prentice Hall, 2007.",
 				"TORRES, G. Redes de computadores: curso completo. Axcel Books, 2001."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 23,
@@ -881,7 +903,8 @@
 				"GAMMA, E. et al. Design patterns elements of reusable object-oriented software. Reading: Addison Wesley, 1995.",
 				"NYGARD, M. Release It!: Design and Deploy Production­Ready Software, Pragmatic Bookshelf, 2007."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 24,
@@ -922,7 +945,19 @@
 				"MARTIN, R. C. Clean code: a handbook of agile software craftsmanship. Prentice Hall, 2009. ISBN 0132350882.",
 				"AGANS, D. J. Debugging the nine indispensable rules for finding even the most elusive software and hardware problems. AMACOM, 2002. ISBN 0814471684."
 			]
-		}
+		},
+		"isCapable": [
+			"(Segue instruções). Explicar a construção de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.",
+			"(Faz com orientação). Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos.",
+			"(Faz com orientação). Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas.",
+			"(Segue instruções). Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).",
+			"(Segue instruções). Detalhar projeto (design) em conformidade com requisitos de software.",
+			"(Segue instruções). Depurar (debugging) código.",
+			"(Segue instruções). Criar testes de unidade básicos empregando estratégias recomendadas.",
+			"(Segue instruções). Localizar e reutilizar código (bibliotecas e frameworks).",
+			"(Segue instruções). Colaborar com a construção de código em equipe.",
+			"(Segue instruções). Avaliar a qualidade interna de código e, quando apropriado, aplicar estratégias recomendadas de refatoração."
+		]
 	},
   {
 		"id": 25,
@@ -957,7 +992,13 @@
 				"MAFFEO, B. Engenharia de software e especificação de sistemas. Rio de Janeiro: Campus, 1992. 484 p. ISBN 8570017014.",
 				"NASCIMENTO, J. B. Metodologias de desenvolvimento de sistemas. São Paulo: Erica, 1993, ISBN 8571941483."
 			]
-		}
+		},
+		"isCapable": [
+			"(Segue instruções). Modelar o ciclo de vida de um sistema intensivo em software, considerando as implicações e perspectivas dos processos do ciclo de vida de sistemas.",
+			"(Faz com orientação). Definir o conceito do sistema proposto (propósito desejado, contexto operacional, partes interessadas e conceito de uso do sistema).",
+			"(Segue instruções). Selecionar um modelo de ciclo de vida de software adequado ao modelo de ciclo de vida de engenharia de sistemas e integrar os dois modelos.",
+			"(Faz com orientação). Desenvolver conceitos operacionais do sistema (ambientes operacionais, características priorizadas, atributos de qualidade, cenários operacionais, suposições, dependências, limitações e exclusões)."
+		]
 	},
   {
 		"id": 26,
@@ -993,7 +1034,12 @@
 				"KOWAL, J. A Behavior models: specifying user's expectations. Prentice Hall, 1992. ISBN 0132927152.",
 				"WAGNER, F. Modeling software with finite state machinesa practical approach. Auerbach, 2006. ISBN 9780849380860."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz com orientação). Explicar o que é software, qualidade de software, requisitos de software e a relação entre eles.",
+			"(Faz sem orientação). Empregar notações para registro de projeto de software orientado a objetos.",
+			"(Segue instruções). Criar modelos de projeto de software orientado a objetos."
+		]
 	},
   {
 		"id": 27,
@@ -1028,7 +1074,14 @@
 				"CAPUTO, K. CMM implementation guide choreographing software process improvement. Addison-Wesley, 1998. ISBN 0201379384.",
 				"MAGUIRE, S. Debugging the development processpractical strategies for staying focused, hitting ship dates, and building solid teams. Microsoft, 1994. ISBN 1556156502."
 			]
-		}
+		},
+		"isCapable": [
+			"(Segue instruções). Explicar processos de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.",
+			"(Faz sem orientação). Correlacionar os conceitos de processo de software, método de software, modelo de software, modelo de processo e modelo de qualidade de processo.",
+			"(Faz sem orientação). Explicar quais são os processos específicos de software: objetivo de cada processo e principais resultados.",
+			"(Segue instruções). Explicar o uso de modelos de qualidade de processo: implementação e avaliação.",
+			"(Segue instruções). Obter resultados de processo usando métodos e modelos."
+		]
 	},
   {
 		"id": 28,
@@ -1052,11 +1105,11 @@
 			"Notações de projeto de software (8h).",
 			"Princípios e fundamentos de projeto de software (16h): abstração, acoplamento, coesão, decomposição, encapsulamento, separar interface e implementação, suficiência, completitude, simplicidade e separation of concerns.",
 			"Aspectos de projeto de software (16h): concorrência, controle e tratamento de eventos, tratamento de exceção, persistência, distribuição, interação (apresentação).",
-      "Qualidade de projeto de software (8h): técnicas de avaliação, medidas, ferramentas.",
-      "Métodos e estratégias de projeto (4h).",
-      "Método para projeto orientado a objetos (4h).",
-      "Padrões de projeto orientado a objetos (16h).",
-      "Prática de projeto de software orientado a objetos (36h)."
+      		"Qualidade de projeto de software (8h): técnicas de avaliação, medidas, ferramentas.",
+      		"Métodos e estratégias de projeto (4h).",
+      		"Método para projeto orientado a objetos (4h).",
+      		"Padrões de projeto orientado a objetos (16h).",
+      		"Prática de projeto de software orientado a objetos (36h)."
 		],
 		"bibliography": {
 			"basic": [
@@ -1071,7 +1124,14 @@
 				"EVANS, E. Domain-driven designtackling complexity in the heart of software Boston, MA: Addison-Wesley, 2004. ISBN 0321125215.",
 				"HORSTMANN, C. S. Object-oriented design & patterns. 2nd edition. Hoboken, NJ: Wiley, 2006. ISBN 0471744875."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz sem orientação). Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, design, e a relação entre eles.",
+			"(Faz com orientação). Aplicar princípios de projeto de software.",
+			"(Faz com orientação). Empregar aspectos de projeto de software.",
+			"(Faz com orientação). Fazer uso de medidas de qualidade de projeto de software.",
+			"(Segue instruções). Criar projeto de software a partir de um problema."
+		]
 	},
   {
 		"id": 29,
@@ -1107,7 +1167,17 @@
 				"COCKBURN, A. Agile software development Boston: Addison-Wesley, 2002. (Agile software development series). ISBN 0201699699.",
 				"BEEDLE, M.; SCHWABER, K. Agile software development with Scrum. Prentice Hall, 2002. (Series in agile software development). ISBN 0130676349."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz com orientação). Explicar a construção de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.",
+			"(Faz com orientação). Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos.",
+			"(Faz com orientação). Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas.",
+			"(Segue instruções). Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).",
+			"(Segue instruções). Detalhar projeto (design) em conformidade com requisitos de software.",
+			"(Segue instruções). Colaborar com a construção de código em equipe.",
+			"(Segue instruções). Explicar domínios de desenvolvimento (categorias) e as especificidades correspondentes.",
+			"(Segue instruções). Explicar um domínio de software e as estratégias de desenvolvimento correspondentes."
+		]
 	},
   {
 		"id": 30,
@@ -1144,7 +1214,12 @@
 				"DEMARCO, T. Controle de projetos de software: gerenciamento, avaliação, estimativa. Campus, 1991. ISBN 8570015283.",
 				"MARTINS, J. C. C. Gerenciando projetos de desenvolvimento de software com PMI, RUP e UML. 4.a edição. Brasport, 2007."
 			]
-		}
+		},
+		"isCapable": [
+			"(Segue instruções). Usar normas, modelos e ferramentas de gerência de projeto para planejamento e acompanhamento de projeto de software.",
+			"(Faz com orientação). Selecionar e implementar o tipo de modelo de processo (dirigido por plano, incremental ou adaptativo) de acordo com as características do contexto do projeto de software.",
+			"(Segue instruções). Selecionar e implementar o tipo de ciclo de vida de software (ou paradigma de engenharia de software - cascata, espiral, iterativo, baseado em modelo de maturidade, etc.) de acordo com as características do contexto do projeto de software."
+		]
 	},
   {
 		"id": 31,
@@ -1180,7 +1255,17 @@
 				"KAN, S. H. Metrics and models in software quality engineering. 2nd edition. Addison-Wesley, 2003. ISBN 0201729156.",
 				"BARTIÉ, A. Garantia da qualidade de software. Campus, 2002. ISBN 8535211245."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz sem orientação). Explicar processos de qualidade de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.",
+			"(Faz com orientação). Explicar a diferença e a relação entre a garantia do produto e a garantia do processo.",
+			"(Segue instruções). Usar um processo da garantia da qualidade de software.",
+			"(Segue instruções). Usar um processo para a verificação e validação de software.",
+			"(Segue instruções). Usar um processo para a revisão e auditoria de software.",
+			"(Faz sem orientação). Colaborar em uma equipe na execução de um processo de qualidade.",
+			"(Segue instruções). Documentar resultados dos processos de qualidade de software.",
+			"(Segue instruções). Identificar e utilizar ferramentas de apoio ao controle de qualidade de artefatos de software."
+		]
 	},
   {
 		"id": 32,
@@ -1219,7 +1304,13 @@
 				"BOSCH, J. Design and use of software architectures: adopting and evolving a product-line approach. Addison-Wesley, 2000. ISBN 0201674947.",
 				"JOHNSON, R. Expert one-on-one J2EE development without EJB. Wiley Publishing, 2004. ISBN 0764558315."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz sem orientação). Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, e a relação entre eles.",
+			"(Faz com orientação). Compreender a documentação de arquitetura de software.",
+			"(Segue instruções). Documentar arquitetura de software.",
+			"(Segue instruções). Criar arquitetura de software."
+		]
 	},
   {
 		"id": 33,
@@ -1257,7 +1348,19 @@
 				"HARTSON, H. R.; HIX, D. Developing user interfaces: ensuring usability through product & process. Wiley, 1993. ISBN 0471578134.",
 				"OLSEN, D. R. Developing user interfaces. Morgan Kaufmann, 1998. ISBN 1558604189."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz com orientação). Explicar a construção de software, experiência do usuário e a relação com a Engenharia de Software e a noção de sistema.",
+			"(Faz com orientação). Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos.",
+			"(Faz com orientação). Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas.",
+			"(Segue instruções). Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).",
+			"(Segue instruções). Detalhar projeto (design) em conformidade com requisitos de software.",
+			"(Segue instruções). Colaborar com a construção de código em equipe.",
+			"(Segue instruções). Auxiliar na criação de requisitos de usabilidade.",
+			"(Segue instruções). Criar e registrar projeto de interação que atende requisitos de usabilidade.",
+			"(Faz com orientação). Usar ferramentas e bibliotecas para o desenvolvimento de código de interfaces.",
+			"(Faz com orientação). Criar código em conformidade com o projeto de interação correspondente."
+		]
 	},
   {
 		"id": 34,
@@ -1297,7 +1400,13 @@
 				"MARSHALL, C. Enterprise modeling with UML: designing successful software through business analysis. Addison-Wesley, 2000. ISBN 0201433133.",
 				"CENTRO DE GESTÃO E ESTUDOS ESTRATÉGICOS. Ciência, tecnologia e sociedade: novos modelos de governança. Brasilia, CGEE, 2005."
 			]
-		}
+		},
+		"isCapable": [
+			"(Segue instruções). Planejar a estratégia de software para uma organização, considerando a pouca disponibilidade de informações de longo prazo, a escassez de recursos para implementação dessa estratégia e a necessidade de alinhamento entre a GS e a governança corporativa.",
+			"(Faz com orientação). Controlar o uso atual e futuro de software, otimizando o seu valor agregado para o negócio da organização.",
+			"(Segue instruções). Planejar e implementar (projetar, desenvolver, implantar, monitorar, medir, controlar e sustentar) uma estratégia organizacional para GSS em conformidade com o plano estratégico da organização.",
+			"(Faz com orientação). Modelar SS e processos de negócio, usando BPMN, em conformidade com os requisitos organizacionais dos processos e serviços."
+		]
 	},
   {
 		"id": 35,
@@ -1333,7 +1442,17 @@
 				"YOURDON, E.; COAD, P. Análise baseada em objetos. 2a. edição. Rio de Janeiro: Campus, 1996. ISBN 8535200428.",
 				"WIEGERS, K. E. More about software requirements: thorny issues and practical advice. Microsoft Press, 2006. ISBN 9780735622678."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz sem orientação). Explicar requisitos de software, a relação dessa área de conhecimento com as demais da engenharia de software, arquitetura de software em especial, e a relação com o conceito de sistema.",
+			"(Segue instruções). Usar um processo de requisitos de software.",
+			"(Segue instruções). Eliciar de requisitos de software.",
+			"(Segue instruções). Construir modelos conceituais de software.",
+			"(Segue instruções). Especificar requisitos de software.",
+			"(Faz com orientação). Verificar e validar requisitos de software.",
+			"(Segue instruções). Identificar e utilizar ferramentas de requisitos de software.",
+			"(Faz sem orientação). Colaborar em uma equipe na execução de um processo de requisitos."
+		]
 	},
   {
 		"id": 36,
@@ -1371,7 +1490,19 @@
 				"PAGE-JONES, M. Fundamentals of object-oriented design in UML.  Addison-Wesley, 2003. ISBN 020169946X.",
 				"RODRIGUES, L.; GUERRAOUI, R. Introduction to reliable distributed programming. Springer, 2006. ISBN 9783540288459."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz com orientação). Explicar a construção de software, concorrência/distribuição e a relação desses com a engenharia de software e de sistema.",
+			"(Faz com orientação). Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos.",
+			"(Faz com orientação). Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas.",
+			"(Segue instruções). Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).",
+			"(Segue instruções). Detalhar projeto (design) em conformidade com requisitos de software.",
+			"(Segue instruções). Localizar e reutilizar código (bibliotecas e frameworks).",
+			"(Segue instruções). Colaborar com a construção de código em equipe.",
+			"(Segue instruções). Avaliar a qualidade interna de código e, quando apropriado, aplicar estratégias recomendadas de refatoração.",
+			"(Segue instruções). Explicar conceitos de concorrência e distribuição.",
+			"(Segue instruções). Criar código que faz uso de concorrência, distribuição e ferramentas correlatas."
+		]
 	},
   {
 		"id": 37,
@@ -1408,7 +1539,8 @@
 				"LYNCH, N. A Distributed algorithms. M. Kaufmann, 1997.",
 				"TANENBAUM, A.S.; STEEN, M. van. Distributed Systems: Principles and Paradigms. Prentice Hall, 2nd Edition, 2006."
 			]
-		}
+		},
+		"isCapable": [ ]
 	},
   {
 		"id": 38,
@@ -1443,7 +1575,11 @@
 				"HALL, E. M. Managing risk methods for software systems development. Addison-Wesley, 1998. ISBN 0201255928.",
 				"QUALIDADE no setor de software brasileiro. Brasilia, D.F.: MCT, 1997."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz com orientação). Aplicar princípios científicos da Engenharia de Software Experimental na realização de experimentos com software.",
+			"(Segue instruções). Realizar estudo secundário sistemático em Engenharia de Software."
+		]
 	},
   {
 		"id": 39,
@@ -1482,7 +1618,12 @@
 				"ORRICO J, H. Pirataria de Software. MM Livros, 2004. ISBN 8590424219.",
 				"LINS, B. F. E. et al. O mercado de software no Brasil: problemas institucionais e fiscais Brasília (DF): Câmara dos Deputados, Coordenação de Publicações, 2007. ISBN 9788573654998."
 			]
-		}
+		},
+		"isCapable": [
+			"(Segue instruções). Explicar a relação entre decisões técnicas e o alinhamento com objetivos de negócio no qual software está inserido.",
+			"(Segue instruções). Explicar as principais leis e normas pertinentes à indústria de software no Brasil.",
+			"(Segue instruções). Elaborar plano de negócio para software inovador."
+		]
 	},
   {
 		"id": 40,
@@ -1518,7 +1659,14 @@
 				"PREE, W. Design patterns for object-oriented software development. Addison-Wesley, 1995. ISBN 0201422948.",
 				"FREEMAN, E. et al. Head First design patterns. O'Reilly, 2004. ISBN 0596007124."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz sem orientação). Compreender a documentação de arquitetura de software.",
+			"(Faz com orientação). Explicar padrões de arquitetura e ilustrar o uso.",
+			"(Faz com orientação). Documentar arquitetura de software.",
+			"(Segue instruções). Realizar análise de arquitetura de software.",
+			"(Segue instruções). Criar arquitetura de software que se beneficia de padrões de arquitetura."
+		]
 	},
   {
 		"id": 41,
@@ -1555,7 +1703,15 @@
 				"KING, G.; BAUER, C. Java Persistence com Hibernate. Ciencia Moderna, 2007. ISBN 9788573936148.",
 				"MANNINO, M. V. Projeto, desenvolvimento de aplicações e administração de banco de dados. McGraw-Hill, 2008. ISBN 9788577260201."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz com orientação). Explicar a construção de software, persistência e a relação desses com a engenharia de software e de sistema.",
+			"(Segue instruções). Identificar e usar estratégia adequada de persistência de dados para um dado problema.",
+			"(Faz com orientação). Usar ferramentas para definição e manipulação de bancos de dados.",
+			"(Faz com orientação). Criar código que cria, busca, atualiza e remove dados em bancos de dados.",
+			"(Segue instruções) Refatorar (refactoring) bases de dados.",
+			"Faltou exigências de construção (anteriores)."
+		]
 	},
   {
 		"id": 42,
@@ -1590,7 +1746,21 @@
 				"VAHID, F. Embedded system design: a unified hardware/software introduction. John Wiley & Sons, 2002. ISBN 0471386782.",
 				"KERN, C.; KESAVAN, A.; DASWANI, N. Foundations of security: what every programmer needs to know. Apress, 2007. ISBN 9781590597842."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz com orientação). Explicar a construção de software, dispositivos e a relação desses com a engenharia de software e de sistema.",
+			"(Faz sem orientação). Explicar a construção de software e a relação dessa área de conhecimento com as demais da engenharia de software.",
+			"(Faz com orientação). Usar e configurar ferramentas para edição, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos de linha de comandos para busca e encadear comandos.",
+			"(Faz com orientação). Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas.",
+			"(Faz com orientação). Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).",
+			"(Faz com orientação). Detalhar projeto (design) em conformidade com requisitos de software.",
+			"(Faz com orientação). Detalhar projeto de interação (design) em conformidade com requisitos de software.",
+			"(Faz com orientação). Localizar e reutilizar código (bibliotecas e frameworks).",
+			"(Faz com orientação). Colaborar com a construção de código em equipe.",
+			"(Faz com orientação). Explicar a construção de software, segurança e a relação desses com a engenharia de software e de sistema.",
+			"(Segue instruções). Auxiliar na criação de modelo de ameaça.",
+			"(Segue instruções). Criar código que faz uso de recursos de segurança (criptografia de dados, assinatura e verificação de assinatura digital)."
+		]
 	},
   {
 		"id": 43,
@@ -1624,7 +1794,21 @@
 				"PERRY, W. E. Effective methods for software testing. 2nd edition. J. Wiley, 1999. ISBN 047135418X.",
 				"WU, M.; LI, K. Effective software test automationdeveloping an automated software testing tool. SYBEX, 2004. ISBN 0782143202."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz sem orientação). Explicar o teste de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.",
+			"(Segue instruções). Usar um processo de teste de software.",
+			"(Segue instruções). Desenvolver planos de teste para o teste de unidade.",
+			"(Faz com orientação). Propor casos de teste segundo algum critério da técnica de teste funcional para o teste de unidade.",
+			"(Faz com orientação). Propor casos de teste segundo algum critério da técnica de teste estrutural para o teste de unidade.",
+			"(Faz com orientação). Construir código para automação do teste de software.",
+			"(Segue instruções). Aplicar teste exploratório no teste de sistema.",
+			"(Faz sem orientação). Executar casos de teste.",
+			"(Faz sem orientação). Citar e explicar métricas de teste de software.",
+			"(Segue instruções). Realizar medições pertinentes a teste de software.",
+			"(Faz com orientação). Documentar atividades do teste de software.",
+			"(Segue instruções). Identificar e utilizar ferramentas de teste de software."
+		]
 	},
   {
 		"id": 44,
@@ -1657,6 +1841,23 @@
 				"PEDRYCZ, W.; PETERS, J. F. Engenharia de software: teoria e prática. Campus, 2003. ISBN 8535207465.",
 				"MAGELA, R. Engenharia de software aplicada: princípios. Alta Books, 2006. ISBN 8576081202."
 			]
-		}
+		},
+		"isCapable": [
+			"(Faz sem orientação). Realizar pacotes de trabalho, desenvolvendo produtos ou serviços dentro de um projeto na Fábrica de Software, aplicando as disciplinas que formam o corpo de conhecimento da Engenharia de Software.",
+			"(Faz sem orientação). Planejar, realizar e modificar de forma apropriada produtos e serviços pertinentes a processos organizacionais da Engenharia de Software, dentro do contexto da Fábrica de Software.",
+			"(Faz sem orientação). Atuar individualmente e nas equipes de trabalho segundo o código de ética e a postura profissional da Engenharia de Software."
+		],
+		"infor": [
+			"O egresso do BES passa pela vivência de dois tipos de experiências práticas diferentes em suas essências.",
+			"O primeiro grupo de experiências é composto pelas experiências promovidas nas atividades práticas realizadas de maneira contínua e integrada desde o início do curso, no contexto das diversas disciplinas teórico-práticas que compõem a grade curricular do BES.",
+			"O segundo tipo de experiências é proporcionado pela disciplina Prática em Engenharia de Software, que envolve a participação integral do aluno em projetos reais de Engenharia de Software realizados em ambiente típico da indústria de software. É importante contrapor esse cenário de projeto real, onde todas as competências são exigidas, com o cenário das atividades práticas realizadas dentro do contexto de uma disciplina, normalmente limitado pelo conteúdo da própria disciplina.",
+			"A Engenharia de Software compreende o uso de processos. Tais processos são claramente explicitados no projeto pedagógico do curso e podem ser classificados em dois grandes tipos: Processos Técnicos de Engenharia de Software e Processos de Gestão de Engenharia de Software. Além disso, o domínio de Tecnologias de Engenharia de Software, aplicadas tanto a processos técnicos quanto a processos de gestão de Engenharia de Software, é uma competência obrigatória para o profissional que trabalha com software. Assim, pode-se considerar que o Engenheiro de Software deve ser capaz de realizar atividades que envolvem três tipos de competências: técnicas, gerenciais e tecnológicas.",
+			"A disciplina Prática em Engenharia de Software fornece o ambiente necessário para o amadurecimento das competências dos estudantes, pela aquisição de conhecimentos e desenvolvimento de habilidades e atitudes como profissional de Engenharia de Software. Esta prática acontece na fase final do currículo, na qual são reforçadas as habilidades, competências e conhecimentos adquiridos ao longo das disciplinas teórico-práticas do curso, em um ambiente que representa de forma realista os cenários que serão experimentados na vida profissional do Engenheiro de Software.",
+			"O INF possui uma Fábrica de Software (FS/INF) [CUSUMANO]. O termo Fábrica indica um comprometimento de longo prazo e de esforços integrados, acima do nível de projetos individuais, para aprimorar todas as operações de obtenção de software [AAEN]. NA FS/INF, os projetos têm como objetivo atender as necessidades de usuários e patrocinadores reais, ou seja, visam a geração de produtos e/ou a prestação de serviços em Engenharia de Software para a sociedade. Dessa forma, os projetos precisam atender, por exemplo, requisitos de qualidade, de escopo e restrições de custo e prazo definidos pelas partes interessadas do projeto em questão. Além disso, a FS/INF também é responsável por garantir os requisitos definidos pelas normas técnicas aplicáveis de Engenharia de Software.",
+			"Todas as atividades da Prática em Engenharia de Software previstas no BES são realizadas na FS/INF, sob a supervisão direta de docentes do Instituto de Informática. Portanto, a cada semestre letivo, a FS/INF recebe docentes e estudantes que atuarão nos seus projetos. Cabe ressaltar que, embora os projetos e as atividades da FS/INF não estejam limitados pelo calendário acadêmico, existe um compromisso entre a FS/INF e o curso de BES assegurando que o processo de Gestão do Portfólio da Fábrica selecionará os projetos e as atividades que apresentem condições adequadas ao exercício das práticas de Engenharia de Software pelos estudantes como descritas nesse PPC. Desta forma, o estudante terá a oportunidade concreta de integrar teoria e prática, envolvendo-se em situações-problema geradas pela experiência de campo e que exigem atividades de pesquisa, consultorias, debates e adoção de novas condutas. É também uma oportunidade para que o estudante seja avaliado quanto à sua atitude ética e profissional, quanto ao respeito às normas institucionais da FS/INF e quanto à sua relação com os demais envolvidos no projeto, incluindo usuários e patrocinadores.",
+			"A Prática em Engenharia de Software é realizada pelo estudante preferencialmente após ter obtido aprovação nas demais disciplinas do BES. A disciplina é integralizada com 320 horas de atividades relacionadas a projetos da FS/INF, é ofertada a cada semestre letivo e os docentes atuam como preceptores. Neste sentido, o docente é o profissional responsável pela integração teoria-prática ao longo do projeto, ensinando, supervisionando, orientando e conduzindo o aluno na prática efetiva de sua futura profissão.",
+			"Os estudantes são divididos em três grupos para melhor acompanhamento das atividades. Cada grupo, em um dado instante, realiza um tipo de atividade típica do exercício profissional: processos técnicos, processos de gestão ou domínio de tecnologias. Ao final da disciplina, é garantido que todos os grupos vivenciaram atividades dos três tipos. A avaliação do estudante é formativa, enfatizando o seu acompanhamento durante todo o período letivo, com o intuito de não apenas verificar se o estudante está alcançando os objetivos propostos, mas também informando seus erros e acertos, além de promover o estímulo necessário para continuar os estudos e o seu desenvolvimento.",
+			"Concluindo, a disciplina Prática em Engenharia de Software favorece um ensino baseado na prática, com foco centrado na ética e na postura do profissional de Engenharia de Software perante os desafios que ocorrem quando se trabalha com software, que é um dos artefatos mais complexos que a humanidade produz. Quando o estudante atua em atividades práticas relevantes para a sua futura vida profissional, enfrentando os desafios reais de sua profissão ainda durante sua formação, sua compreensão se torna cada vez mais crítica e comprometida com a sociedade na qual se insere. Portanto, essa disciplina estimula e valoriza as dimensões ética e humanística na formação do Engenheiro de Software, desenvolvendo atitudes e valores orientados para a cidadania e para o desenvolvimento da sociedade."
+		]
 	}
 ]
