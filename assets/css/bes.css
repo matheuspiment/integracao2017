@@ -1,0 +1,232 @@
+/*!
+ =========================================================
+ * BES - v1.1.0
+ =========================================================
+
+ * Copyright 2017 geminos (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+.logo {
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.3);
+	float: left;
+	overflow: hidden;
+	padding: .3rem;
+	width: 45px;
+}
+
+.section-presentation .description{
+	font-weight: 400;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+	font-size: .9em;
+}
+
+.tab-content.info {
+	font-size: 18px;
+	margin-bottom: 22px;
+}
+
+.tab-content.info h3 {
+	margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+	.btns {
+		width: fit-content;
+	}
+}
+
+@media (max-width: 576px) {
+	.page-header-small h1 {
+		font-size: 2.5em;
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.sidebar-collapse .navbar-collapse:before {
+		background: #2CA8FF;
+		background: -webkit-linear-gradient(#2CA8FF 0%, #000 80%);
+		background: -o-linear-gradient(#2CA8FF 0%, #000 80%);
+		background: -moz-linear-gradient(#2CA8FF 0%, #000 80%);
+		background: linear-gradient(#2CA8FF 0%, #000 80%)
+	}
+}
+
+.sidebar {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  position: sticky;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  /*padding: 20px;*/
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
+  color: rgba(0,0,0,.85);
+  background-color: unset;
+}
+
+.nav-index .active{
+	font-weight: bold;
+}
+
+.sidebar .nav-link {
+  color: rgba(0,0,0,.65);
+}
+
+.sidebar .nav-link:hover {
+  color: rgba(0,0,0,.85);
+}
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar-expand-md {
+  position: relative;
+}
+
+.navbar-info {
+	box-shadow: unset;
+  padding: 10px 10px;
+	/*padding-right: 105px;*/
+	margin-bottom: 0px;
+}
+
+.navbar-info .form-inline {
+  flex-flow: unset;
+  width: 85%;
+}
+
+.navbar.fixed-top {
+	position: relative;
+	margin-bottom: 0px;
+}
+
+
+
+.navbar-info .container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar .search-form {
+    flex-flow: unset;
+}
+
+.nav-pills .nav-link.active {
+  font-weight: 600;
+}
+
+.navbar-info .form-inline input {
+	line-height: 22px;
+  width: 100%;
+}
+
+.navbar-info .navbar-toggler-bar {
+	background: #000000!important;
+}
+
+.navbar-info .navbar-toggler {
+  border: none;
+  padding-right: 16px;
+}
+
+.section-info {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-info p {
+	font-size: 1.2em;
+}
+
+.section-info h1 {
+	font-size: 3em;
+}
+
+
+@media (min-width: 768px) {
+	.navbar.fixed-top {
+		position: fixed;
+	}
+
+  .navbar-info .navbar-toggler{
+    display: none;
+  }
+
+	.navbar-info .form-inline {
+		width: 100%;
+	}
+
+  .sidebar .collapse {
+    display: block;
+  }
+
+  .sidebar {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,.1);
+    position: fixed;
+    top: 75px;
+  }
+
+  .section-info {
+    padding-top: 100px!important;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  /*.sidebar {
+    top: 85px;
+  }*/
+}
