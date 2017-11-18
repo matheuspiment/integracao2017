@@ -7,13 +7,13 @@ Essas são diretrizes, e não regras. Use seu melhor julgamento e sinta-se à vo
 
 ### Índice
 
-[Código de Conduta](https://github.com/matheuspiment/integracao2017/master#código-de-conduta)  
-[O que devo saber antes de começar?](https://github.com/matheuspiment/integracao2017/master#o-que-devo-saber-antes-de-começar)  
-[Como Posso Contribuir?](https://github.com/matheuspiment/integracao2017/master#como-posso-contribuir)  
-[Styleguides](https://github.com/matheuspiment/integracao2017/master#styleguides)
-* [Menssagens do Git Commit](https://github.com/matheuspiment/integracao2017/master#styleguides)
-[Notas Adicionais](https://github.com/matheuspiment/integracao2017/master#notas-adicionais)
-* [Issue and Pull Request Labels](https://github.com/matheuspiment/integracao2017/master#issue-and-pull-request-labels)
+[Código de Conduta](https://github.com/matheuspiment/integracao2017/blob/master/CONTRIBUTING.md#código-de-conduta)  
+[O que devo saber antes de começar?](https://github.com/matheuspiment/integracao2017/blob/master/CONTRIBUTING.md#o-que-devo-saber-antes-de-começar)  
+[Como Posso Contribuir?](https://github.com/matheuspiment/integracao2017/blob/master/CONTRIBUTING.md#como-posso-contribuir)  
+[Styleguides](https://github.com/matheuspiment/integracao2017/blob/master/CONTRIBUTING.md#styleguides)
+* [Menssagens do Git Commit](https://github.com/matheuspiment/integracao2017/blob/master/CONTRIBUTING.md#styleguides)
+[Notas Adicionais](https://github.com/matheuspiment/integracao2017/blob/master/CONTRIBUTING.md#notas-adicionais)
+* [Issue and Pull Request Labels](https://github.com/matheuspiment/integracao2017/blob/master/CONTRIBUTING.md#issue-and-pull-request-labels)
 
 ## Código de Conduta
 
@@ -38,9 +38,7 @@ Este projeto e todos os participantes dele são regidos pelo [Código de Conduta
   * :memo: ```:memo:``` ao escrever documentos
   * :bug: ```:bug:``` ao corrigir um bug
   * :fire: ```:fire:``` ao remover código ou arquivo
-  * :art: ```:art:``` ao melhorar o formato/estrutura do código
   * :lock: ```:lock:``` quando se trata de segurança
-  * :art: ```:art:``` ao melhorar o formato/estrutura do código
   
 ## Notas Adicionais
 
