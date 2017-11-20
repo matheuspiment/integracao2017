@@ -12,6 +12,7 @@ var pSizeBackup;
 var aBtnSizeBackup;
 var aSizeBackup;
 var iSizeBackup;
+var alertSizeBackup;
 
 function fontSizeBackup() {
   h2SizeBackup = parseInt($( "h2" ).css("font-size"));
@@ -26,6 +27,7 @@ function fontSizeBackup() {
   aBtnSizeBackup = parseInt($( "a.btn" ).css("font-size"));
   aSizeBackup = parseInt($( "a" ).css("font-size"));
   iSizeBackup = parseInt($( "i" ).css("font-size"));
+  alertSizeBackup = parseInt($( "alert.alert-info" ).css("font-size"));
 }
 
 function enableContrast() {
@@ -61,6 +63,7 @@ function fontSize( option ) {
     var aBtnSize = parseInt($( "a.btn" ).css("font-size"));
     var aSize = parseInt($( "a" ).css("font-size"));
     var iSize = parseInt($( "i" ).css("font-size"));
+    var alertSize = parseInt($( "alert.alert-info" ).css("font-size"));
 
   if (option == 1 && font <=3) {
     h2Size = h2Size + 1 + "px";
@@ -75,6 +78,7 @@ function fontSize( option ) {
     aBtnSize = aBtnSize + 1 + "px";
     aSize = aSize + 1 + "px";
     iSize = iSize + 1 + "px";
+    alertSize = alertSize + 1 "px";
     font++;
 
   } else if (option == -1 && font >=1) {
@@ -90,6 +94,7 @@ function fontSize( option ) {
     aBtnSize = aBtnSize - 1 + "px";
     aSize = aSize - 1 + "px";
     iSize = iSize - 1 + "px";
+    alertSize = alertSize - 1 "px";
     font--;
   } else if(option == 0) {
     h2Size = h2SizeBackup + "px";
@@ -104,6 +109,7 @@ function fontSize( option ) {
     aBtnSize = aBtnSizeBackup + "px";
     aSize = aSizeBackup + "px";
     iSize = iSizeBackup + "px";
+    alertSize = alertSize + "px";
     font = 0;
   }
 
@@ -119,5 +125,6 @@ function fontSize( option ) {
   $('a').css({'font-size':aSize});
   $('a.btn').css({'font-size':aBtnSize});
   $('i').css({'font-size':iSize});
+  $('alert.alert-info').css({'font-size':iSize});
 
 }
