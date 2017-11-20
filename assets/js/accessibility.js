@@ -78,7 +78,7 @@ function fontSize( option ) {
     aBtnSize = aBtnSize + 1 + "px";
     aSize = aSize + 1 + "px";
     iSize = iSize + 1 + "px";
-    alertSize = alertSize + 1 "px";
+    alertSize = alertSize + 1 + "px";
     font++;
 
   } else if (option == -1 && font >=1) {
@@ -94,7 +94,7 @@ function fontSize( option ) {
     aBtnSize = aBtnSize - 1 + "px";
     aSize = aSize - 1 + "px";
     iSize = iSize - 1 + "px";
-    alertSize = alertSize - 1 "px";
+    alertSize = alertSize - 1 + "px";
     font--;
   } else if(option == 0) {
     h2Size = h2SizeBackup + "px";
