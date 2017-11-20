@@ -67,7 +67,7 @@ function fontSize( option ) {
     var aBtnSize = parseInt($( "a.btn" ).css("font-size"));
     var aSize = parseInt($( "a" ).css("font-size"));
     var iSize = parseInt($( "i" ).css("font-size"));
-    var alertSize = parseInt($( "alert.alert-info" ).css("font-size"));
+    var alertSize = parseInt($( ".alert.alert-info" ).css("font-size"));
 
   if (option == 1 && font <=3) {
     h2Size = h2Size + 1 + "px";
@@ -129,6 +129,6 @@ function fontSize( option ) {
   $('a').css({'font-size':aSize});
   $('a.btn').css({'font-size':aBtnSize});
   $('i').css({'font-size':iSize});
-  $('alert.alert-info').css({'font-size':iSize});
+  $('.alert.alert-info').css({'font-size':alertSize});
 
 }
