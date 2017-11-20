@@ -27,25 +27,29 @@ function fontSizeBackup() {
   aBtnSizeBackup = parseInt($( "a.btn" ).css("font-size"));
   aSizeBackup = parseInt($( "a" ).css("font-size"));
   iSizeBackup = parseInt($( "i" ).css("font-size"));
-  alertSizeBackup = parseInt($( "alert.alert-info" ).css("font-size"));
+  alertSizeBackup = parseInt($( ".alert.alert-info" ).css("font-size"));
 }
 
 function enableContrast() {
     if (contrast == false) {
       $( ".sidebar-collapse .navbar-collapse" ).addClass( "navbar-collapse-contrast" );
       $( ".bg-info" ).addClass( "bg-info-contrast" );
+      $( ".btn-warning" ).addClass( "btn-info-contrast" );
       $( ".btn-info" ).addClass( "btn-info-contrast" );
       $( ".btn" ).addClass( "btn-contrast" );
       $( ".description" ).addClass( "description-contrast" );
       $( ".nav-pills-info" ).addClass( "nav-pills-info-contrast" );
+			$( ".alert-info" ).addClass( "alert-info-contrast" );
       contrast = true;
     } else {
       $( ".sidebar-collapse .navbar-collapse" ).removeClass( "navbar-collapse-contrast" );
       $( ".bg-info" ).removeClass( "bg-info-contrast" );
       $( ".btn-info" ).removeClass( "btn-info-contrast" );
+			$( ".btn-warning" ).removeClass( "btn-info-contrast" );
       $( ".btn" ).removeClass( "btn-contrast" );
       $( ".description" ).removeClass( "description-contrast" );
       $( ".nav-pills.nav-pills-info" ).removeClass( "nav-pills-info-contrast" );
+			$( ".alert-info" ).removeClass( "alert-info-contrast" );
       contrast = false;
     }
 }
