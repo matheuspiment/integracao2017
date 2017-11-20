@@ -264,3 +264,57 @@
 #subjects ul li {
 	font-size: 1.3em;
 }
+
+/* Classes de contraste */
+
+.bg-info-contrast {
+	background-color: #f96332 !important;
+}
+
+.btn-contrast {
+	background-color: #2c2c2c;
+}
+
+.btn-contrast:active,
+.btn-contrast:focus,
+.btn-contrast:hover {
+	background-color: #515151 !important;
+}
+
+.btn-info-contrast {
+	background-color: #f96332;
+}
+
+.btn-info-contrast:active,
+.btn-info-contrast:focus,
+.btn-info-contrast:hover {
+	background-color: #fa7a50 !important;
+}
+
+.nav-pills-info-contrast .nav-item .nav-link.active,
+.nav-pills-info-contrast .nav-item .nav-link.active:focus,
+.nav-pills-info-contrast .nav-item .nav-link.active:hover {
+	background-color: #f96332 !important;
+}
+
+.nav-pills .nav-item .nav-link {
+	color: unset;
+}
+
+.description-contrast {
+	color: #2c2c2c;
+}
+
+@media screen and (max-width: 991px) {
+	.sidebar-collapse .navbar-collapse-contrast:before {
+		background: #2CA8FF;
+		background: -webkit-linear-gradient(#f96332 0%, #000 80%);
+		background: -o-linear-gradient(#f96332 0%, #000 80%);
+		background: -moz-linear-gradient(#f96332 0%, #000 80%);
+		background: linear-gradient(#f96332 0%, #000 80%)
+	}
+}
+
+.nav-pills .nav-item:last-child .nav-link {
+	margin-right: 0px;
+}
