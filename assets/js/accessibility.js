@@ -7,9 +7,11 @@ var h4SizeBackup;
 var h5ASizeBackup;
 var h5SizeBackup;
 var h6SizeBackup;
+var pWrapperBackup;
 var pDescriptionSizeBackup;
 var pSizeBackup;
 var aBtnSizeBackup;
+var aNavLink;
 var aSizeBackup;
 var iSizeBackup;
 var alertSizeBackup;
@@ -22,9 +24,11 @@ function fontSizeBackup() {
   h5ASizeBackup = parseInt($( "h5 a" ).css("font-size"));
   h5SizeBackup = parseInt($( "h5" ).css("font-size"));
   h6SizeBackup = parseInt($( "h6" ).css("font-size"));
+	pWrapperBackup = parseInt($( ".wrapper p" ).css("font-size"));
   pDescriptionSizeBackup = parseInt($( "p.description" ).css("font-size"));
   pSizeBackup = parseInt($( "p" ).css("font-size"));
   aBtnSizeBackup = parseInt($( "a.btn" ).css("font-size"));
+	aNavLinkBackup = parseInt($( ".sidebar a.nav-link" ).css("font-size"));
   aSizeBackup = parseInt($( "a" ).css("font-size"));
   iSizeBackup = parseInt($( "i" ).css("font-size"));
   alertSizeBackup = parseInt($( ".alert.alert-info" ).css("font-size"));
@@ -62,9 +66,11 @@ function fontSize( option ) {
     var h5ASize = parseInt($( "h5 a" ).css("font-size"));
     var h5Size = parseInt($( "h5" ).css("font-size"));
     var h6Size = parseInt($( "h6" ).css("font-size"));
-    var pDescriptionSize = parseInt($( "p.description" ).css("font-size"));
-    var pSize = parseInt($( "p" ).css("font-size"));
+		var pSize = parseInt($( "p" ).css("font-size"));
+		var pWrapper = parseInt($( ".wrapper p" ).css("font-size"));
+		var pDescriptionSize = parseInt($( "p.description" ).css("font-size"));
     var aBtnSize = parseInt($( "a.btn" ).css("font-size"));
+		var aNavLink = parseInt($( ".sidebar a.nav-link" ).css("font-size"));
     var aSize = parseInt($( "a" ).css("font-size"));
     var iSize = parseInt($( "i" ).css("font-size"));
     var alertSize = parseInt($( ".alert.alert-info" ).css("font-size"));
@@ -80,9 +86,11 @@ function fontSize( option ) {
     pDescriptionSize = pDescriptionSize + 1 + "px";
     pSize = pSize + 1 + "px";
     aBtnSize = aBtnSize + 1 + "px";
+		aNavLink = aNavLink + 1 + "px";
     aSize = aSize + 1 + "px";
     iSize = iSize + 1 + "px";
     alertSize = alertSize + 1 + "px";
+		pWrapper = pWrapper + 1 + "px";
     font++;
 
   } else if (option == -1 && font >=1) {
@@ -96,9 +104,11 @@ function fontSize( option ) {
     pDescriptionSize = pDescriptionSize - 1 + "px";
     pSize = pSize - 1 + "px";
     aBtnSize = aBtnSize - 1 + "px";
+		aNavLink = aNavLink - 1 + "px";
     aSize = aSize - 1 + "px";
     iSize = iSize - 1 + "px";
     alertSize = alertSize - 1 + "px";
+		pWrapper = pWrapper - 1 + "px";
     font--;
   } else if(option == 0) {
     h2Size = h2SizeBackup + "px";
@@ -111,9 +121,11 @@ function fontSize( option ) {
     pDescriptionSize = pDescriptionSizeBackup + "px";
     pSize = pSizeBackup + "px";
     aBtnSize = aBtnSizeBackup + "px";
+		aNavLink = aNavLinkBackup + "px";
     aSize = aSizeBackup + "px";
     iSize = iSizeBackup + "px";
-    alertSize = alertSize + "px";
+    alertSize = alertSizeBackup + "px";
+		pWrapper = pWrapperBackup + "px";
     font = 0;
   }
 
@@ -125,9 +137,11 @@ function fontSize( option ) {
   $('h5 a').css({'font-size':h5ASize});
   $('h6').css({'font-size':h6Size});
   $('p').css({'font-size':pSize});
+	$('.wrapper p').css({'font-size':pWrapper});
   $('p.description').css({'font-size':pDescriptionSize});
   $('a').css({'font-size':aSize});
   $('a.btn').css({'font-size':aBtnSize});
+	$('.sidebar a.nav-link').css({'font-size':aNavLink});
   $('i').css({'font-size':iSize});
   $('.alert.alert-info').css({'font-size':alertSize});
 
