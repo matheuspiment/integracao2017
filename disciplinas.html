@@ -56,6 +56,20 @@
 							<p class="d-lg-none d-xl-none">Página de Busca</p>
 						</a>
 					</li>
+          <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownAccess" data-toggle="dropdown">
+                  <i class="fa fa-universal-access" aria-hidden="true"></i>
+                  <p class="d-lg-none d-xl-none">Acessibilidade</p>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownAccess">
+                  <a class="dropdown-header">Acessibilidade</a>
+                  <button class="dropdown-item" onclick="enableContrast()">Ativar Contraste</button>
+                  <a class="dropdown-header">Fonte</a>
+                  <button class="dropdown-item" onclick="fontSize(0)">A</button>
+                  <button class="dropdown-item" onclick="fontSize(-1)">A-</button>
+                  <button class="dropdown-item" onclick="fontSize(1)">A+</button>
+              </div>
+          </li>
 					<li class="nav-item">
 						<a class="nav-link" rel="tooltip" title="Visualizar código fonte" data-placement="bottom" href="https://github.com/matheuspiment/integracao2017" target="_blank">
 							<i class="fa fa-github"></i>
@@ -139,8 +153,12 @@
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
 <script src="assets/js/utils.js" type="text/javascript"></script>
+
+<script src="assets/js/accessibility.js" type="text/javascript"></script>
+
 <script type="text/javascript">
 	$( document ).ready(function() {
+    fontSizeBackup();
 
 		var subject = queryObj();
 		var subjectAlias = subject.disciplina;
@@ -149,7 +167,7 @@
 
 		if (typeof subjectAlias != "undefined") {
 			retornoBusca = setTimeout(function(){
-				$.getJSON("disciplinas.json", function(data) {
+				$.getJSON("data/subjects.json", function(data) {
 					subjects = data;
 					$.each(subjects, function(i, item) {
 						if (subjects[i].alias == subjectAlias) {
@@ -252,7 +270,7 @@
 			}, 2000);
 		} else {
 			retornoBusca = setTimeout(function(){
-				$.getJSON("disciplinas.json", function(data) {
+				$.getJSON("data/subjects.json", function(data) {
 					subjects = data;
 					var period = 1;
 					response += '<h1 class="title">1º Período</h1>'
