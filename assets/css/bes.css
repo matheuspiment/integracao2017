@@ -264,8 +264,8 @@
 	min-height: 40vh;
 }
 
-#subjects ol li,
-#subjects ul li {
+.list-content,
+#subjects p {
 	font-size: 1.3em;
 }
 

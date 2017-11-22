@@ -15,6 +15,7 @@ var aNavLink;
 var aSizeBackup;
 var iSizeBackup;
 var alertSizeBackup;
+var liSizeBackup;
 
 function fontSizeBackup() {
   h2SizeBackup = parseInt($( "h2" ).css("font-size"));
@@ -32,6 +33,7 @@ function fontSizeBackup() {
   aSizeBackup = parseInt($( "a" ).css("font-size"));
   iSizeBackup = parseInt($( "i" ).css("font-size"));
   alertSizeBackup = parseInt($( ".alert.alert-info" ).css("font-size"));
+	listSizeBackup = parseInt($( ".list-content" ).css("font-size"));
 }
 
 function enableContrast() {
@@ -74,6 +76,8 @@ function fontSize( option ) {
     var aSize = parseInt($( "a" ).css("font-size"));
     var iSize = parseInt($( "i" ).css("font-size"));
     var alertSize = parseInt($( ".alert.alert-info" ).css("font-size"));
+		var listSize = parseInt($( ".list-content" ).css("font-size"));
+
 
   if (option == 1 && font <=3) {
     h2Size = h2Size + 1 + "px";
@@ -91,6 +95,7 @@ function fontSize( option ) {
     iSize = iSize + 1 + "px";
     alertSize = alertSize + 1 + "px";
 		pWrapper = pWrapper + 1 + "px";
+		listSize = listSize + 1 + "px";
     font++;
 
   } else if (option == -1 && font >=1) {
@@ -109,6 +114,7 @@ function fontSize( option ) {
     iSize = iSize - 1 + "px";
     alertSize = alertSize - 1 + "px";
 		pWrapper = pWrapper - 1 + "px";
+		listSize = listSize - 1 + "px";
     font--;
   } else if(option == 0) {
     h2Size = h2SizeBackup + "px";
@@ -126,6 +132,7 @@ function fontSize( option ) {
     iSize = iSizeBackup + "px";
     alertSize = alertSizeBackup + "px";
 		pWrapper = pWrapperBackup + "px";
+		listSize = listSizeBackup + "px";
     font = 0;
   }
 
@@ -144,5 +151,6 @@ function fontSize( option ) {
 	$('.sidebar a.nav-link').css({'font-size':aNavLink});
   $('i').css({'font-size':iSize});
   $('.alert.alert-info').css({'font-size':alertSize});
+	$('.list-content').css({'font-size':listSize});
 
 }
