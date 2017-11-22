@@ -9,6 +9,7 @@ var h5SizeBackup;
 var h6SizeBackup;
 var pWrapperBackup;
 var pDescriptionSizeBackup;
+var pDisciplinaSizeBackup;
 var pSizeBackup;
 var aBtnSizeBackup;
 var aNavLink;
@@ -27,13 +28,15 @@ function fontSizeBackup() {
   h6SizeBackup = parseInt($( "h6" ).css("font-size"));
 	pWrapperBackup = parseInt($( ".wrapper p" ).css("font-size"));
   pDescriptionSizeBackup = parseInt($( "p.description" ).css("font-size"));
+	pDisciplinaSizeBackup = 18.2;
   pSizeBackup = parseInt($( "p" ).css("font-size"));
   aBtnSizeBackup = parseInt($( "a.btn" ).css("font-size"));
 	aNavLinkBackup = parseInt($( ".sidebar a.nav-link" ).css("font-size"));
   aSizeBackup = parseInt($( "a" ).css("font-size"));
   iSizeBackup = parseInt($( "i" ).css("font-size"));
   alertSizeBackup = parseInt($( ".alert.alert-info" ).css("font-size"));
-	listSizeBackup = parseInt($( ".list-content" ).css("font-size"));
+	listSizeBackup = 18.2;
+
 }
 
 function enableContrast() {
@@ -71,13 +74,13 @@ function fontSize( option ) {
 		var pSize = parseInt($( "p" ).css("font-size"));
 		var pWrapper = parseInt($( ".wrapper p" ).css("font-size"));
 		var pDescriptionSize = parseInt($( "p.description" ).css("font-size"));
+		var pDisciplinaSize = parseFloat($( "p.description" ).css("font-size"));
     var aBtnSize = parseInt($( "a.btn" ).css("font-size"));
 		var aNavLink = parseInt($( ".sidebar a.nav-link" ).css("font-size"));
     var aSize = parseInt($( "a" ).css("font-size"));
     var iSize = parseInt($( "i" ).css("font-size"));
     var alertSize = parseInt($( ".alert.alert-info" ).css("font-size"));
-		var listSize = parseInt($( ".list-content" ).css("font-size"));
-
+		var listSize = parseFloat($( ".list-content" ).css("font-size"));
 
   if (option == 1 && font <=3) {
     h2Size = h2Size + 1 + "px";
@@ -88,6 +91,7 @@ function fontSize( option ) {
     h5Size = h5Size + 1 + "px";
     h6Size = h6Size + 1 + "px";
     pDescriptionSize = pDescriptionSize + 1 + "px";
+		pDisciplinaSize = pDisciplinaSize + 1 + "px";
     pSize = pSize + 1 + "px";
     aBtnSize = aBtnSize + 1 + "px";
 		aNavLink = aNavLink + 1 + "px";
@@ -107,6 +111,7 @@ function fontSize( option ) {
     h5Size = h5Size - 1 + "px";
     h6Size = h6Size - 1 + "px";
     pDescriptionSize = pDescriptionSize - 1 + "px";
+		pDisciplinaSize = pDisciplinaSize - 1 + "px";
     pSize = pSize - 1 + "px";
     aBtnSize = aBtnSize - 1 + "px";
 		aNavLink = aNavLink - 1 + "px";
@@ -126,6 +131,7 @@ function fontSize( option ) {
     h6Size = h6SizeBackup + "px";
     pDescriptionSize = pDescriptionSizeBackup + "px";
     pSize = pSizeBackup + "px";
+		pDisciplinaSize = pDisciplinaSizeBackup + "px";
     aBtnSize = aBtnSizeBackup + "px";
 		aNavLink = aNavLinkBackup + "px";
     aSize = aSizeBackup + "px";
@@ -146,6 +152,7 @@ function fontSize( option ) {
   $('p').css({'font-size':pSize});
 	$('.wrapper p').css({'font-size':pWrapper});
   $('p.description').css({'font-size':pDescriptionSize});
+	$('#subjects p.description').css({'font-size':pDisciplinaSize});
   $('a').css({'font-size':aSize});
   $('a.btn').css({'font-size':aBtnSize});
 	$('.sidebar a.nav-link').css({'font-size':aNavLink});

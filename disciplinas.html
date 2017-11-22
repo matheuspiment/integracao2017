@@ -158,7 +158,6 @@
 
 <script type="text/javascript">
 	$( document ).ready(function() {
-    fontSizeBackup();
 
 		var subject = queryObj();
 		var subjectAlias = subject.disciplina;
@@ -273,12 +272,12 @@
 				$.getJSON("data/subjects.json", function(data) {
 					subjects = data;
 					var period = 1;
-					response += '<h1 class="title">1º Período</h1>'
+					response += '<h2 class="title">1º Período</h2>'
 					response += '<div class="row" id="1-period">';
 					$.each(subjects, function(i, item) {
 						if (subjects[i].period != period) {
 							response += '</div>';
-							response += '<h1 class="title">' + subjects[i].period + 'º Período</h1>'
+							response += '<h2 class="title">' + subjects[i].period + 'º Período</h2>'
 							response += '<div class="row" id="' + subjects[i].period + '-period">';
 							period = subjects[i].period;
 						}
@@ -328,6 +327,8 @@
 				});
 			}, 2000);
 		}
+
+		fontSizeBackup();
 	});
 </script>
 </html>
