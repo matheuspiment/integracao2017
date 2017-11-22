@@ -269,6 +269,10 @@
 	font-size: 1.3em;
 }
 
+#subjects .description {
+	font-weight: 400;
+}
+
 /* Classes de contraste */
 
 .bg-info-contrast {

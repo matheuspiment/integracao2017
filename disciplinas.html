@@ -175,21 +175,21 @@
 							response += '<h3>' + subjects[i].period + 'º Período</h3>';
 							response += '<div class="text-left">';
 							response += '<h4 class="title"> Carga Horária:</h4>';
-							response += '<p> Teórica: ' + subjects[i].workload.theoretical + ' horas</p>';
-							response += '<p> Prática: ' + subjects[i].workload.practice + ' horas</p>';
+							response += '<p class="description"> Teórica: ' + subjects[i].workload.theoretical + ' horas</p>';
+							response += '<p class="description"> Prática: ' + subjects[i].workload.practice + ' horas</p>';
 							response += '<h4 class="title"> Natureza:</h4>';
 							if (subjects[i].kind.isCommon == 1) {
-								response += '<p>Núcleo Comum</p>';
+								response += '<p class="description">Núcleo Comum</p>';
 							} else {
-								response += '<p>Núcleo Específico</p>';
+								response += '<p class="description">Núcleo Específico</p>';
 							}
 							if (subjects[i].kind.isRequired == 1) {
-								response += '<p>Obrigatória</p>';
+								response += '<p class="description">Obrigatória</p>';
 							} else {
-								response += '<p>Optativa</p>';
+								response += '<p class="description">Optativa</p>';
 							}
 							response += '<h4 class="title">Unidade Responsável:</h4>';
-							response += '<p>' + subjects[i].unit + '</p>';
+							response += '<p class="description">' + subjects[i].unit + '</p>';
 							response += '<h4 class="title">Pré-requisitos:</h4>';
 							var hasPrerequisite = false;
 							$.each(subjects[i].prerequisite, function(j, item) {
@@ -206,25 +206,25 @@
 							});
 
 							if (hasPrerequisite == false) {
-								response += '<p>Nenhum pré-requisito</p>';
+								response += '<p class="description">Nenhum pré-requisito</p>';
 							}
 
 							response += '<h4 class="title">Ementa:</h4>';
-							response += '<ol class="list-content">';
+							response += '<ol class="list-content description">';
 							$.each(subjects[i].menu, function(l, item) {
 								response += '<li>' + subjects[i].menu[l] + '</li>';
 							});
 							response += '</ol>';
 
 							response += '<h4 class="title">Bibliografia Básica:</h4>';
-							response += '<ul class="list-content">';
+							response += '<ul class="list-content description">';
 							$.each(subjects[i].bibliography.basic, function(m, item) {
 								response += '<li>' + subjects[i].bibliography.basic[m] + '</li>';
 							});
 							response += '</ul>';
 
 							response += '<h4 class="title">Bibliografia Complementar:</h4>';
-							response += '<ul class="list-content">';
+							response += '<ul class="list-content description">';
 							$.each(subjects[i].bibliography.complementary, function(n, item) {
 								response += '<li>' + subjects[i].bibliography.complementary[n] + '</li>';
 							});
@@ -232,7 +232,7 @@
 
 							response += '<h4 class="title">Condições Mínimas (estar apto a):</h4>';
 							var hasCapable = false;
-							response += '<ul class="list-content">';
+							response += '<ul class="list-content description">';
 							$.each(subjects[i].isCapable, function(o, item) {
 								if (subjects[i].isCapable[o] != "") {
 									response += '<li>' + subjects[i].isCapable[o] + '</li>';
@@ -242,13 +242,13 @@
 							response += '</ul>';
 
 							if (hasCapable == false) {
-								response += '<p>Nenhuma condição mínima</p>';
+								response += '<p class="description">Nenhuma condição mínima</p>';
 							}
 
 							if (subjects[i].id == 44) {
 								response += '<h4 class="title">Informações Adcionais:</h4>';
 								$.each(subjects[i].info, function(p, item) {
-									response += '<p>' + subjects[i].info[p] + '</p>';
+									response += '<p class="description">' + subjects[i].info[p] + '</p>';
 								});
 							}
 							response += '</div>';
