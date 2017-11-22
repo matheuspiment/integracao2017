@@ -174,30 +174,30 @@
 							response += '<h2 class="title">' + subjects[i].title + '</h2>';
 							response += '<h2>' + subjects[i].period + 'º Período</h2>';
 							response += '<div class="text-left">';
-							response += '<h3 class="title"> Carga Horária:</h3>';
-							response += '<h4> Teórica: ' + subjects[i].workload.theoretical + ' horas</h4>';
-							response += '<h4> Prática: ' + subjects[i].workload.practice + ' horas</h4>';
-							response += '<h3 class="title"> Natureza:</h3>';
+							response += '<h4 class="title"> Carga Horária:</h4>';
+							response += '<p> Teórica: ' + subjects[i].workload.theoretical + ' horas</p>';
+							response += '<p> Prática: ' + subjects[i].workload.practice + ' horas</p>';
+							response += '<h4 class="title"> Natureza:</h4>';
 							if (subjects[i].kind.isCommon == 1) {
-								response += '<h4>Núcleo Comum</h4>';
+								response += '<p>Núcleo Comum</p>';
 							} else {
-								response += '<h4>Núcleo Específico</h4>';
+								response += '<p>Núcleo Específico</p>';
 							}
 							if (subjects[i].kind.isRequired == 1) {
-								response += '<h4>Obrigatória</h4>';
+								response += '<p>Obrigatória</p>';
 							} else {
-								response += '<h4>Optativa</h4>';
+								response += '<p>Optativa</p>';
 							}
-							response += '<h3 class="title">Unidade Responsável:</h3>';
-							response += '<h4>' + subjects[i].unit + '</h4>';
-							response += '<h3 class="title">Pré-requisitos:</h3>';
+							response += '<h4 class="title">Unidade Responsável:</h4>';
+							response += '<p>' + subjects[i].unit + '</p>';
+							response += '<h4 class="title">Pré-requisitos:</h4>';
 							var hasPrerequisite = false;
 							$.each(subjects[i].prerequisite, function(j, item) {
 								if (subjects[i].prerequisite[j] != "") {
 									$.each(subjects, function(k, item) {
 										if (subjects[k].id == subjects[i].prerequisite[j]) {
 											response += '<a href="disciplinas.html?disciplina=' + subjects[k].alias + '">';
-											response += '<h4>' + subjects[k].title + '</h4>';
+											response += '<p>' + subjects[k].title + '</p>';
 											response += '</a>';
 										}
 									});
@@ -206,31 +206,31 @@
 							});
 
 							if (hasPrerequisite == false) {
-								response += '<h4>Nenhum pré-requisito</h4>';
+								response += '<p>Nenhum pré-requisito</p>';
 							}
 
-							response += '<h3 class="title">Ementa:</h3>';
+							response += '<h4 class="title">Ementa:</h4>';
 							response += '<ol>';
 							$.each(subjects[i].menu, function(l, item) {
 								response += '<li>' + subjects[i].menu[l] + '</li>';
 							});
 							response += '</ol>';
 
-							response += '<h3 class="title">Bibliografia Básica:</h3>';
+							response += '<h4 class="title">Bibliografia Básica:</h4>';
 							response += '<ul>';
 							$.each(subjects[i].bibliography.basic, function(m, item) {
 								response += '<li>' + subjects[i].bibliography.basic[m] + '</li>';
 							});
 							response += '</ul>';
 
-							response += '<h3 class="title">Bibliografia Complementar:</h3>';
+							response += '<h4 class="title">Bibliografia Complementar:</h4>';
 							response += '<ul>';
 							$.each(subjects[i].bibliography.complementary, function(n, item) {
 								response += '<li>' + subjects[i].bibliography.complementary[n] + '</li>';
 							});
 							response += '</ul>';
 
-							response += '<h3 class="title">Condições Mínimas (estar apto a):</h3>';
+							response += '<h4 class="title">Condições Mínimas (estar apto a):</h4>';
 							var hasCapable = false;
 							response += '<ul>';
 							$.each(subjects[i].isCapable, function(o, item) {
@@ -242,11 +242,11 @@
 							response += '</ul>';
 
 							if (hasCapable == false) {
-								response += '<h4>Nenhuma condição mínima</h4>';
+								response += '<p>Nenhuma condição mínima</p>';
 							}
 
 							if (subjects[i].id == 44) {
-								response += '<h3 class="title">Informações Adcionais:</h3>';
+								response += '<h4 class="title">Informações Adcionais:</h4>';
 								$.each(subjects[i].info, function(p, item) {
 									response += '<p>' + subjects[i].info[p] + '</p>';
 								});
