@@ -19,6 +19,7 @@ var iSizeBackup;
 var alertSizeBackup;
 var liSizeBackup;
 var tableSizeBackup;
+var ulSizeBackup;
 
 function fontSizeBackup() {
   h2SizeBackup = parseInt($( "h2" ).css("font-size"));
@@ -40,6 +41,7 @@ function fontSizeBackup() {
   alertSizeBackup = parseInt($( ".alert.alert-info" ).css("font-size"));
 	listSizeBackup = 18.2;
   tableSizeBackup = parseFloat($( "table" ).css("font-size"));
+  ulSizeBackup = parseFloat($( "ul" ).css("font-size"));
 }
 
 function enableContrast() {
@@ -86,6 +88,7 @@ function fontSize( option ) {
     var alertSize = parseInt($( ".alert.alert-info" ).css("font-size"));
 		var listSize = parseFloat($( ".list-content" ).css("font-size"));
     var tableSize = parseFloat($( "table" ).css("font-size"));
+    var ulSize = parseFloat($( "ul" ).css("font-size"));
 
   if (option == 1 && font <=3) {
     h2Size = h2Size + 1 + "px";
@@ -107,6 +110,7 @@ function fontSize( option ) {
 		pWrapper = pWrapper + 1 + "px";
 		listSize = listSize + 1 + "px";
     tableSize = tableSize + 1 + "px";
+    ulSize = ulSize + 1 + "px";
     font++;
 
   } else if (option == -1 && font >=1) {
@@ -129,6 +133,7 @@ function fontSize( option ) {
 		pWrapper = pWrapper - 1 + "px";
 		listSize = listSize - 1 + "px";
     tableSize = tableSize - 1 + "px";
+    ulSize = ulSize - 1 + "px";
     font--;
   } else if(option == 0) {
     h2Size = h2Size - font + "px";
@@ -150,6 +155,7 @@ function fontSize( option ) {
 		pWrapper = pWrapper - font + "px";
 		listSize = listSize - font + "px";
     tableSize = tableSize - font + "px";
+    ulSize = ulSize - font + "px";
     font = 0;
   }
 
@@ -170,6 +176,7 @@ function fontSize( option ) {
 	$('.sidebar a.nav-link').css({'font-size':aNavLink});
   $('i').css({'font-size':iSize});
   $('.alert.alert-info').css({'font-size':alertSize});
+  $('ul').css({'font-size':ulSize});
 	$('.list-content').css({'font-size':listSize});
   $('table').css({'font-size':tableSize});
 
