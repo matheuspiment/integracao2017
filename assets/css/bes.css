@@ -246,11 +246,11 @@
 }
 
 #subjects .card {
-	min-height: 282px;
+	/*min-height: 282px;*/
 	height: 92%;
 }
 
-#subjects h1 {
+#subjects h2 {
 	margin-top: 42px;
 	margin-bottom: 32px;
 }
@@ -271,6 +271,30 @@
 
 #subjects .description {
 	font-weight: 400;
+}
+
+.icon-content {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.icon-content i {
+	margin-top: 12px;
+	font-size: 18.2px;
+}
+
+@media (min-width: 767px) {
+	.title-row {
+		min-height: 144px;
+	}
+}
+
+@media (min-width: 991px) {
+	.title-row {
+		min-height: 110px;
+	}
 }
 
 /* Classes de contraste */

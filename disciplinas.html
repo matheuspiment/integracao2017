@@ -285,28 +285,40 @@
 						response += '<a href="disciplinas.html?disciplina=' + subjects[i].alias + '">';
 						response += '<div class="card">';
 						response += '<div class="card-body">';
-						response += '<h3 class="card-title">' + subjects[i].title + '</h3>';
-						response += '<div class="separator separator-primary"></div>';
-						response += '<div class="row">';
-						response += '<div class="col-6">';
-						response += '<h5>Carga Horária</h5>'
-						response += '<p>Teórica: ' + subjects[i].workload.theoretical + ' horas</p>';
-						response += '<p>Prática: ' + subjects[i].workload.practice + ' horas</p>'
+						response += '<div class="row title-row">';
+						response += '<div class="col-md-12" style="align-self: center;">';
+						response += '<h4 class="card-title mx-0 my-4">' + subjects[i].title + '</h4>';
 						response += '</div>';
-						response += '<div class="col-6">';
-						response += '<h5>Natureza</h5>';
+						response += '</div>';
+						response += '<div class="row">';
+						response += '<div class="col-md-12">';
+						response += '<div class="row">';
+						response += '<div class="col-md-3">';
+						response += '<p>';
+						response += parseFloat(subjects[i].workload.theoretical) + parseFloat(subjects[i].workload.practice);
+						response += ' <br/>horas</p>';
+						response += '</div>';
+						response += '<div class="col-md-6">';
 						if (subjects[i].kind.isCommon == 1) {
-							response += '<p>Núcleo Comum</p>';
+							response += '<p>Núcleo Comum';
 						} else {
-							response += '<p>Núcleo Específico</p>';
+							response += '<p>Núcleo Específico';
 						}
 						if (subjects[i].kind.isRequired == 1) {
-							response += '<p>Obrigatória</p>';
+							response += '<br/>Obrigatória</p>';
 						} else {
-							response += '<p>Optativa</p>';
+							response += '<br/>Optativa</p>';
 						}
 						response += '</div>';
+						response += '<div class="col-md-3" style="align-self: center;">';
+						response += '<div class="icon-content btn-info">';
+						response += '<i class="fa fa-plus"></i>';
+						response += '</div>';
+						response += '</div>';
 						// response += '<a href="disciplinas.html?disciplina=' + subjects[i].alias + '" class="btn btn-primary">Ver mais</a>';
+						response += '</div>';
+						response += '</div>';
+
 						response += '</div>';
 						response += '</div>';
 						response += '</div>';
