@@ -1,16 +1,6 @@
-/*!
- =========================================================
- * BES - v1.1.0
- =========================================================
-
- * Copyright 2017 geminos (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
+.wrapper {
+	overflow-x: hidden;
+}
 
 .logo {
 	background-color: #ffffff;
@@ -62,8 +52,12 @@
 }
 
 @media (min-width: 768px) {
-	.btns {
-		width: fit-content;
+	.btns .btn-download {
+		margin-right: auto;
+	}
+
+	.btns .btn-read-more {
+		margin-left: auto;
 	}
 }
 
