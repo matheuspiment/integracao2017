@@ -158,7 +158,6 @@
 
 <script type="text/javascript">
 	$( document ).ready(function() {
-    fontSizeBackup();
 
 		var subject = queryObj();
 		var subjectAlias = subject.disciplina;
@@ -172,32 +171,32 @@
 					$.each(subjects, function(i, item) {
 						if (subjects[i].alias == subjectAlias) {
 							response += '<h2 class="title">' + subjects[i].title + '</h2>';
-							response += '<h2>' + subjects[i].period + 'º Período</h2>';
+							response += '<h3>' + subjects[i].period + 'º Período</h3>';
 							response += '<div class="text-left">';
-							response += '<h3 class="title"> Carga Horária:</h3>';
-							response += '<h4> Teórica: ' + subjects[i].workload.theoretical + ' horas</h4>';
-							response += '<h4> Prática: ' + subjects[i].workload.practice + ' horas</h4>';
-							response += '<h3 class="title"> Natureza:</h3>';
+							response += '<h4 class="title"> Carga Horária:</h4>';
+							response += '<p class="description"> Teórica: ' + subjects[i].workload.theoretical + ' horas</p>';
+							response += '<p class="description"> Prática: ' + subjects[i].workload.practice + ' horas</p>';
+							response += '<h4 class="title"> Natureza:</h4>';
 							if (subjects[i].kind.isCommon == 1) {
-								response += '<h4>Núcleo Comum</h4>';
+								response += '<p class="description">Núcleo Comum</p>';
 							} else {
-								response += '<h4>Núcleo Específico</h4>';
+								response += '<p class="description">Núcleo Específico</p>';
 							}
 							if (subjects[i].kind.isRequired == 1) {
-								response += '<h4>Obrigatória</h4>';
+								response += '<p class="description">Obrigatória</p>';
 							} else {
-								response += '<h4>Optativa</h4>';
+								response += '<p class="description">Optativa</p>';
 							}
-							response += '<h3 class="title">Unidade Responsável:</h3>';
-							response += '<h4>' + subjects[i].unit + '</h4>';
-							response += '<h3 class="title">Pré-requisitos:</h3>';
+							response += '<h4 class="title">Unidade Responsável:</h4>';
+							response += '<p class="description">' + subjects[i].unit + '</p>';
+							response += '<h4 class="title">Pré-requisitos:</h4>';
 							var hasPrerequisite = false;
 							$.each(subjects[i].prerequisite, function(j, item) {
 								if (subjects[i].prerequisite[j] != "") {
 									$.each(subjects, function(k, item) {
 										if (subjects[k].id == subjects[i].prerequisite[j]) {
 											response += '<a href="disciplinas.html?disciplina=' + subjects[k].alias + '">';
-											response += '<h4>' + subjects[k].title + '</h4>';
+											response += '<p>' + subjects[k].title + '</p>';
 											response += '</a>';
 										}
 									});
@@ -206,33 +205,33 @@
 							});
 
 							if (hasPrerequisite == false) {
-								response += '<h4>Nenhum pré-requisito</h4>';
+								response += '<p class="description">Nenhum pré-requisito</p>';
 							}
 
-							response += '<h3 class="title">Ementa:</h3>';
-							response += '<ol>';
+							response += '<h4 class="title">Ementa:</h4>';
+							response += '<ol class="list-content description">';
 							$.each(subjects[i].menu, function(l, item) {
 								response += '<li>' + subjects[i].menu[l] + '</li>';
 							});
 							response += '</ol>';
 
-							response += '<h3 class="title">Bibliografia Básica:</h3>';
-							response += '<ul>';
+							response += '<h4 class="title">Bibliografia Básica:</h4>';
+							response += '<ul class="list-content description">';
 							$.each(subjects[i].bibliography.basic, function(m, item) {
 								response += '<li>' + subjects[i].bibliography.basic[m] + '</li>';
 							});
 							response += '</ul>';
 
-							response += '<h3 class="title">Bibliografia Complementar:</h3>';
-							response += '<ul>';
+							response += '<h4 class="title">Bibliografia Complementar:</h4>';
+							response += '<ul class="list-content description">';
 							$.each(subjects[i].bibliography.complementary, function(n, item) {
 								response += '<li>' + subjects[i].bibliography.complementary[n] + '</li>';
 							});
 							response += '</ul>';
 
-							response += '<h3 class="title">Condições Mínimas (estar apto a):</h3>';
+							response += '<h4 class="title">Condições Mínimas (estar apto a):</h4>';
 							var hasCapable = false;
-							response += '<ul>';
+							response += '<ul class="list-content description">';
 							$.each(subjects[i].isCapable, function(o, item) {
 								if (subjects[i].isCapable[o] != "") {
 									response += '<li>' + subjects[i].isCapable[o] + '</li>';
@@ -242,13 +241,13 @@
 							response += '</ul>';
 
 							if (hasCapable == false) {
-								response += '<h4>Nenhuma condição mínima</h4>';
+								response += '<p class="description">Nenhuma condição mínima</p>';
 							}
 
 							if (subjects[i].id == 44) {
-								response += '<h3 class="title">Informações Adcionais:</h3>';
+								response += '<h4 class="title">Informações Adcionais:</h4>';
 								$.each(subjects[i].info, function(p, item) {
-									response += '<p>' + subjects[i].info[p] + '</p>';
+									response += '<p class="description">' + subjects[i].info[p] + '</p>';
 								});
 							}
 							response += '</div>';
@@ -273,12 +272,12 @@
 				$.getJSON("data/subjects.json", function(data) {
 					subjects = data;
 					var period = 1;
-					response += '<h1 class="title">1º Período</h1>'
+					response += '<h2 class="title">1º Período</h2>'
 					response += '<div class="row" id="1-period">';
 					$.each(subjects, function(i, item) {
 						if (subjects[i].period != period) {
 							response += '</div>';
-							response += '<h1 class="title">' + subjects[i].period + 'º Período</h1>'
+							response += '<h2 class="title">' + subjects[i].period + 'º Período</h2>'
 							response += '<div class="row" id="' + subjects[i].period + '-period">';
 							period = subjects[i].period;
 						}
@@ -286,28 +285,40 @@
 						response += '<a href="disciplinas.html?disciplina=' + subjects[i].alias + '">';
 						response += '<div class="card">';
 						response += '<div class="card-body">';
-						response += '<h3 class="card-title">' + subjects[i].title + '</h3>';
-						response += '<div class="separator separator-primary"></div>';
-						response += '<div class="row">';
-						response += '<div class="col-6">';
-						response += '<h5>Carga Horária</h5>'
-						response += '<p>Teórica: ' + subjects[i].workload.theoretical + ' horas</p>';
-						response += '<p>Prática: ' + subjects[i].workload.practice + ' horas</p>'
+						response += '<div class="row title-row">';
+						response += '<div class="col-md-12" style="align-self: center;">';
+						response += '<h4 class="card-title mx-0 my-4">' + subjects[i].title + '</h4>';
 						response += '</div>';
-						response += '<div class="col-6">';
-						response += '<h5>Natureza</h5>';
+						response += '</div>';
+						response += '<div class="row">';
+						response += '<div class="col-md-12">';
+						response += '<div class="row">';
+						response += '<div class="col-md-3">';
+						response += '<p>';
+						response += parseFloat(subjects[i].workload.theoretical) + parseFloat(subjects[i].workload.practice);
+						response += ' <br/>horas</p>';
+						response += '</div>';
+						response += '<div class="col-md-6">';
 						if (subjects[i].kind.isCommon == 1) {
-							response += '<p>Núcleo Comum</p>';
+							response += '<p>Núcleo Comum';
 						} else {
-							response += '<p>Núcleo Específico</p>';
+							response += '<p>Núcleo Específico';
 						}
 						if (subjects[i].kind.isRequired == 1) {
-							response += '<p>Obrigatória</p>';
+							response += '<br/>Obrigatória</p>';
 						} else {
-							response += '<p>Optativa</p>';
+							response += '<br/>Optativa</p>';
 						}
 						response += '</div>';
+						response += '<div class="col-md-3" style="align-self: center;">';
+						response += '<div class="icon-content btn-info">';
+						response += '<i class="fa fa-plus"></i>';
+						response += '</div>';
+						response += '</div>';
 						// response += '<a href="disciplinas.html?disciplina=' + subjects[i].alias + '" class="btn btn-primary">Ver mais</a>';
+						response += '</div>';
+						response += '</div>';
+
 						response += '</div>';
 						response += '</div>';
 						response += '</div>';
@@ -328,6 +339,8 @@
 				});
 			}, 2000);
 		}
+
+		fontSizeBackup();
 	});
 </script>
 </html>
